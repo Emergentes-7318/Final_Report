@@ -1,107 +1,26 @@
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
-### 2.1.1. Análisis competitivo.
+### 2.1.1. Análisis competitivo
 
-<table border="1">
-    <thead>
-        <tr>
-            <th colspan="5">Competitive Analysis Landscape</th>
-        </tr>
-    </thead>
-    <tr>
-        <td>¿Por qué llevar a cabo este análisis? </td>
-        <td colspan="4">Identificar fortalezas, debilidades, oportunidades y amenazas frente a competidores para definir mejor la propuesta de valor.</td>
-    </tr>
-    <tr>
-        <td>r1</td>
-        <td colspan="4">r2</td>
-    </tr>
-    <tr>
-        <td>Nombre del Competidor y Logo</td>
-        <td>Docmind<span>LOGO</span></td>
-        <td>ChatDOC<span>LOGO</span></td>
-        <td>AskYourPDF <span>LOGO</span></td>
-        <td>Upword<span>LOGO</span></td>
-    </tr>
-    <tr>
-        <td>Overview</td>
-        <td></td>
-        <td> Herramienta ágil y accesible para cualquier profesional que necesite consultar rápidamente información clave dentro de documentos complejos, diferenciándose por su interfaz familiar tipo chat y su compatibilidad con múltiples formatos de archivo.</td>
-    </tr>
-    <tr>
-        <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
-        <td></td>
-        <td>reduce horas de lectura de documentos complejos a minutos.</td>
-        <td>vita pasar por alto datos importantes gracias a búsquedas contextuales y respuestas con referencias.</td>
-        <td>Accesibilidad: no requiere conocimientos técnicos; se usa como un chat.</td>
-        <td>Accesibilidad: funciona igual de bien para académicos, abogados, analistas corporativos, médicos, ONGs, etc.</td>
+| **Competitive Analysis Landscape** |                                                                                                                                          |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **¿Por qué llevar a cabo este análisis?** | Identificar fortalezas, debilidades, oportunidades y amenazas frente a competidores para definir mejor la propuesta de valor.         |
+| **r1**                             | **r2**                                                                                                                                   |
 
-    
-    </tr>
-    <tr>
-        <td>Mercado objetivo</td>
-        <td></td>
-        <td>Hospitales y clínicas en México y Latinoamérica, con énfasis en oncología y neumología.</td>
-        <td>Centros de diagnóstico y hospitales que buscan optimizar resonancias magnéticas.</td>
-        <td>Población general y consultorios odontológicos que necesitan diagnósticos preventivos accesibles.</td>
-    </tr>
-    <tr>
-        <td>Estrategias de marketing</td>
-        <td></td>
-        <td>Alianzas con hospitales locales y promoción como solución de bajo costo para clínicas medianas.</td>
-        <td>Asociaciones con distribuidores médicos y marketing B2B en hospitales y centros de salud.</td>
-        <td>Difusión en medios nacionales, ferias tecnológicas y enfoque en accesibilidad comunitaria.</td>
-    </tr>
-    <tr>
-        <td>Productos & Servicios</td>
-        <td></td>
-        <td>Plataforma de análisis de imágenes médicas, reportes automatizados.</td>
-        <td>Software SwiftMR integrado en equipos de RM, servicios de soporte técnico.</td>
-        <td>Aplicación móvil, soporte para odontólogos y pacientes.</td>
-    </tr>
-    <tr>
-        <td>Precios & Costos</td>
-        <td></td>
-        <td>Modelo SaaS escalable, accesible a clínicas medianas.</td>
-        <td>Licenciamiento de software hospitalario, precios altos pero con ROI en reducción de tiempos.</td>
-        <td>Bajo costo, modelo de suscripción o pago por uso.</td>
-    </tr>
-    <tr>
-        <td>Canales de distribución (Web y/o Móvil)</td>
-        <td></td>
-        <td>Web, integración con sistemas hospitalarios.</td>
-        <td>Distribuidores médicos especializados, integración en hardware de RM.</td>
-        <td>Aplicación móvil Android/iOS.</td>
-    </tr>
-    <tr>
-        <td>Fortalezas</td>
-        <td></td>
-        <td>Alta precisión, validación clínica en hospitales, enfoque en accesibilidad.</td>
-        <td>Innovación tecnológica, fuerte respaldo internacional, mejora tangible en eficiencia.</td>
-        <td>Accesible, innovador, diseñado en Perú, promueve detección temprana.</td>
-    </tr>
-    <tr>
-        <td>Debilidades</td>
-        <td></td>
-        <td>Limitada expansión fuera de México, requiere validaciones regulatorias más amplias.</td>
-        <td>Elevado costo inicial, dependencia de equipos de RM.</td>
-        <td>Enfocado solo en caries, requiere validación masiva para adopción.</td>
-    </tr>
-    <tr>
-        <td>Oportunidades</td>
-        <td></td>
-        <td>Expansión a otros países de LATAM con déficit de radiólogos.</td>
-        <td>Creciente demanda de eficiencia en hospitales de LATAM.</td>
-        <td>Escalar a diagnóstico de otras enfermedades bucales.</td>
-    </tr>
-    <tr>
-        <td>Amenazas</td>
-        <td></td>
-        <td>Competencia global como Lunit o Aidoc.</td>
-        <td>Ingreso de otras soluciones IA de resonancia en la región.</td>
-        <td>Limitado poder adquisitivo de algunos pacientes en Perú, competencia de apps globales.</td>
-    </tr>
-</table>
+| **Nombre del Competidor y Logo** | **DocmindLOGO**                                                                                                           | **ChatDOCLOGO**                                                                                                                                                                                        | **AskYourPDF LOGO**                                                                                                               | **UpwordLOGO**                                                                                                       | **HumataLOGO (Nuestra App)**                                                                                                     |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **Overview**                     | Plataforma IA que resume, clasifica y responde preguntas sobre documentos extensos, orientada a empresas.                 | Herramienta ágil y accesible para cualquier profesional que necesite consultar rápidamente información clave dentro de documentos complejos, diferenciándose por su interfaz tipo chat y compatibilidad multi-formato. | Servicio IA para subir PDFs y consultarlos en lenguaje natural con búsqueda contextual.                                           | Plataforma IA para resumir documentos y generar notas inteligentes que optimizan el estudio y la lectura.           | Plataforma de IA para leer, analizar y consultar PDFs complejos en segundos mediante chat interactivo y referencias precisas.   |
+| **Ventaja competitiva / Valor**  | Procesa grandes volúmenes con filtros corporativos avanzados.                                                              | Reduce horas de lectura de documentos complejos a minutos, en una interfaz sencilla y rápida.                                                                                                            | Evita pasar por alto datos importantes gracias a búsquedas contextuales y respuestas con referencias.                             | Accesibilidad: no requiere conocimientos técnicos; se usa como un chat.                                             | Precisión, rapidez y referencias directas a las fuentes dentro del documento; adaptable a múltiples sectores.                    |
+| **Mercado objetivo**             | Empresas medianas y grandes con alta carga documental.                                                                     | Profesionales y equipos con necesidad de lectura rápida (legal, salud, ingeniería, investigación).                                                                                                       | Startups, equipos distribuidos, soporte remoto.                                                                                  | Estudiantes, profesionales independientes, freelancers.                                                             | Académico, legal, corporativo, salud, ONGs.                                                                                      |
+| **Productos & Servicios**        | Clasificación documental, resúmenes, control de permisos y equipos.                                                        | Chat con documentos, exportación de datos clave, compatibilidad multi-formato.                                                                                                                           | Chat con PDFs, integraciones con Slack.                                                                                            | Resúmenes, notas inteligentes, exportación y colaboración ligera.                                                  | Chat con PDFs, resúmenes con referencias, exportación de información clave.                                                      |
+| **Precios & Costos**             | Suscripción empresarial (B2B).                                                                                             | Freemium con planes premium escalables.                                                                                                                                                                 | Freemium con pago por uso o suscripción mensual.                                                                                   | Suscripción mensual o anual para desbloquear funciones avanzadas.                                                  | Freemium con planes premium escalables.                                                                                          |
+| **Canales de distribución**      | Ventas directas a empresas, integraciones con plataformas internas.                                                         | Web app abierta, versión beta móvil planeada, marketing digital.                                                                                                                                         | Web y Slack como principales canales.                                                                                              | Web y extensiones orientadas a productividad personal.                                                              | Web app, integraciones con almacenamiento en la nube, modelo híbrido (remoto/presencial).                                         |
+| **Fortalezas**                   | Colaboración robusta, control de permisos, buen soporte.                                                                    | Simplicidad, curva de aprendizaje mínima, rapidez.                                                                                                                                                       | Integración con flujos de trabajo existentes.                                                                                       | Foco en productividad personal, notas editables.                                                                    | Velocidad, multi-industria, respuestas con referencias, interfaz amigable.                                                        |
+| **Debilidades**                  | Menos atractivo para usuarios individuales, curva de uso más técnica.                                                        | Menos robusto para entornos corporativos grandes.                                                                                                                                                        | Funciones limitadas, sin análisis profundo.                                                                                          | No orientado a documentos técnicos complejos.                                                                      | Limitado a PDFs, depende de conexión a internet.                                                                                 |
+| **Oportunidades**                | Expansión a sectores regulados (banca, legal).                                                                                  | Versión móvil, colaboración en equipo.                                                                                                                                                                 | Crecimiento de equipos remotos.                                                                                                      | Integrarse con más fuentes de datos.                                                                                 | Integración con más formatos y plataformas.                                                                                      |
+| **Amenazas**                     | IA generalistas más baratas.                                                                                                 | Competidores con funciones más avanzadas.                                                                                                                                                               | Integraciones nativas de IA en plataformas populares.                                                                                 | Apps de productividad más completas con IA integrada.                                                                | IA generalistas (ChatGPT, Claude) que integren lectura de PDFs.                                                                   |
+
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
