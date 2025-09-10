@@ -80,11 +80,11 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 Investigadores / estudiantes
 
-Abogados
-
 Médicos o personal de salud
 
-ONGs / gobierno
+Empresas
+
+Startups
 
 2. Preguntas de Needfinding
 
@@ -115,7 +115,25 @@ Chat interactivo que cite de dónde sacó la información.
 Resúmenes personalizables .
 
 ### 2.3.1. User Personas.
+
+
+
+
 ### 2.3.2. User Task Matrix.
+
+| **Tarea del Usuario**                      | **Perfil de Usuario #1 – Empresa** | **Perfil de Usuario #2 – Startup** | **Perfil de Usuario #3 – Sector Salud** |
+|-------------------------------------------|-----------------------------------|------------------------------------|-----------------------------------------|
+| Subir documentos PDF                       | Frecuente                         | Frecuente                          | Frecuente                                |
+| Hacer preguntas sobre el contenido         | Múltiple                          | Múltiple                           | Múltiple                                 |
+| Buscar cláusulas o términos específicos    | Múltiple                          | Múltiple                           | Raro                                    |
+| Generar resúmenes rápidos                  | Múltiple                          | Múltiple                           | Múltiple                                |
+| Extraer citas o referencias precisas       | Raro                              | Múltiple                           | Múltiple                                |
+| Compartir o exportar resultados            | Múltiple                          | Múltiple                           | Múltiple                                |
+| Consultar recomendaciones automáticas      | Raro                              | Múltiple                           | Múltiple                                |
+| Analizar grandes volúmenes de documentos   | Múltiple                          | Raro                               | Múltiple                                |
+
+
+
 ### 2.3.3. Empathy Mapping.
 ### 2.3.4. As-is Scenario Mapping.
 
