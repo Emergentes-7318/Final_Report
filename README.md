@@ -22,7 +22,7 @@ width=50%"/>
 
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
-|  Vasquez Requejo Augusto Mathias Leonardo  | u20221A955 |
+|  Cabanillas Gora Andrea              | u202211711 |
 |  Luza Carhuamaca, Jose Adrian      | u202213404 |
 |  Braithuaite Toledo Gabriel Anthony | u20201e889 |
 |  Reyes Trujillano Fabian Alonso  | u202218233 |
