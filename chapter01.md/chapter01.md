@@ -42,8 +42,8 @@ Convertirnos en la plataforma líder en Latinoamérica en inteligencia artificia
 
   <tr>
     <td><img src="img/renato-profile.JPG" width="600" height="100"></td>
-    <td>Renato German Reyes Valenzuela</td>
-    <td>U20221B471</td>
+    <td>Andrea Cabanillas</td>
+    <td>U202211711</td>
     <td></td>
   </tr>
   
