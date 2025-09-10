@@ -31,9 +31,12 @@
     <tr>
         <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
         <td></td>
-        <td>Alta precisión en diagnósticos, reducción de errores médicos hasta 30%, accesible para clínicas medianas y pequeñas.</td>
-        <td>Reduce hasta en 50% los tiempos de escaneo en RM y mejora nitidez de imágenes, optimizando costos hospitalarios.</td>
-        <td>Accesibilidad: permite diagnóstico odontológico rápido sin equipos especializados, usando solo un smartphone.</td>
+        <td>reduce horas de lectura de documentos complejos a minutos.</td>
+        <td>vita pasar por alto datos importantes gracias a búsquedas contextuales y respuestas con referencias.</td>
+        <td>Accesibilidad: no requiere conocimientos técnicos; se usa como un chat.</td>
+        <td>Accesibilidad: funciona igual de bien para académicos, abogados, analistas corporativos, médicos, ONGs, etc.</td>
+
+    
     </tr>
     <tr>
         <td>Mercado objetivo</td>
