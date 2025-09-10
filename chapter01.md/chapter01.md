@@ -3,15 +3,16 @@
 ## **1.1 Startup Profile**
 
 ### **1.1.1 Descripción de la startup**
-**SaludVision** es una startup de base tecnológica dedicada a crear soluciones de apoyo clínico mediante inteligencia artificial aplicada al análisis de imágenes médicas. Nuestro producto principal, **MediScanAI**, permite procesar radiografías, tomografías y resonancias de forma rápida y confiable, ofreciendo diagnósticos preliminares y reportes trazables que facilitan la labor del médico y reducen los tiempos de espera de los pacientes.
 
-La plataforma está diseñada para integrarse fácilmente en hospitales y clínicas, brindando herramientas que ayudan a optimizar el flujo de trabajo, priorizar estudios críticos y garantizar la seguridad en el manejo de los datos. De esta manera, **SaludVision** busca cerrar la brecha existente entre la creciente demanda de estudios radiológicos y la limitada disponibilidad de especialistas, mejorando la calidad y oportunidad en la atención médica en Latinoamérica.
+DocMind es una startup de base tecnológica dedicada a transformar la manera en que las personas interactúan con documentos complejos mediante inteligencia artificial. Nuestro producto principal, DocMind AI, permite cargar archivos PDF de cualquier índole —papers académicos, contratos legales, reportes técnicos o manuales empresariales— y realizar preguntas directas en lenguaje natural, obteniendo respuestas inmediatas, resúmenes claros y referencias exactas al documento.
+
+La plataforma está diseñada para ser usada por profesionales de múltiples sectores —académico, legal, empresarial, tecnológico, sanitario—, ofreciendo una herramienta versátil que acelera la comprensión de información crítica, optimiza procesos de análisis y democratiza el acceso al conocimiento. De esta manera, DocMind busca cerrar la brecha entre el volumen de información y la capacidad humana de procesarla, mejorando la productividad y la toma de decisiones en distintas industrias.
 
 ### **Misión**  
-Contribuir a mejorar la atención médica ofreciendo herramientas de inteligencia artificial para el análisis de imágenes que sean rápidas, seguras y confiables. Nuestro propósito es apoyar a los profesionales de la salud en la toma de decisiones, optimizar los flujos de trabajo clínico y facilitar la detección oportuna de condiciones críticas en los pacientes.  
+Facilitar el acceso al conocimiento y aumentar la productividad profesional a través de una plataforma de inteligencia artificial que convierte documentos complejos en información clara, útil y accionable. Nuestro propósito es empoderar a estudiantes, investigadores, empresas y profesionales de diversas áreas con una herramienta confiable, segura y de fácil uso. 
 
 ### **Visión**  
-Convertirnos en la plataforma líder en Latinoamérica en inteligencia artificial aplicada a imágenes médicas, reconocida por su precisión diagnóstica, accesibilidad y cumplimiento de los más altos estándares éticos y regulatorios. Aspiramos a transformar la práctica clínica mediante soluciones innovadoras que hagan la salud más eficiente y equitativa.  
+Convertirnos en la plataforma líder a nivel global en análisis inteligente de documentos, reconocida por su precisión, velocidad y aplicabilidad transversal en múltiples industrias. Aspiramos a transformar la manera en que los profesionales leen, entienden y utilizan la información, posicionando a DocMind como un aliado indispensable en la era digital.
 
 ### **1.1.2 Perfiles de integrantes del equipo**
 
@@ -66,11 +67,13 @@ Convertirnos en la plataforma líder en Latinoamérica en inteligencia artificia
 
 ### **1.2.1 Antecedentes y problemática.**
 
-En los últimos años, la medicina ha experimentado un crecimiento exponencial en la generación de datos, especialmente en el área de imágenes médicas. Radiografías, tomografías y resonancias producen grandes volúmenes de información que requieren interpretación especializada. Sin embargo, la disponibilidad de radiólogos y médicos capacitados es limitada en muchas regiones de Latinoamérica, lo que provoca retrasos en la entrega de diagnósticos y afecta directamente la calidad del servicio de salud.  
+En los últimos años, el mundo ha experimentado un crecimiento exponencial en la generación de información digital. Artículos académicos, contratos legales, reportes técnicos, normativas empresariales y manuales especializados se producen en volúmenes cada vez mayores. Estos documentos suelen ser extensos, complejos y requieren interpretación detallada para su uso práctico.
 
-A nivel global, la inteligencia artificial aplicada a la salud ha demostrado ser una herramienta prometedora para el soporte diagnóstico, logrando reducir errores de interpretación y optimizar el triaje en contextos de alta demanda hospitalaria. En países desarrollados, ya se emplean soluciones basadas en IA para la detección temprana de enfermedades pulmonares, cardiovasculares y oncológicas, lo que ha impulsado investigaciones y regulaciones en torno a su adopción segura y ética.  
+Sin embargo, los profesionales y organizaciones enfrentan una brecha creciente entre la cantidad de información disponible y el tiempo necesario para procesarla. En entornos académicos, leer y analizar múltiples papers puede consumir días de trabajo. En sectores legales y empresariales, revisar contratos o regulaciones críticas implica altos costos de tiempo y riesgo de omisiones.
 
-En este contexto surge **SaludVision**, con la misión de desarrollar una plataforma cloud-native capaz de analizar imágenes médicas en tiempo real mediante algoritmos de aprendizaje profundo. Su producto insignia, **MediScanAI**, busca atender la creciente necesidad de herramientas confiables, auditables y escalables que apoyen a médicos y hospitales en el diagnóstico asistido, especialmente en entornos donde los recursos humanos son limitados y la carga asistencial elevada.  
+A nivel global, la inteligencia artificial aplicada a la gestión de documentos ha demostrado ser una herramienta prometedora para la productividad: permite resumir textos, responder preguntas contextuales y extraer información clave en segundos. En países con alta digitalización, estas soluciones ya se aplican en universidades, despachos legales y corporaciones para reducir errores, acelerar procesos y optimizar la toma de decisiones.
+
+En este contexto surge DocMind, con la misión de desarrollar una plataforma cloud-native capaz de analizar documentos complejos en tiempo real y transformarlos en información clara, accesible y accionable para cualquier profesional. Su producto insignia, DocMind AI, busca atender la creciente necesidad de herramientas confiables, escalables y seguras que apoyen a investigadores, abogados, consultores y empresas en la interpretación de textos críticos.  
 
 ---
 
@@ -78,104 +81,124 @@ En este contexto surge **SaludVision**, con la misión de desarrollar una plataf
 
 #### **What (Qué)**  
 **¿Cuál es el problema?**  
-Existe una brecha significativa en el acceso a diagnósticos radiológicos rápidos y confiables en Latinoamérica. La interpretación manual depende de radiólogos que, en muchos casos, se ven sobrecargados por la demanda, lo que conlleva retrasos, errores diagnósticos y disminución en la calidad de la atención médica.  
+Existe una brecha significativa en la capacidad de procesar documentos extensos y técnicos de manera rápida y confiable. Profesionales de distintas áreas dependen de horas o días de lectura para encontrar información clave, lo que genera ineficiencias, errores de interpretación y pérdida de productividad. 
 
 #### **When (Cuándo)**  
 **¿Cuándo sucede el problema?**  
-El problema se presenta de forma continua, tanto en la atención de emergencias como en consultas ambulatorias y hospitalizaciones. La saturación del sistema de salud y la falta de especialistas se hacen más evidentes en situaciones críticas, como epidemias respiratorias o incrementos estacionales de demanda hospitalaria.  
+El problema ocurre de forma continua en múltiples contextos:
+- Estudiantes e investigadores al preparar revisiones de literatura.
+- Abogados al analizar contratos y normativas.
+- Empresas al revisar reportes financieros, técnicos o de cumplimiento.
+- La saturación de información se agudiza en momentos críticos, como auditorías, investigaciones, juicios o entregas académicas de corto plazo.  
 
 #### **Where (Dónde)**  
 **¿Dónde surge el problema?**  
-La problemática es particularmente aguda en hospitales públicos, clínicas regionales y centros de salud de segundo nivel en Latinoamérica, donde el acceso a radiólogos especializados es limitado. En estos escenarios, los tiempos de espera para informes pueden superar las 24-48 horas, retrasando tratamientos oportunos.  
+La problemática se presenta en universidades, centros de investigación, despachos legales, consultoras y corporaciones de todo el mundo, donde los equipos requieren procesar grandes volúmenes de documentos con rapidez y precisión. En Latinoamérica, esta necesidad se intensifica por la escasez de herramientas locales que aceleren el análisis documental.  
 
 #### **Who (Quién)**  
 **¿Quiénes están involucrados?**  
-- **Pacientes** que requieren diagnósticos rápidos y precisos para iniciar un tratamiento adecuado.  
-- **Médicos tratantes** que dependen de imágenes para la toma de decisiones clínicas.  
-- **Radiólogos** que enfrentan cargas de trabajo elevadas y presión por entregar informes en tiempos reducidos.  
-- **Gestores de salud** que buscan optimizar recursos y reducir los costos asociados a diagnósticos tardíos o incorrectos.  
+- **Estudiantes e investigadores** que necesitan resumir y comprender múltiples fuentes en poco tiempo.
+- **Profesionales legales y empresariales** que requieren identificar cláusulas, plazos y riesgos en contratos y regulaciones.
+- **Gerentes y consultores** que deben extraer insights de reportes financieros y técnicos.
+- **Organizaciones** que buscan reducir costos y aumentar eficiencia en el manejo de información. 
 
 #### **Why (Por qué)**  
 **¿Cuál es la causa del problema?**  
-Las causas principales incluyen:  
-- Escasez de especialistas en radiología en comparación con la demanda creciente de estudios.  
-- Procesos manuales de análisis de imágenes que resultan lentos y sujetos a fatiga humana.  
-- Infraestructuras hospitalarias desactualizadas que no facilitan la interoperabilidad ni el almacenamiento seguro de datos.  
+Las causas principales incluyen:
 
+- **Volumen creciente de documentos digitales** que supera la capacidad humana de lectura.
+- **Procesos manuales** de análisis documental, lentos y sujetos a errores.
+- **Falta de herramientas transversales** que sirvan tanto para el sector académico como para el legal y empresarial.
+- **Limitaciones de tiempo y recursos** en profesionales que requieren tomar decisiones basadas en información compleja.
 ---
 
 ### **Las 2H**  
 
 #### **How (Cómo)**  
 **¿Cómo se utilizará el producto?**  
-El sistema se integrará a través de una plataforma web y móvil donde los médicos podrán cargar estudios radiológicos anonimizados. El microservicio de IA procesará la imagen, generará un diagnóstico preliminar con métricas de desempeño del modelo y devolverá un reporte auditado y trazable en cuestión de minutos.  
+El sistema se integrará mediante una plataforma web donde los usuarios podrán cargar documentos en PDF. El motor de IA procesará el archivo y permitirá realizar preguntas en lenguaje natural, devolviendo resúmenes, explicaciones y citas del documento en cuestión de segundos.
 
 **¿Cómo se logrará resolver el problema?**  
-Mediante un ecosistema basado en microservicios, MLOps y arquitecturas cloud-native que permitan escalar de manera eficiente, versionar los modelos de IA y garantizar la seguridad de los datos médicos. Esto asegura resultados consistentes y auditables que apoyen al médico en la priorización de casos críticos.  
+Mediante el uso de modelos avanzados de lenguaje natural (NLP), arquitecturas cloud-native y un diseño escalable que permita manejar múltiples documentos al mismo tiempo. Además, el sistema garantizará seguridad, privacidad y trazabilidad de la información, adaptándose a distintos sectores profesionales.
 
 #### **How Much (Cuánto)**  
 **¿Cuál es la magnitud del problema?**  
-Según la **Organización Panamericana de la Salud (OPS, 2023)**, América Latina tiene un déficit de más del 40% en el número de radiólogos necesarios para cubrir la demanda poblacional. En hospitales de alta carga asistencial, un radiólogo puede llegar a revisar más de **100 estudios diarios**, lo que incrementa la probabilidad de errores y retrasos. Este escenario genera impacto económico por tratamientos tardíos y un costo social derivado de la disminución en la calidad de vida de los pacientes.  
+De acuerdo con **un informe de IDC (2023)**, el 80% de los datos generados en el mundo se encuentra en formato no estructurado (documentos, PDFs, textos largos). Profesionales pueden gastar hasta el 30% de su jornada laboral buscando y procesando información, lo que representa pérdidas económicas y de productividad millonarias a nivel global.
 
 **¿Quiénes serán los beneficiados?**  
-- Pacientes, al recibir diagnósticos más rápidos y confiables.  
-- Médicos y radiólogos, al contar con herramientas de soporte que reduzcan la carga de trabajo.  
-- Instituciones de salud, al optimizar tiempos, reducir costos por errores médicos y mejorar la calidad asistencial.  
+- **Académicos e investigadores**, al ahorrar tiempo en la lectura de papers y tesis.
+- **Abogados y empresas**, al optimizar la revisión de contratos y normativas.
+- **Organizaciones de distintos sectores**, al mejorar la toma de decisiones mediante información más clara y accesible.
 
 ### **1.2.2 Lean UX Process.**
 #### **1.2.2.1 Lean UX Problem Statements.**
 
-MediScanAI busca **acelerar y estandarizar** el análisis de imágenes médicas mediante IA. Si la plataforma no garantiza **latencia baja**, **explicabilidad** (heatmaps/Grad-CAM) y **trazabilidad completa**, la adopción clínica será limitada.  
-**¿Cómo podemos entregar diagnósticos preliminares confiables, auditables y accesibles en web/mobile, integrados al flujo clínico con mínima fricción?**
+DocMind busca acelerar y simplificar la comprensión de documentos complejos mediante IA. Si la plataforma no garantiza precisión en las respuestas, contexto verificable (citas dentro del documento) y facilidad de uso en distintos sectores, la adopción será limitada.
+
+**¿Cómo podemos ofrecer resúmenes confiables, respuestas contextuales y navegación clara dentro de documentos extensos, disponibles en web/mobile, con mínima fricción en la experiencia del usuario?**
 
 ---
 
 #### **1.2.2.2 Lean UX Assumptions.**
 
 **User Assumptions**  
-- **Quién es el usuario:** Personal clínico autorizado y equipos técnicos (datos/ML, TI).  
-- **Dónde encaja el producto:** En el **flujo de radiología**, como apoyo al triaje y priorización.  
-- **Problemas a resolver:** Reducir tiempos de respuesta, entregar métricas claras y auditables, y asegurar cumplimiento de seguridad/privacidad.  
-- **Cuándo y cómo se usa:** A diario; los usuarios cargan y consultan estudios, verifican resultados y descargan reportes.  
-- **Cómo debe verse y comportarse:** Interfaz simple, accesible, con estados de estudio claros, métricas del modelo y visualizaciones interpretables.
+
+- **Quién es el usuario:** Investigadores, estudiantes, abogados, analistas, consultores y gerentes.
+
+- **Dónde encaja el producto**: En el flujo de análisis documental (papers académicos, contratos, reportes financieros, manuales técnicos).
+
+- **Problemas a resolver:** Reducir tiempos de lectura, facilitar acceso a información crítica, y evitar omisiones por sobrecarga de texto.
+
+- **Cuándo y cómo se usa:** A diario; los usuarios cargan PDFs, hacen preguntas en lenguaje natural y obtienen resúmenes o citas clave.
+
+- **Cómo debe verse y comportarse:** Interfaz intuitiva, accesible, con opciones claras de resumen, búsqueda y preguntas rápidas.
 
 **Business Assumptions**  
-- Creemos que los clientes necesitan **prelecturas rápidas con métricas de confianza** para priorizar casos.  
-- Esto se logrará con una arquitectura **cloud-native, microservicios en Kubernetes y MLOps**.  
-- **Principal valor:** Reducir **TAT** (tiempo de respuesta) y aumentar la confianza en los diagnósticos.  
-- **Beneficios adicionales:**  
-  - Integración con sistemas clínicos existentes.  
-  - Monitoreo de deriva y mejora continua de modelos.  
-  - Cumplimiento de **seguridad y auditoría**.
+- Los clientes necesitan extraer información clave de documentos de manera inmediata para mejorar productividad.
+- Esto se logrará con una arquitectura cloud-native, escalable y segura.
+- **Principal valor:** Ahorro de tiempo y aumento en la precisión de la toma de decisiones. 
 
+- **Beneficios adicionales:**  
+  - Adaptabilidad multisectorial (educación, legal, empresarial, técnico).
+  - Experiencia de usuario ágil en web y móvil.
+  - Cumplimiento de seguridad y privacidad en el manejo de documentos.
 ---
 
 #### **1.2.2.3 Lean UX Hypothesis Statements.**
 
-- **Creemos que** ofrecer diagnósticos preliminares automáticos a partir de imágenes médicas para médicos especialistas y generales **logrará** reducir el tiempo de análisis y facilitar la toma de decisiones clínicas.  
-  **Lo sabremos cuando veamos** que más del 60% de los médicos consulten el sistema como apoyo inicial en al menos tres casos por semana.
+- **Creemos que** ofrecer resúmenes automáticos y preguntas-respuestas sobre documentos extensos **logrará** reducir el tiempo que los profesionales invierten en la lectura.
+**Lo sabremos cuando veamos** que más del 60% de los usuarios utilicen la función de resumen en al menos tres documentos por semana.
 
+- **Creemos que** mostrar citas textuales vinculadas a la respuesta logrará aumentar la confianza de los usuarios en el sistema.
+**Lo sabremos cuando veamos** que más del 70% de los usuarios revisen la sección de “referencia al documento” al consultar respuestas.
 
-- **Creemos que** mostrar visualizaciones explicativas (mapas de calor sobre las zonas de la imagen que influyeron en la predicción) **logrará** aumentar la confianza de los médicos en el sistema.  
-  **Lo sabremos cuando veamos** que más del 70% de los usuarios médicos utilicen la opción de explicación visual en sus consultas.
+- **Creemos que** habilitar interfaces web y móviles optimizadas logrará que los usuarios consulten documentos en diversos entornos (universidad, oficina, teletrabajo).
+**Lo sabremos cuando veamos** que al menos el 50% de los accesos provengan desde dispositivos móviles o fuera de entornos corporativos.
 
+- **Creemos que** integrar la opción de búsqueda avanzada y filtros dentro de los documentos logrará mejorar la precisión en el análisis de información clave.
+**Lo sabremos cuando veamos** que los usuarios reduzcan en un 20% el tiempo promedio de búsqueda de información dentro de un documento.
 
-- **Creemos que** habilitar interfaces web y móviles seguras para visualizar resultados **logrará** que los médicos consulten diagnósticos en distintos entornos de trabajo (hospital, consulta externa, telemedicina).  
-  **Lo sabremos cuando veamos** que más del 50% de los accesos provengan desde dispositivos móviles o fuera de la red hospitalaria.
+- **Creemos que** ofrecer reportes de uso (tiempos de lectura ahorrados, documentos procesados, citas extraídas) logrará aumentar la percepción de valor en equipos académicos y corporativos.
+**Lo sabremos cuando veamos** que al menos el 40% de los administradores o gestores descarguen reportes mensualmente.
 
-
-- **Creemos que** integrar el sistema con el flujo de trabajo hospitalario **logrará** disminuir la carga de trabajo de radiólogos y mejorar la capacidad de atención.  
-  **Lo sabremos cuando veamos** que los tiempos promedio de entrega de informes médicos se reduzcan al menos en un 20%.
-
-
-- **Creemos que** ofrecer reportes agregados de métricas (tiempos de respuesta, casos analizados, precisión del modelo) **logrará** aumentar la percepción de valor en la gestión hospitalaria y en la investigación médica.  
-  **Lo sabremos cuando veamos** que al menos el 40% de los administradores descarguen o consulten reportes mensualmente.
-
-
-- **Creemos que** permitir gestionar la carga de procesamiento en la nube según la demanda **logrará** reducir costos operativos y optimizar el uso de infraestructura hospitalaria.  
-  **Lo sabremos cuando veamos** que los hospitales reporten una disminución de al menos 15% en el uso de infraestructura local.
+- **Creemos que** permitir la carga de múltiples documentos y la comparación entre ellos logrará optimizar el trabajo en proyectos de investigación y análisis empresarial.
+**Lo sabremos cuando veamos** que más del 30% de los usuarios usen la función de comparación en al menos dos sesiones mensuales.
 
 #### **1.2.2.4 Lean UX Canvas.**
 <img src="img/Lean-UX-Canvas.jpg">
 
 ## **1.3 Segmentos objetivo**
+
+1. **Sector Académico y Científico**
+
+  - Usuarios: investigadores, estudiantes de posgrado, profesores universitarios, médicos especialistas.
+  - Problema: necesitan analizar papers, tesis y revisiones científicas extensas en poco tiempo.
+  - Cómo ayuda DocMind: resume artículos, extrae citas, encuentra datos clave y permite preguntas directas al PDF (ej. “¿cuáles son las conclusiones del estudio?”).
+  - Ejemplo de uso: un residente de anestesiología sube una guía clínica de 200 páginas y obtiene resúmenes rápidos de protocolos específicos en segundos.
+
+  2. **Sector Legal y Empresarial**
+
+  - Usuarios: abogados, consultores, analistas de compliance, gerentes de empresas.
+  - Problema: los contratos, reportes financieros y normativas legales son densos y difíciles de revisar.
+  - Cómo ayuda DocMind: identifica cláusulas críticas, plazos, riesgos y genera resúmenes claros de documentos extensos.
+  - Ejemplo de uso: un abogado corporativo sube un contrato internacional y le pregunta a DocMind: “¿qué cláusula regula las penalidades por incumplimiento?” y obtiene la respuesta inmediata.
