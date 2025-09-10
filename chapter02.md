@@ -120,9 +120,9 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 ---
 
-**Preguntas Segmento 1: Empresas y Startups **
+**Preguntas Segmento 1: Empresas y Startups**
 
-- ¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
+-¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
 -¿Usas actualmente alguna herramienta para ayudarte a resumir o buscar información dentro de PDFs?
 -¿Cómo impactaría en tu productividad el poder extraer la información clave de forma inmediata?
 -Te resultaría útil una aplicación que pueda responder preguntas sobre tus documentos en segundos?
