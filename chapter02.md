@@ -26,9 +26,7 @@
     <tr>
         <td>Overview</td>
         <td></td>
-        <td>Startup mexicana que aplica IA al análisis de rayos X y resonancias para detectar cáncer y enfermedades respiratorias.</td>
-        <td>Solución de deep learning que acelera resonancias magnéticas y mejora calidad de imagen. Presencia en LATAM incluido Perú.</td>
-        <td>App peruana que detecta caries en fotos tomadas con celular con 94% de precisión.</td>
+        <td> Herramienta ágil y accesible para cualquier profesional que necesite consultar rápidamente información clave dentro de documentos complejos, diferenciándose por su interfaz familiar tipo chat y su compatibilidad con múltiples formatos de archivo.</td>
     </tr>
     <tr>
         <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
