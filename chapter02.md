@@ -18,7 +18,7 @@
     </tr>
     <tr>
         <td>Nombre del Competidor y Logo</td>
-        <td>MediScanAI <span>LOGO</span></td>
+        <td>Docmind<span>LOGO</span></td>
         <td>Mendel <span>LOGO</span></td>
         <td>SwiftMR (AIRS Medical) <span>LOGO</span></td>
         <td>Toothminder <span>LOGO</span></td>
