@@ -112,43 +112,90 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 - ¿Cuál es su nombre y cargo actual?  
 - ¿En qué institución o centro de salud trabaja actualmente?  
-- ¿Cuántos años de experiencia tiene en el área de salud?  
 - ¿Cuál es su especialidad o área de mayor actividad profesional?  
-- ¿Qué nivel de familiaridad tiene con herramientas digitales o de inteligencia artificial aplicadas a la salud?  
-- ¿Qué principales retos identifica en el manejo y análisis de imágenes médicas en su día a día?  
-- ¿Qué expectativas tendría respecto al uso de nuevas tecnologías para mejorar la eficiencia clínica?  
+- ¿Qué nivel de familiaridad tiene con herramientas digitales o de inteligencia artificial?  
+- ¿Qué principales retos identifica en el manejo y análisis de IA en su día a día?  
+- ¿Qué expectativas tendría respecto al uso de nuevas tecnologías para mejorar en el trabajo?
+- ¿Con qué frecuencia trabajas con documentos extensos o complejos? 
 
 ---
 
-**Preguntas Segmento 1: Profesionales de la salud (médicos tratantes y radiólogos)**
+**Preguntas Segmento 1: Empresas y Startups **
 
-- ¿Qué tipos de estudios de imágenes médicas solicita o interpreta con mayor frecuencia en su práctica?  
-- ¿Con qué limitaciones se encuentra actualmente en la entrega de diagnósticos (tiempos de espera, sobrecarga, errores)?  
-- ¿Ha utilizado alguna vez herramientas de apoyo basadas en IA o software de análisis automatizado de imágenes? ¿Cómo fue su experiencia?  
-- ¿Qué elementos considera indispensables en un sistema de apoyo diagnóstico (precisión, rapidez, explicabilidad, integración con sistemas actuales)?  
-- ¿Cómo valora la posibilidad de recibir diagnósticos preliminares automatizados como apoyo en la toma de decisiones clínicas?  
-- ¿Qué preocupaciones tendría sobre el uso de IA en el análisis de imágenes médicas (p. ej., responsabilidad legal, confianza en resultados, privacidad de datos)?  
-- ¿De qué manera preferiría que la herramienta se integre a su flujo de trabajo diario para que le genere valor y no una carga adicional?  
+- ¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
+-¿Usas actualmente alguna herramienta para ayudarte a resumir o buscar información dentro de PDFs?
+-¿Cómo impactaría en tu productividad el poder extraer la información clave de forma inmediata?
+-Te resultaría útil una aplicación que pueda responder preguntas sobre tus documentos en segundos?
 
 ---
 
-**Preguntas Segmento 2: Instituciones de salud (hospitales, clínicas, gestores y administradores)**
+**Preguntas Segmento 2: Sector Salud y Clínico**
 
-- ¿Qué volumen de estudios de imágenes médicas procesa su institución en promedio?  
-- ¿Qué problemas principales enfrenta en la gestión de diagnósticos por imágenes (tiempos de entrega, recursos humanos, costos)?  
-- ¿Cómo evalúa actualmente la calidad y oportunidad de los informes radiológicos en su institución?  
-- ¿Qué criterios tendría en cuenta para adoptar una solución tecnológica basada en inteligencia artificial para apoyo diagnóstico?  
-- ¿Qué tan importante considera la trazabilidad y auditabilidad de los resultados generados por un sistema de IA?  
-- ¿Cómo cree que una plataforma como MediScanAI podría impactar en la eficiencia operativa y en los costos de su institución?  
-- ¿Qué obstáculos percibe para implementar una herramienta de IA en su organización (regulatorios, técnicos, culturales, financieros)?  
-- ¿Qué beneficios esperaría obtener a corto y mediano plazo de una solución de este tipo?  
-
+- ¿Qué beneficios esperaría obtener a corto y mediano plazo de una solución de este tipo?
+- ¿Sueles analizar estudios médicos con mucha terminología compleja?
+- ¿Te sería útil una app que te entregue resúmenes claros y datos clínicos extraídos automáticamente?
+- ¿Revisas documentos normativos, leyes o planes de desarrollo con frecuencia?
+- ¿Te interesaría una herramienta que te ayude a resumirlos y encontrar cifras clave más rápido?
 
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3. Needfinding.
+
+1. Usuarios objetivo:
+
+Investigadores / estudiantes
+
+Abogados
+
+Médicos o personal de salud
+
+ONGs / gobierno
+
+2. Preguntas de Needfinding
+
+¿Qué tan seguido trabajas con documentos largos o complejos?
+
+¿Qué partes del proceso te resultan más lentas o frustrantes?
+
+¿Has perdido oportunidades o cometido errores por no entender un documento a tiempo?
+
+¿Qué haces ahora para acelerar la lectura o análisis de documentos?
+
+¿Qué sería “ideal” para ti al trabajar con documentos así?
+
+3. Ejemplos de insights posibles
+
+Los abogados pierden tiempo buscando cláusulas específicas y comparando contratos.
+
+Los investigadores copian y pegan secciones para resumir manualmente.
+
+Los investigadores  deben revisar manuales técnicos densos para encontrar solo un par de datos clave.
+
+4. Traducción a oportunidades de diseño
+
+Función de búsqueda por conceptos, no solo por palabras exactas.
+
+Chat interactivo que cite de dónde sacó la información.
+
+Resúmenes personalizables .
+
 ### 2.3.1. User Personas.
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. Empathy Mapping.
 ### 2.3.4. As-is Scenario Mapping.
+
+
 ## 2.4. Ubiquitous Language.
+
+| **Término**            | **Definición en el dominio**                                                                 |
+|------------------------|-----------------------------------------------------------------------------------------------|
+| **Documento**          | Archivo PDF cargado por el usuario que contiene la información a analizar.                    |
+| **Carga**              | Acción de subir un PDF a la plataforma.                                                       |
+| **Procesamiento**      | Análisis del contenido del PDF con IA para generar un modelo semántico.                       |
+| **Chat**               | Interfaz de conversación entre el usuario y el contenido procesado.                           |
+| **Consulta**           | Pregunta del usuario sobre el documento.                                                      |
+| **Respuesta contextual**| Contestación de la IA que incluye datos y, cuando es posible, referencia a la sección del PDF.|
+| **Resumen**            | Síntesis automática del contenido del documento según los parámetros del usuario.              |
+| **Equipo**             | Grupo de usuarios (empresa, universidad, etc.) que utilizan la plataforma colaborativamente.   |
+| **Sesión**             | Periodo en el que un usuario interactúa con uno o varios documentos.                          |
+
