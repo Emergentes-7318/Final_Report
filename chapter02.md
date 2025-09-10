@@ -19,9 +19,9 @@
     <tr>
         <td>Nombre del Competidor y Logo</td>
         <td>Docmind<span>LOGO</span></td>
-        <td>Mendel <span>LOGO</span></td>
-        <td>SwiftMR (AIRS Medical) <span>LOGO</span></td>
-        <td>Toothminder <span>LOGO</span></td>
+        <td>ChatDOC<span>LOGO</span></td>
+        <td>AskYourPDF <span>LOGO</span></td>
+        <td>Upword<span>LOGO</span></td>
     </tr>
     <tr>
         <td>Overview</td>
@@ -103,6 +103,17 @@
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+| **Estrategia / Táctica**                    | **Descripción**                                                                                      | **Objetivo**                                      |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| **Diferenciación por velocidad**            | Optimizar el tiempo de análisis de documentos con IA para entregar respuestas en segundos.            | Superar a competidores en rapidez y eficiencia.   |
+| **Experiencia de usuario simplificada**     | Ofrecer una interfaz intuitiva tipo “chat con PDF”, sin necesidad de conocimientos técnicos.          | Atraer usuarios no técnicos y aumentar adopción.  |
+| **Modelo Freemium accesible**               | Permitir comenzar gratis, sin tarjeta de crédito, con planes premium escalables.                     | Facilitar la prueba y aumentar la base de clientes.|
+| **Enfoque multi-sector**                    | Adaptar la herramienta para diferentes industrias (académico, legal, salud, corporativo).            | Ampliar el mercado objetivo y reducir dependencia de un solo nicho.|
+| **Respuestas con referencias al documento** | Incluir citas exactas del PDF para aumentar la confianza en la información entregada.                 | Diferenciarse de resúmenes genéricos de IA.       |
+| **Alianzas estratégicas**                   | Posible integración con plataformas de almacenamiento en la nube (Google Drive, Dropbox, etc.).      | Aumentar el alcance y la comodidad de uso.        |
+| **Mejoras continuas de IA**                 | Entrenar modelos especializados por sector (legal, médico, técnico).                                 | Superar a competidores con resultados más precisos y relevantes. |
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 
