@@ -116,8 +116,8 @@ Resúmenes personalizables .
 
 ### 2.3.1. User Personas.
 
-
-
+![User Persona1](/asetss/User%20persona%201.jpg)
+![User Persona2](/asetss/user%20persona%202.jpg)
 
 ### 2.3.2. User Task Matrix.
 
@@ -136,13 +136,11 @@ Resúmenes personalizables .
 
 ### 2.3.3. Empathy Mapping.
 
+![Empathy Mapping](/asetss/Empathy%20map.jpg)
+
 ### 2.3.4. As-is Scenario Mapping.
 
-<img src= "./assets/gra.png" 
-  style="display: block; 
-  margin-left:auto; 
-  margin-right: auto; 
-  width=50%"/>
+![As-is Scenario Mapping](/asetss/gra.png)
 
 ## 2.4. Ubiquitous Language.
 
