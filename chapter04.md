@@ -212,3 +212,4 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 ### 4.3.2. Software Architecture Container Level Diagrams
 ![[structurizr-70986-Component-001.png]]
 ### 4.3.3. Software Architecture Deployment Diagrams
+![[Untitled-2025-06-27-2033.png]]
