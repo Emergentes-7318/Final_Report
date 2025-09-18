@@ -96,6 +96,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Business Goals:** | Acelerar el tiempo de procesamiento y respuesta para documentos grandes. |
 | **Relevant Quality Attributes:** | Rendimiento |
 | **Stimulus:** | Un usuario sube un PDF de 500 páginas. |
+
 | **Scenario Components** | |
 |--------------------------|-----------------------------------|
 | **Stimulus Source:** | Usuario |
@@ -103,7 +104,9 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Artifact (if Known):** | Subsistema de procesamiento de documentos |
 | **Response:** | El sistema procesa el documento y está listo para responder consultas |
 | **Response Measure:** | El tiempo de procesamiento es menor a 2 minutos |
+
 | **Questions:** | ¿Qué sucede si se suben múltiples documentos grandes en paralelo? |
+|----------------|-----------------------------------|
 | **Issues:** | Posible saturación de memoria al manejar archivos muy grandes. |
 
 
@@ -125,6 +128,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response Measure:** | La degradación del rendimiento es imperceptible |
 
 | **Questions:** | ¿Cuál es el número máximo de usuarios que puede soportar sin pérdida de rendimiento? |
+|----------------|-----------------------------------|
 | **Issues:** | Riesgo de cuello de botella en la base de datos o el servidor principal. |
 
 
@@ -146,6 +150,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response Measure:** | La pérdida de progreso es nula |
 
 | **Questions:** | ¿Qué ocurre si la interrupción dura más de 10 minutos? |
+|----------------|-----------------------------------|
 | **Issues:** | Posible pérdida parcial de datos en conexiones extremadamente inestables. |
 
 
@@ -167,6 +172,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response Measure:** | El acceso no autorizado es bloqueado y la información no es visible |
 
 | **Questions:** | ¿Cómo se notifica al usuario y al administrador sobre intentos de intrusión? |
+|----------------|-----------------------------------|
 | **Issues:** | Dependencia en la fortaleza de la autenticación multifactor y cifrado. |
 
 
@@ -188,6 +194,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response Measure:** | El tiempo para completar la tarea es menor a 30 segundos |
 
 | **Questions:** | ¿Se requieren tutoriales o ayudas contextuales para mejorar la experiencia? |
+|----------------|-----------------------------------|
 | **Issues:** | Riesgo de que la interfaz sea confusa en dispositivos móviles. |
 
 
