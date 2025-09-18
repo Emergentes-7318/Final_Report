@@ -2,6 +2,25 @@
 
 ## 3.1. To-Be Scenario Mapping
 
+### Segmento de Usuarios Finales (Investigadores, estudiantes, analistas)
+
+| Phases              | Carga de Documentos                                                                                  | Análisis con IA                                                                                      | Visualización de Resultados                                                                                      | Exportación y Reportes                                                                                  | Personalización y Configuración                                                                                  |
+|---------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Doing**          | El usuario inicia sesión y sube documentos PDF desde su PC o Google Drive.                           | Selecciona un documento y solicita un resumen o hace preguntas en lenguaje natural.                  | Navega por el visor interactivo con citas enlazadas y pasajes resaltados.                                       | Exporta el resumen en PDF, Word o Markdown para compartirlo o archivarlo.                                 | Ajusta idioma, tema oscuro y preferencias de notificación para personalizar su experiencia.                       |
+| **Thinking**       | Es rápido y sencillo cargar mis archivos, incluso desde Drive.                                      | La IA entiende mis preguntas y me ofrece respuestas precisas y útiles.                               | Puedo identificar la fuente exacta de cada dato gracias a las citas vinculadas.                                 | Tener el reporte listo en PDF ahorra mucho tiempo en mi trabajo o investigación.                           | Me gusta que la plataforma se adapte a mis necesidades y hábitos de trabajo.                                     |
+| **Feeling**        | Me siento seguro de que mis documentos están protegidos y organizados.                              | Estoy impresionado por la velocidad y precisión de la IA.                                           | Me siento confiado de que la información es confiable y fácil de entender.                                      | Estoy satisfecho y aliviado de no tener que generar reportes manualmente.                                   | Me siento cómodo y motivado al trabajar en un entorno amigable y personalizable.                                 |
+
+---
+
+### Segmento de Administradores / Analistas Internos
+
+| Phases              | Configuración Inicial y Roles                                                                       | Monitoreo y Seguridad                                                                                  | Gestión de Permisos                                                                                       | Métricas y Auditoría                                                                                      | Mantenimiento y Soporte                                                                                  |
+|---------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Doing**          | Configuran la plataforma con integración de inicio de sesión con Google y definen roles de usuario.  | Supervisan logs y cifrado para proteger la información.                                               | Ajustan permisos para controlar quién puede ver, editar o exportar documentos.                           | Consultan paneles con métricas de uso, confianza de respuestas y actividad del sistema.                    | Gestionan actualizaciones de la plataforma y brindan soporte técnico.                                    |
+| **Thinking**       | La configuración inicial es sencilla y compatible con sistemas externos.                             | La seguridad y el cifrado protegen adecuadamente los datos sensibles.                                 | Los permisos permiten mantener la confidencialidad y el orden jerárquico.                                | Las métricas ayudan a tomar decisiones estratégicas sobre recursos y desempeño.                           | Es tranquilizador saber que el sistema se mantiene actualizado y estable.                                 |
+| **Feeling**        | Me siento tranquilo porque la plataforma es segura y robusta.                                       | Estoy confiado de que puedo detectar incidentes antes de que escalen.                                 | Me siento en control de la información y el acceso de los usuarios.                                      | Estoy satisfecho al tener visibilidad completa del rendimiento y la seguridad del sistema.                 | Me siento respaldado al contar con un equipo de soporte que responde rápidamente ante problemas críticos. |
+
+
 ## 3.2. User Stories
 
 Tabla de épicas establecidas para las historias de usuarios de DocMind AI.
@@ -63,6 +82,7 @@ Tabla de épicas establecidas para las historias de usuarios de DocMind AI.
 
 
 ## 3.3. Impact Mapping
+
 
 ## 3.4. Product Backlog
 
