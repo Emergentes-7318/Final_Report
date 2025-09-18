@@ -11,14 +11,12 @@
             "id": "7adaf9cba0c07ec1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "chapter04.md",
-                "mode": "source",
-                "source": false
+                "file": "structurizr-70986-SystemContext-001.png"
               },
-              "icon": "lucide-file",
-              "title": "chapter04"
+              "icon": "lucide-image",
+              "title": "structurizr-70986-SystemContext-001"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 376.5
   },
   "right": {
     "id": "fa7dc600e7f601a5",
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapter04.md",
+                "file": "structurizr-70986-SystemContext-001.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for chapter04"
+              "title": "Backlinks for structurizr-70986-SystemContext-001"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapter04.md",
+                "file": "structurizr-70986-SystemContext-001.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from chapter04"
+              "title": "Outgoing links from structurizr-70986-SystemContext-001"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapter04.md",
+                "file": "structurizr-70986-SystemContext-001.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of chapter04"
+              "title": "Outline of structurizr-70986-SystemContext-001"
             }
           }
         ]
@@ -169,15 +167,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "7adaf9cba0c07ec1",
+  "active": "e387ebc559f9c5c7",
   "lastOpenFiles": [
+    "structurizr-70986-SystemContext-001.png",
+    "structurizr-70986-SystemContext-001.png",
+    "chapter04.md",
     "Untitled-2025-06-27-2033.png",
     "structurizr-70986-Component-001.png",
     "structurizr-70986-Container-001.png",
     "README.md",
-    "structurizr-70986-SystemContext-001.png",
-    "structurizr-70986-SystemContext-001 (1).png",
-    "chapter04.md",
     "chapter01.md/chapter01.md",
     "chapter01.md"
   ]
