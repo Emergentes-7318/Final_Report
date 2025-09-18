@@ -73,7 +73,17 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 - ¿Te interesaría una herramienta que te ayude a resumirlos y encontrar cifras clave más rápido?
 
 ### 2.2.2. Registro de entrevistas.
+
+
+
 ### 2.2.3. Análisis de entrevistas.
+
+A partir de las entrevistas realizadas, se pudo identificar un patrón común entre los participantes: la mayoría de ellos recurren constantemente al uso de herramientas de inteligencia artificial para facilitar su trabajo diario. Las personas entrevistadas señalaron que, dentro de sus actividades cotidianas, dedican gran parte de su tiempo a la lectura, análisis y procesamiento de documentos extensos, lo que suele demandar un esfuerzo considerable y ralentiza otras tareas.
+
+En este sentido, se evidencia una oportunidad importante para el desarrollo de una aplicación basada en inteligencia artificial que pueda optimizar este proceso. Una herramienta de este tipo no solo permitiría agilizar la comprensión y el manejo de grandes volúmenes de información, sino que también ayudaría a organizar mejor el flujo de trabajo, reducir la carga cognitiva y aumentar la productividad.
+
+Asimismo, los entrevistados manifestaron que contar con un sistema que ofrezca resúmenes automáticos, sugerencias contextuales o incluso apoyo en la redacción de informes, les resultaría de gran valor. De esta manera, una aplicación con estas características se perfila como una solución clave para responder a las necesidades detectadas y aportar beneficios significativos en su entorno profesional.
+
 ## 2.3. Needfinding.
 
 1. Usuarios objetivo:
