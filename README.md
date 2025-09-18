@@ -23,10 +23,10 @@ width=50%"/>
 |                Nombre                 |   Código   |
 | :-----------------------------------: | :--------: |
 |  Cabanillas Gora Andrea              | u202211711 |
-|  Luza Carhuamaca, Jose Adrian      | u202213404 |
-|  Braithuaite Toledo Gabriel Anthony | u20201e889 |
-|  Reyes Trujillano Fabian Alonso  | u202218233 |
-|  Pedraza Maldonado Joaquin Andree  | u202218514 |
+| Olivera Guerra, Santiago Mickelle  | u20201a821 |
+|   |  |
+|   |  |
+|   |  |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
