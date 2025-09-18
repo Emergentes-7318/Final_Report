@@ -53,13 +53,14 @@ https://github.com/Emergentes-7318/Final_Report
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-| Integrante                            | Tareas Asignadas                                                                                                                           |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Vasquez Requejo Augusto Mathias Leonardo  |Chapters 01,02,03,04,05                   |
-| Cabanillas Gora Andrea Milagros     | Chapters 01,02,03,04,05|
-|Olivera Guerra, Santiago Mickelle       | Chapters 01,02,03,04,05  |
-| Braithuaite Toledo Gabriel Anthony  | Chapters 01,02,03,04,05|
-| Reyes Trujillano Fabian Alonso | Chapters 01,02,03,04,05|
+| Integrante                               | Tareas Asignadas        |
+| ---------------------------------------- | ----------------------- |
+| Vasquez Requejo Augusto Mathias Leonardo | Chapters 01,02,03,04,05 |
+| Cabanillas Gora Andrea Milagros          | Chapters 01,02,03,04,05 |
+| Olivera Guerra, Santiago Mickelle        | Chapters 01,02,03,04,05 |
+| Braithuaite Toledo Gabriel Anthony       | Chapters 01,02,03,04,05 |
+| Reyes Trujillano Fabian Alonso           | Chapters 01,02,03,04,05 |
+| Navarro Robles, Lorenzo Sebastian        | Chapters 01,02,03,04,05 |
 
 Los integrantes son:
 
@@ -68,6 +69,7 @@ Los integrantes son:
 - Olivera Guerra, Santiago Mickelle 
 - Braithuaite Toledo Gabriel Anthony 
 - Reyes Trujillano Fabian Alonso 
+- Navarro Robles, Lorenzo Sebastian
 
 ## Contenido
 ## Índice
