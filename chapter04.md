@@ -6,32 +6,32 @@
 
 #### 4.1.1. DESIGN PURPOSE
 
-El propósito del diseño arquitectónico de DocMind es crear una plataforma de inteligencia artificial escalable, confiable y segura que transforme documentos complejos en información útil y accionable. La arquitectura debe soportar el análisis de grandes volúmenes de datos no estructurados, garantizando respuestas rápidas y precisas con una experiencia de usuario fluida. [cite_start]El diseño debe priorizar la **escalabilidad** y la **disponibilidad** para cumplir con la misión de ser una herramienta líder global en el análisis de documentos. [cite: 1, 2]
+El propósito del diseño arquitectónico de DocMind es crear una plataforma de inteligencia artificial escalable, confiable y segura que transforme documentos complejos en información útil y accionable. La arquitectura debe soportar el análisis de grandes volúmenes de datos no estructurados, garantizando respuestas rápidas y precisas con una experiencia de usuario fluida. El diseño debe priorizar la **escalabilidad** y la **disponibilidad** para cumplir con la misión de ser una herramienta líder global en el análisis de documentos.
 
 ---
 
 #### 4.1.2. ATTRIBUTE-DRIVEN DESIGN INPUTS
 
-[cite_start]Esta sección inicia con un texto de introducción y contiene las secciones para los tres tipos de Input para el proceso de diseño con ADD. [cite: 4]
+Esta sección inicia con un texto de introducción y contiene las secciones para los tres tipos de Input para el proceso de diseño con ADD.
 
 ##### 4.1.2.1. PRIMARY FUNCTIONALITY (PRIMARY USER STORIES)
 
-[cite_start]A continuación, se detallan los Epics o User Stories más relevantes para la arquitectura de la solución. [cite: 6, 7]
-
 | Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
-| US002 | Carga de Documento Único | Como usuario, quiero subir un documento PDF para analizarlo. | El documento se carga correctamente y se procesa para su análisis posterior. | EPIC-01 (Gestión de Documentos) |
-| US005 | Preguntas en Lenguaje Natural | Como usuario, quiero hacer preguntas sobre el documento para obtener respuestas. | El sistema genera respuestas precisas y relevantes basadas en el contenido del documento. | EPIC-02 (Interacción con el Contenido) |
-| US007 | Visualización de Referencia | Como usuario, quiero ver la fuente original de la respuesta dentro del documento. | La respuesta proporcionada incluye una referencia a la ubicación exacta dentro del documento. | EPIC-02 (Interacción con el Contenido) |
-| US008 | Resumen del Documento | Como usuario, quiero un resumen del documento para ahorrar tiempo de lectura. | El sistema genera un resumen coherente y conciso que captura los puntos principales del documento. | EPIC-02 (Interacción con el Contenido) |
-| US009 | Comparación de Documentos | Como usuario, quiero comparar dos o más documentos para identificar coincidencias y discrepancias. | El sistema identifica y muestra las similitudes y diferencias entre los documentos seleccionados. | EPIC-03 (Análisis Comparativo) |
-| US013 | Exportación de Reportes | Como usuario, quiero exportar resultados en formatos estándar como PDF o Word. | Los resultados se exportan correctamente a los formatos solicitados. | EPIC-04 (Opciones de Exportación) |
-
----
+| US001 | Carga de documentos PDF | Como usuario, quiero subir archivos PDF para que la plataforma los procese y analice. | Escenario 1: Dado que el usuario está en “Mis documentos”, cuando hace clic en “Subir” y selecciona un PDF válido, entonces el sistema guarda el archivo y muestra confirmación.<br>Escenario 2: Dado que intenta subir un formato no permitido, entonces el sistema rechaza la carga y muestra el motivo. | EPIC001 (Gestión de Documentos) |
+| US003 | Importación desde Google Drive | Como usuario, quiero vincular una carpeta de Drive para importar documentos sin descargarlos localmente. | Escenario 1: Dado que el usuario autorizó Drive, cuando selecciona una carpeta, entonces la plataforma lista los archivos disponibles.<br>Escenario 2: Dado que el usuario quita la autorización, cuando vuelve a la vista de Drive, entonces no se muestran archivos y se solicita reconectar. | EPIC001 (Gestión de Documentos) |
+| US006 | Resumen automático del documento | Como usuario, quiero generar un resumen automático para entender el contenido rápidamente. | Escenario 1: Dado un documento procesado, cuando solicito “Generar resumen”, entonces se crea un resumen y se guarda en el historial.<br>Escenario 2: Dado un resumen existente, cuando lo re-genero, entonces se versiona con marca de tiempo. | EPIC002 (Análisis Inteligente con IA) |
+| US007 | Preguntas y respuestas en lenguaje natural | Como usuario, quiero hacer preguntas al documento y recibir respuestas precisas con contexto. | Escenario 1: Dado el chat del documento, cuando pregunto “¿Cuáles son las conclusiones?”, entonces recibo una respuesta con citas.<br>Escenario 2: Dado una pregunta ambigua, cuando no se alcanza un umbral de confianza, entonces el sistema sugiere reformular o ver pasajes relacionados. | EPIC002 (Análisis Inteligente con IA) |
+| US009 | Comparación entre múltiples documentos | Como usuario, quiero comparar dos o más documentos para identificar coincidencias y discrepancias. | Escenario 1: Dado dos documentos seleccionados, cuando inicio “Comparar”, entonces veo un resumen de diferencias con citas por cada fuente.<br>Escenario 2: Dado hallazgos comparativos, cuando exporto, entonces obtengo un reporte consolidado con referencias por documento. | EPIC002 (Análisis Inteligente con IA) |
+| US011 | Visor con citas ancladas | Como usuario, quiero visualizar respuestas con citas enlazadas al texto fuente dentro del visor. | Escenario 1: Dado una respuesta, cuando hago clic en la cita, entonces el visor salta al fragmento resaltado.<br>Escenario 2: Dado múltiples citas, cuando las recorro, entonces el visor mantiene el contexto de cada pasaje. | EPIC003 (Visualización y Reporte de Resultados) |
+| US013 | Exportación de reportes | Como usuario, quiero exportar resultados en formatos estándar (PDF/Word/Markdown). | Escenario 1: Dado un reporte, cuando elijo “Exportar PDF”, entonces se descarga con estilo y numeración de citas.<br>Escenario 2: Dado la opción Markdown, cuando exporto, entonces obtengo un archivo con encabezados y referencias. | EPIC003 (Visualización y Reporte de Resultados) |
+| US021 | Autenticación con Google | Como usuario, quiero iniciar sesión con Google para acceder a mis documentos y permisos. | Escenario 1: Dado que no estoy autenticado, cuando inicio con Google, entonces accedo al panel si la validación es correcta.<br>Escenario 2: Dado que deniego permisos, cuando regreso, entonces la app explica qué permisos necesita y por qué. | EPIC005 (Seguridad y Control de Acceso) |
+| US022 | Roles y permisos | Como administrador, quiero asignar roles para controlar quién puede ver, editar o exportar. | Escenario 1: Dado un espacio de trabajo, cuando asigno “miembro”, entonces solo puede ver y preguntar.<br>Escenario 2: Dado un usuario “admin”, cuando cambia permisos, entonces los cambios se aplican y quedan auditados. | EPIC005 (Seguridad y Control de Acceso) |
+| US025 | Cifrado y privacidad | Como usuario, quiero que mis documentos y respuestas estén cifrados en tránsito y en reposo. | Escenario 1: Dado la transferencia de un archivo, cuando se sube, entonces viaja por TLS y se almacena cifrado.<br>Escenario 2: Dado una exportación, cuando la descargo, entonces el enlace expira y requiere sesión activa. | EPIC005 (Seguridad y Control de Acceso) |
 
 ##### 4.1.2.2. QUALITY ATTRIBUTE SCENARIOS
 
-[cite_start]Esta sección incluye la especificación de la primera versión de los escenarios de atributos de calidad que tienen mayor impacto en la arquitectura de la solución. [cite: 12, 13]
+Esta sección incluye la especificación de la primera versión de los escenarios de atributos de calidad que tienen mayor impacto en la arquitectura de la solución.
 
 | Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
 |---|---|---|---|---|---|---|
@@ -45,20 +45,20 @@ El propósito del diseño arquitectónico de DocMind es crear una plataforma de 
 
 ##### 4.1.2.3. CONSTRAINTS
 
-[cite_start]Esta sección incluye la especificación de restricciones, es decir, características que no pueden ser negociadas y son impuestas por el cliente o el propio negocio como guía para la elaboración de la solución. [cite: 24, 25]
+Esta sección incluye la especificación de restricciones, es decir, características que no pueden ser negociadas y son impuestas por el cliente o el propio negocio como guía para la elaboración de la solución.
 
 | Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
-| TST-01 | Cloud-Native | La plataforma debe ser **Cloud-Native**, utilizando servicios de nube. | El 100% de los servicios se implementan en una infraestructura de nube. | EPIC-05 (Infraestructura) |
-| TST-02 | Compatibilidad PDF | El sistema debe ser **compatible con archivos PDF** de hasta 500 páginas. | El sistema procesa correctamente archivos PDF hasta el límite de 500 páginas. | EPIC-01 (Gestión de Documentos) |
-| TST-03 | Integración Google Drive | La solución debe integrarse con **Google Drive** para la carga de documentos. | El usuario puede importar documentos directamente desde su cuenta de Google Drive. | EPIC-01 (Gestión de Documentos) |
-| TST-04 | Uso de NLP | El diseño debe utilizar **modelos de lenguaje natural (NLP)** para el procesamiento de texto. | Los modelos de NLP procesan con precisión el texto para generar respuestas y resúmenes. | EPIC-02 (Interacción con el Contenido) |
+| TST-01 | Cloud-Native | La plataforma debe ser **Cloud-Native**, utilizando servicios de nube. | El 100% de los servicios se implementan en una infraestructura de nube. | EPIC-05 |
+| TST-02 | Compatibilidad PDF | El sistema debe ser **compatible con archivos PDF** de hasta 500 páginas. | El sistema procesa correctamente archivos PDF hasta el límite de 500 páginas. | EPIC-01 |
+| TST-03 | Integración Google Drive | La solución debe integrarse con **Google Drive** para la carga de documentos. | El usuario puede importar documentos directamente desde su cuenta de Google Drive. | EPIC-01 |
+| TST-04 | Uso de NLP | El diseño debe utilizar **modelos de lenguaje natural (NLP)** para el procesamiento de texto. | Los modelos de NLP procesan con precisión el texto para generar respuestas y resúmenes. | EPIC-02 |
 
 ---
 
 #### 4.1.3. ARCHITECTURAL DRIVERS BACKLOG
 
-[cite_start]Esta sección establece el conjunto de Architectural Drivers que fueron acordados por el equipo, resultado del proceso iterativo. [cite: 30, 31, 32, 33]
+Esta sección establece el conjunto de Architectural Drivers que fueron acordados por el equipo, resultado del proceso iterativo.
 
 | Driver ID | Título de Driver | Descripción | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
 |---|---|---|---|---|
@@ -74,76 +74,129 @@ El propósito del diseño arquitectónico de DocMind es crear una plataforma de 
 
 #### 4.1.4. ARCHITECTURAL DESIGN DECISIONS
 
-[cite_start]En esta sección, el equipo redacta la explicación del proceso, resumiendo los Drivers considerados, las tácticas y patrones que se evaluaron y los criterios para sus decisiones de diseño. [cite: 36]
+En esta sección, el equipo redacta la explicación del proceso, resumiendo los Drivers considerados, las tácticas y patrones que se evaluaron y los criterios para sus decisiones de diseño.
 
 | Decisión Arquitectónica | Racional |
 |---|---|
-| **Arquitectura de Microservicios** | [cite_start]Separar funcionalidades para permitir que cada servicio escale de forma independiente. [cite: 36] |
-| **Uso de Serverless Computing** | [cite_start]Optimizar costos y permitir la escalabilidad automática para el procesamiento de documentos. [cite: 36] |
-| **Base de Datos NoSQL** | [cite_start]Almacenar el contenido de los documentos procesados de manera eficiente. [cite: 36] |
-| **API Gateway para el Frontend** | [cite_start]Centralizar la seguridad, el enrutamiento y la gestión de las solicitudes. [cite: 36] |
-| **Cifrado de Datos (Data Encryption)** | [cite_start]Garantizar que los datos estén protegidos tanto en tránsito como en reposo. [cite: 36] |
+| **Arquitectura de Microservicios** | Separar funcionalidades para permitir que cada servicio escale de forma independiente. |
+| **Uso de Serverless Computing** | Optimizar costos y permitir la escalabilidad automática para el procesamiento de documentos. |
+| **Base de Datos NoSQL** | Almacenar el contenido de los documentos procesados de manera eficiente. |
+| **API Gateway para el Frontend** | Centralizar la seguridad, el enrutamiento y la gestión de las solicitudes. |
+| **Cifrado de Datos (Data Encryption)** | Garantizar que los datos estén protegidos tanto en tránsito como en reposo. |
 
 ---
 
 #### 4.1.5. QUALITY ATTRIBUTE SCENARIO REFINEMENTS
 
-[cite_start]Se inicia con un texto introductorio que resume las principales decisiones tomadas al finalizar el proceso de Quality Attribute Workshop, para colocar a continuación la versión final de los escenarios refinados en orden de prioridad. [cite: 42]
-
 **Refinamiento de Escenario para Rendimiento**
-- [cite_start]**Escenario(s):** El sistema debe ser rápido al procesar documentos grandes. [cite: 12]
-- **Business Goals:** Acelerar el tiempo de procesamiento y respuesta para documentos grandes.
-- [cite_start]**Relevant Quality Attributes:** Rendimiento. [cite: 12]
-- [cite_start]**Stimulus:** Un usuario sube un PDF de 500 páginas. [cite: 18]
-- [cite_start]**Stimulus Source:** Usuario. [cite: 17]
-- [cite_start]**Components:** Subsistema de procesamiento de documentos. [cite: 19]
-- [cite_start]**Environment:** Carga normal de la plataforma. [cite: 20]
-- [cite_start]**Response:** El sistema procesa el documento y está listo para responder consultas. [cite: 21]
-- [cite_start]**Response Measure:** El tiempo de procesamiento es menor a 2 minutos. [cite: 22]
+
+| **Scenario Refinement for Scenario N** | |
+|----------------------------------------|-----------------------------------|
+| **Scenario(s):** | El sistema debe ser rápido al procesar documentos grandes. |
+| **Business Goals:** | Acelerar el tiempo de procesamiento y respuesta para documentos grandes. |
+| **Relevant Quality Attributes:** | Rendimiento |
+| **Stimulus:** | Un usuario sube un PDF de 500 páginas. |
+
+| **Scenario Components** | |
+|--------------------------|-----------------------------------|
+| **Stimulus Source:** | Usuario |
+| **Environment:** | Carga normal de la plataforma |
+| **Artifact (if Known):** | Subsistema de procesamiento de documentos |
+| **Response:** | El sistema procesa el documento y está listo para responder consultas |
+| **Response Measure:** | El tiempo de procesamiento es menor a 2 minutos |
+
+| **Questions:** | |
+|----------------|-----------------------------------|
+| **Issues:** | |
+
 
 **Refinamiento de Escenario para Escalabilidad**
-- [cite_start]**Escenario(s):** La plataforma debe manejar un alto volumen de usuarios simultáneos sin degradación. [cite: 12]
-- **Business Goals:** Soportar el crecimiento de la base de usuarios manteniendo el rendimiento.
-- [cite_start]**Relevant Quality Attributes:** Escalabilidad. [cite: 12]
-- [cite_start]**Stimulus:** 100 usuarios concurrentes suben documentos de gran tamaño. [cite: 18]
-- [cite_start]**Stimulus Source:** Alto volumen de usuarios. [cite: 17]
-- [cite_start]**Components:** Sistema completo. [cite: 19]
-- [cite_start]**Environment:** Pico de usuarios simultáneos. [cite: 20]
-- [cite_start]**Response:** El sistema mantiene su tiempo de respuesta promedio. [cite: 21]
-- [cite_start]**Response Measure:** La degradación del rendimiento es imperceptible. [cite: 22]
+
+| **Scenario Refinement for Scenario N** | |
+|----------------------------------------|-----------------------------------|
+| **Scenario(s):** | La plataforma debe manejar un alto volumen de usuarios simultáneos sin degradación. |
+| **Business Goals:** | Soportar el crecimiento de la base de usuarios manteniendo el rendimiento. |
+| **Relevant Quality Attributes:** | Escalabilidad |
+| **Stimulus:** | 100 usuarios concurrentes suben documentos de gran tamaño. |
+
+| **Scenario Components** | |
+|--------------------------|-----------------------------------|
+| **Stimulus Source:** | Alto volumen de usuarios |
+| **Environment:** | Pico de usuarios simultáneos |
+| **Artifact (if Known):** | Sistema completo |
+| **Response:** | El sistema mantiene su tiempo de respuesta promedio |
+| **Response Measure:** | La degradación del rendimiento es imperceptible |
+
+| **Questions:** | |
+|----------------|-----------------------------------|
+| **Issues:** | |
+
 
 **Refinamiento de Escenario para Confiabilidad**
-- [cite_start]**Escenario(s):** El sistema debe recuperarse de fallas temporales. [cite: 12]
-- **Business Goals:** Asegurar la continuidad del servicio y la integridad de los datos.
-- [cite_start]**Relevant Quality Attributes:** Confiabilidad. [cite: 12]
-- [cite_start]**Stimulus:** Un usuario experimenta una interrupción de conexión durante la carga. [cite: 18]
-- [cite_start]**Stimulus Source:** Usuario. [cite: 17]
-- [cite_start]**Components:** Subsistema de carga de documentos. [cite: 19]
-- [cite_start]**Environment:** Conexión inestable. [cite: 20]
-- [cite_start]**Response:** La plataforma reanuda la carga automáticamente al recuperar la conexión. [cite: 21]
-- [cite_start]**Response Measure:** La pérdida de progreso es nula. [cite: 22]
+
+| **Scenario Refinement for Scenario N** | |
+|----------------------------------------|-----------------------------------|
+| **Scenario(s):** | El sistema debe recuperarse de fallas temporales. |
+| **Business Goals:** | Asegurar la continuidad del servicio y la integridad de los datos. |
+| **Relevant Quality Attributes:** | Confiabilidad |
+| **Stimulus:** | Un usuario experimenta una interrupción de conexión durante la carga. |
+
+| **Scenario Components** | |
+|--------------------------|-----------------------------------|
+| **Stimulus Source:** | Usuario |
+| **Environment:** | Conexión inestable |
+| **Artifact (if Known):** | Subsistema de carga de documentos |
+| **Response:** | La plataforma reanuda la carga automáticamente al recuperar la conexión |
+| **Response Measure:** | La pérdida de progreso es nula |
+
+| **Questions:** | |
+|----------------|-----------------------------------|
+| **Issues:** | |
+
 
 **Refinamiento de Escenario para Seguridad**
-- [cite_start]**Escenario(s):** Los datos de los usuarios deben estar protegidos de accesos no autorizados. [cite: 12]
-- **Business Goals:** Proteger la información confidencial de los usuarios.
-- [cite_start]**Relevant Quality Attributes:** Seguridad. [cite: 12]
-- [cite_start]**Stimulus:** Un atacante intenta acceder a los documentos privados de un usuario. [cite: 18]
-- [cite_start]**Stimulus Source:** Atacante externo. [cite: 17]
-- [cite_start]**Components:** Capa de autenticación y de datos. [cite: 19]
-- [cite_start]**Environment:** Operación del sistema. [cite: 20]
-- [cite_start]**Response:** El sistema impide el acceso no autorizado y los datos están cifrados. [cite: 21]
-- [cite_start]**Response Measure:** El acceso no autorizado es bloqueado y la información no es visible. [cite: 22]
+
+| **Scenario Refinement for Scenario N** | |
+|----------------------------------------|-----------------------------------|
+| **Scenario(s):** | Los datos de los usuarios deben estar protegidos de accesos no autorizados. |
+| **Business Goals:** | Proteger la información confidencial de los usuarios. |
+| **Relevant Quality Attributes:** | Seguridad |
+| **Stimulus:** | Un atacante intenta acceder a los documentos privados de un usuario. |
+
+| **Scenario Components** | |
+|--------------------------|-----------------------------------|
+| **Stimulus Source:** | Atacante externo |
+| **Environment:** | Operación del sistema |
+| **Artifact (if Known):** | Capa de autenticación y de datos |
+| **Response:** | El sistema impide el acceso no autorizado y los datos están cifrados |
+| **Response Measure:** | El acceso no autorizado es bloqueado y la información no es visible |
+
+| **Questions:** | |
+|----------------|-----------------------------------|
+| **Issues:** | |
+
 
 **Refinamiento de Escenario para Usabilidad**
-- [cite_start]**Escenario(s):** La interfaz de usuario debe ser fácil de usar. [cite: 12]
-- **Business Goals:** Reducir la curva de aprendizaje y mejorar la experiencia del usuario.
-- [cite_start]**Relevant Quality Attributes:** Usabilidad. [cite: 12]
-- [cite_start]**Stimulus:** Un nuevo usuario intenta subir su primer documento. [cite: 18]
-- [cite_start]**Stimulus Source:** Nuevo usuario. [cite: 17]
-- [cite_start]**Components:** Interfaz de usuario. [cite: 19]
-- [cite_start]**Environment:** Primer uso de la plataforma. [cite: 20]
-- [cite_start]**Response:** El usuario completa el proceso sin ayuda externa. [cite: 21]
-- [cite_start]**Response Measure:** El tiempo para completar la tarea es menor a 30 segundos. [cite: 22]
+
+| **Scenario Refinement for Scenario N** | |
+|----------------------------------------|-----------------------------------|
+| **Scenario(s):** | La interfaz de usuario debe ser fácil de usar. |
+| **Business Goals:** | Reducir la curva de aprendizaje y mejorar la experiencia del usuario. |
+| **Relevant Quality Attributes:** | Usabilidad |
+| **Stimulus:** | Un nuevo usuario intenta subir su primer documento. |
+
+| **Scenario Components** | |
+|--------------------------|-----------------------------------|
+| **Stimulus Source:** | Nuevo usuario |
+| **Environment:** | Primer uso de la plataforma |
+| **Artifact (if Known):** | Interfaz de usuario |
+| **Response:** | El usuario completa el proceso sin ayuda externa |
+| **Response Measure:** | El tiempo para completar la tarea es menor a 30 segundos |
+
+| **Questions:** | |
+|----------------|-----------------------------------|
+| **Issues:** | |
+
 
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
