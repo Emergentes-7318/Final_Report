@@ -20,13 +20,13 @@ width=50%"/>
 
 ## Team members:
 
-|                Nombre                 |   Código   |
-| :-----------------------------------: | :--------: |
-|  Cabanillas Gora Andrea              | u202211711 |
-| Olivera Guerra, Santiago Mickelle  | u20201a821 |
-|   |  |
-|   |  |
-|   |  |
+|              Nombre               |   Código   |
+| :-------------------------------: | :--------: |
+|      Cabanillas Gora Andrea       | u202211711 |
+| Olivera Guerra, Santiago Mickelle | u20201a821 |
+| Navarro Robles, Lorenzo Sebastian | U201713141 |
+|                                   |            |
+|                                   |            |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
