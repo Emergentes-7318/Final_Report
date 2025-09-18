@@ -83,6 +83,11 @@ Tabla de épicas establecidas para las historias de usuarios de DocMind AI.
 
 ## 3.3. Impact Mapping
 
+| **GOAL** | **ACTORS** | **IMPACT** | **DELIVERABLES** |
+|----------|------------|------------|-------------------|
+| Mejorar la eficiencia operativa y la experiencia de compra en tiendas de ropa mediante la implementación de tecnología IoT para la localización en tiempo real de las prendas. | **Clientes de tiendas de ropa:**<br>Buscan una experiencia de compra rápida y sin frustraciones, utilizando tecnología para localizar prendas desplazadas.<br><br>**Empleados de las tiendas:**<br>Necesitan gestionar el inventario de manera eficiente y mejorar la atención al cliente.<br><br>**Gerentes de tiendas:**<br>Interesados en optimizar todos los aspectos de la operación en tienda, desde la gestión de inventario hasta la satisfacción del cliente. | **Mejora de la experiencia del cliente:**<br>Reducir el tiempo que los clientes pasan buscando productos, aumentando su satisfacción y potencialmente sus compras.<br><br>**Optimización de la gestión de inventario:**<br>Proporcionar a los empleados herramientas para monitorear y ajustar el inventario en tiempo real, mejorando la precisión y reduciendo el tiempo dedicado a tareas manuales.<br><br>**Incremento en la seguridad del producto:**<br>Reducir las pérdidas de inventario debido a robos o mal manejo gracias a la localización precisa de cada prenda.<br><br>**Decisión basada en datos:**<br>Facilitar a los gerentes tomar decisiones informadas sobre la disposición de la tienda y las necesidades de los clientes, basándose en datos de uso y preferencias de los clientes. | **Implementación de sensores IoT:**<br>Instalación de sensores en prendas para su localización en tiempo real a través de una aplicación móvil.<br><br>**Sistema de gestión de inventario integrado:**<br>Integración con sistemas ERP existentes para sincronización en tiempo real del inventario.<br><br>**Informes de análisis de datos:**<br>Proporcionar a los gerentes informes sobre el flujo de clientes y la popularidad de las prendas para optimizar la disposición de la tienda y la planificación de stock.<br><br>**Plataforma de feedback y soporte:**<br>Desarrollo de una plataforma que permita a los usuarios dar feedback sobre su experiencia y recibir soporte técnico. |
+
+
 
 ## 3.4. Product Backlog
 
