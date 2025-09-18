@@ -96,7 +96,6 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Business Goals:** | Acelerar el tiempo de procesamiento y respuesta para documentos grandes. |
 | **Relevant Quality Attributes:** | Rendimiento |
 | **Stimulus:** | Un usuario sube un PDF de 500 páginas. |
-
 | **Scenario Components** | |
 |--------------------------|-----------------------------------|
 | **Stimulus Source:** | Usuario |
@@ -104,7 +103,6 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Artifact (if Known):** | Subsistema de procesamiento de documentos |
 | **Response:** | El sistema procesa el documento y está listo para responder consultas |
 | **Response Measure:** | El tiempo de procesamiento es menor a 2 minutos |
-
 | **Questions:** | ¿Qué sucede si se suben múltiples documentos grandes en paralelo? |
 | **Issues:** | Posible saturación de memoria al manejar archivos muy grandes. |
 
