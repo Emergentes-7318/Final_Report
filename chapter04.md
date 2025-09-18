@@ -207,7 +207,7 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 ### 4.2.5. Context Mapping
 
 ## 4.3. Software Architecture
-### 4.3.1. Software Architecture System Landscape Diagram
+### 4.3.1. Software Architecture System Landscape Diagram![[structurizr-70986-SystemContext-001.png]]
 ### 4.3.1. Software Architecture Context Level Diagrams
 ### 4.3.2. Software Architecture Container Level Diagrams
 ### 4.3.3. Software Architecture Deployment Diagrams
