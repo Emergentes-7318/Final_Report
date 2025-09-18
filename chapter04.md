@@ -105,9 +105,8 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response:** | El sistema procesa el documento y está listo para responder consultas |
 | **Response Measure:** | El tiempo de procesamiento es menor a 2 minutos |
 
-| **Questions:** | |
-|----------------|-----------------------------------|
-| **Issues:** | |
+| **Questions:** | ¿Qué sucede si se suben múltiples documentos grandes en paralelo? |
+| **Issues:** | Posible saturación de memoria al manejar archivos muy grandes. |
 
 
 **Refinamiento de Escenario para Escalabilidad**
@@ -127,9 +126,8 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response:** | El sistema mantiene su tiempo de respuesta promedio |
 | **Response Measure:** | La degradación del rendimiento es imperceptible |
 
-| **Questions:** | |
-|----------------|-----------------------------------|
-| **Issues:** | |
+| **Questions:** | ¿Cuál es el número máximo de usuarios que puede soportar sin pérdida de rendimiento? |
+| **Issues:** | Riesgo de cuello de botella en la base de datos o el servidor principal. |
 
 
 **Refinamiento de Escenario para Confiabilidad**
@@ -149,9 +147,8 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response:** | La plataforma reanuda la carga automáticamente al recuperar la conexión |
 | **Response Measure:** | La pérdida de progreso es nula |
 
-| **Questions:** | |
-|----------------|-----------------------------------|
-| **Issues:** | |
+| **Questions:** | ¿Qué ocurre si la interrupción dura más de 10 minutos? |
+| **Issues:** | Posible pérdida parcial de datos en conexiones extremadamente inestables. |
 
 
 **Refinamiento de Escenario para Seguridad**
@@ -171,9 +168,8 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response:** | El sistema impide el acceso no autorizado y los datos están cifrados |
 | **Response Measure:** | El acceso no autorizado es bloqueado y la información no es visible |
 
-| **Questions:** | |
-|----------------|-----------------------------------|
-| **Issues:** | |
+| **Questions:** | ¿Cómo se notifica al usuario y al administrador sobre intentos de intrusión? |
+| **Issues:** | Dependencia en la fortaleza de la autenticación multifactor y cifrado. |
 
 
 **Refinamiento de Escenario para Usabilidad**
@@ -193,9 +189,9 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 | **Response:** | El usuario completa el proceso sin ayuda externa |
 | **Response Measure:** | El tiempo para completar la tarea es menor a 30 segundos |
 
-| **Questions:** | |
-|----------------|-----------------------------------|
-| **Issues:** | |
+| **Questions:** | ¿Se requieren tutoriales o ayudas contextuales para mejorar la experiencia? |
+| **Issues:** | Riesgo de que la interfaz sea confusa en dispositivos móviles. |
+
 
 
 ## 4.2. Strategic-Level Domain-Driven Design
