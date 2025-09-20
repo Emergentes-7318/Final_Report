@@ -11,12 +11,14 @@
             "id": "7adaf9cba0c07ec1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "structurizr-70986-SystemContext-001.png"
+                "file": "chapter04.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "structurizr-70986-SystemContext-001"
+              "icon": "lucide-file",
+              "title": "chapter04"
             }
           }
         ]
@@ -167,8 +169,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e387ebc559f9c5c7",
+  "active": "7adaf9cba0c07ec1",
   "lastOpenFiles": [
+    "dmfm1.png",
+    "es6.png",
+    "es5.png",
+    "es4.png",
+    "es3.png",
+    "es2.png",
     "structurizr-70986-SystemContext-001.png",
     "structurizr-70986-SystemContext-001.png",
     "chapter04.md",
