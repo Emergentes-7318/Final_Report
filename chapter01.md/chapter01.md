@@ -15,53 +15,13 @@ Facilitar el acceso al conocimiento y aumentar la productividad profesional a tr
 Convertirnos en la plataforma líder a nivel global en análisis inteligente de documentos, reconocida por su precisión, velocidad y aplicabilidad transversal en múltiples industrias. Aspiramos a transformar la manera en que los profesionales leen, entienden y utilizan la información, posicionando a DocMind como un aliado indispensable en la era digital.
 
 ### **1.1.2 Perfiles de integrantes del equipo**
-
-<table>
-  <thead>
-    <th>Foto del Participante</th>
-    <th>Nombres y Apellidos</th>
-    <th>Codigo del estudiante</th>
-    <th>Descripción de carrera</th>
-  </thead>
-  <tr>
-    <td><img src="img/angel-profile.jpeg" alt="" width="500" height="130"></td>
-    <td></td>
-    <td></td>
-    <td>Mi nombre es Angel Anampa , tengo 20 años. Actualmente estoy cursando la carrera de Ingeniería de Software en la UPC. Elegí dicha carrera porque soy una persona que le interesa mucho los temas que tienen que ver con tecnología, me gustan los videojuegos. Me considero una persona atenta, responsable, optimista que sabe solucionar los problemas. Como integrante del equipo me comprometo a apoyar al grupo en este trabajo.</td>
-  </tr>
-
-   <tr>
-    <td><img src="img/alessandro-profile.jpeg" width="500" height="130"></td>
-    <td></td>
-    <td></td>
-    <td>Mi nombre es Alessandro David y tengo 22 años. Yo estoy cursando
-    la carrera de Ingenieria de Software en la UPC y ando en 9no ciclo. Me gusto
-    demasiado mi eleccion referente a la carrera dado que me interesan mucho todos los temas
-    que tenga que ver con la tecnologia y las tendencias de este rubro. Me gusta leer libros de desarrollo
-    personal y tambien entrenar y montar bicicleta. Me considero una persona empática, comprometida, y siempre atento a resolver cualquier problema que me concierna. Como integrante del grupo de Arquitectura de Software Emergentes me comprometo a cooperar con todo lo asignado en el trabajo tanto en la parte documentaria como en la parte tecnica del trabajo.</td>
-  </tr>
-
-  <tr>
-    <td><img src="img/renato-profile.JPG" width="600" height="100"></td>
-    <td>Andrea Cabanillas</td>
-    <td>U202211711</td>
-    <td></td>
-  </tr>
-  
-  <tr>
-    <td><img src="" width="70" height="40"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td><img src="img/foto-carnet-aaron.jpg" width="500" height="130"></td>
-    <td>Aaron Alejandro Cruz Ticona</td>
-    <td>U202213502</td>
-    <td>Soy Aaron Alejandro, tengo 20 años. Actualmente estoy en el 8vo ciclo de Ingeniería de Software en la UPC. La verdad es que me metí a esta carrera porque me apasiona cómo la tecnología nos permite construir soluciones para casi todo; me encanta el desafío de enfrentarme a un problema complejo y colaborar en equipo para encontrar la mejor salida. Además, soy alguien a quien le gusta mucho aprender por su cuenta, siempre ando jugando o curioseando sobre nuevas tecnologías o cualquier tema que me parezca interesante. Cuenten conmigo para apoyar con todo en el proyecto, estoy listo para aportar y aprender de todos.</td>
-  </tr>
-</table>
+| Nombre Completo del integrante         | Descripcion de Carrera                                                                          | Fotografía                                                                                                                                                                 | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |
+|----------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Augusto Mathias Vasquez Requejo        | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="/asetss/Augusto Vasquez (1).jpg" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |
+| Cabanillas Gora Andrea         | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](/asetss/288x240%20rgb%20(1).jpg)                                                                                  | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |
+| Gabriel Anthony Braithuaite Toledo     | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="https://i.postimg.cc/wvY8Z72w/gabriell.png" alt="pr" style="width: auto height: auto;">                                                                          | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. |.      
+| Eduardo Eusebio SIhuar Ccotarma Ttito  | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     |![Imagen de sihuar](assets/profiles/sihuar.jpg);">                                                                                           | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |
+| Valentino Sebastián Cervantes Erequita | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil valentino](assets/profiles/valentino.jpg)                                                                       | - Soy un estudiante de 6 ciclo de la UPC, me especializo en frontend y base de datos, me gusta la música y los videojuegos.                                                                                                                                                         |
 
 ## **1.2 Solution Profile**
 
@@ -185,7 +145,21 @@ DocMind busca acelerar y simplificar la comprensión de documentos complejos med
 **Lo sabremos cuando veamos** que más del 30% de los usuarios usen la función de comparación en al menos dos sesiones mensuales.
 
 #### **1.2.2.4 Lean UX Canvas.**
-<img src="img/Lean-UX-Canvas.jpg">
+
+# 📌 Lean UX Canvas — DocMind
+
+| **Problema de Negocio** | **Ideas de la Solución** | **Resultados Comerciales** |
+|--------------------------|--------------------------|-----------------------------|
+| Profesionales de distintos sectores (académico, legal, empresarial) enfrentan un volumen creciente de documentos complejos en PDF que requieren horas de lectura y análisis, lo que genera retrasos, errores de interpretación y pérdida de productividad.<br><br>**¿Cómo podríamos automatizar el análisis de documentos y la generación de reportes inteligentes en tiempo real para cerrar esta brecha de eficiencia y acceso a la información?** | Aplicación web y móvil que permita:<br>- Cargar documentos PDF o importar desde Google Drive.<br>- Generar resúmenes automáticos y responder preguntas en lenguaje natural.<br>- Visualizar respuestas con citas enlazadas al texto fuente.<br>- Exportar reportes ejecutivos y técnicos en formatos estándar (PDF/Word/Markdown).<br>- Acceder a paneles de métricas de uso y calidad. | - Lograr una adopción inicial del 40% en universidades y despachos legales durante los primeros 6 meses.<br>- Alcanzar que el 60% de los usuarios activos realicen ≥ 2 sesiones por semana.<br>- Generar al menos 3 clientes corporativos (empresas/consultoras) en el primer año. |
+
+| **Usuarios y Clientes** | **Beneficios del Usuario** |
+|--------------------------|-----------------------------|
+| - Investigadores y estudiantes universitarios.<br>- Abogados y consultores.<br>- Gerentes y profesionales de empresas que necesitan extraer datos clave de informes.<br>- Hermanos o familiares que participan en proyectos académicos y legales colaborativos. | - **Ahorro de tiempo:** reducción del 50% en lectura y análisis.<br>- **Mayor precisión:** disminución de errores gracias a respuestas con citas verificables.<br>- **Confianza y seguridad:** control de acceso y trazabilidad.<br>- **Productividad transversal:** aplicable a educación, derecho y negocios. |
+
+| **Hipótesis** | **Lo más Importante que Necesitamos Aprender Primero** | **La Menor Cantidad de Trabajo para Aprenderlo** |
+|---------------|---------------------------------------------------------|--------------------------------------------------|
+| Creemos que, al implementar resúmenes automáticos y preguntas-respuestas con citas, aumentaremos el interés y confianza de los usuarios en adoptar DocMind.<br><br>Sabremos que hemos tenido éxito cuando al menos el 60% de los usuarios generen 3 resúmenes semanales y el 70% consulten citas dentro del visor. | - ¿Qué tan precisa y confiable es la IA para resumir y responder preguntas sobre documentos técnicos y legales?<br>- ¿Qué formato de reporte (ejecutivo, técnico, académico) es más valorado por los distintos segmentos de usuarios? | - Prototipo funcional de carga de documentos y resumen básico con un LLM.<br>- Prueba piloto con 5 usuarios académicos y 5 legales.<br>- Métrica: lograr ≥ 80% de satisfacción en claridad de resúmenes y ≥ 85% de precisión percibida en respuestas con citas. |
+
 
 ## **1.3 Segmentos objetivo**
 
