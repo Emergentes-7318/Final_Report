@@ -202,37 +202,41 @@ En esta sección, el equipo redacta la explicación del proceso, resumiendo los 
 ## 4.2. Strategic-Level Domain-Driven Design
 ### 4.2.1. EventStorming
 
-### 4.1.1. EVENTSTORMING
-
 En esta fase, usamos un método visual y colaborativo para entender a fondo el negocio. Este proceso nos ayudó a definir los contextos clave, modelar los flujos de mensajes y crear los marcos de cada uno de esos contextos.
 
 **Unstructured Exploration**
 Es un taller gráfico donde todos los involucrados en el proyecto analizan cómo funciona el sistema. Usamos notas de diferentes colores para representar distintos componentes, lo que simplifica la conversación y ayuda a identificar lo que realmente se necesita.
+![](es1.png)
 
 **Pain Points**
 Estos son los obstáculos y las dificultades que enfrentan los usuarios. Identificar estos problemas es vital para crear soluciones que resuelvan sus necesidades de forma efectiva.
+![](es2.png)
 
 **Timelines**
 La línea de tiempo muestra la secuencia de eventos del sistema. Al definir este orden, entendemos mejor cómo se relacionan las acciones y su impacto en el flujo de trabajo.
+![](es3.png)
 
 **Pivotal Points**
 Son los momentos cruciales que pueden cambiar el estado del sistema o afectar significativamente la experiencia del usuario. Reconocerlos nos permite concentrar nuestros esfuerzos en las partes más importantes del proceso.
+![](es4.png)
 
 **Commands**
 Son las acciones o instrucciones que un usuario o el sistema ejecutan para cambiar su estado actual.
+![](es5.png)
 
 **Policies**
 Son las reglas que guían la toma de decisiones dentro del sistema. Esto incluye normas de negocio que determinan cuándo se ejecutan ciertos comandos o cómo se manejan ciertos eventos.
-
-**Read Model**
-Son modelos diseñados para agilizar la búsqueda de datos. A menudo tienen una estructura diferente a la de los datos originales para mejorar el rendimiento del sistema y manejar grandes cargas de trabajo.
-
-**External Systems**
-Son otros sistemas o servicios con los que el sistema principal interactúa. Identificarlos nos ayuda a entender las conexiones y dependencias necesarias para que todo funcione bien.
+![](es6.png)
 
 ### 4.2.2. Candidate Context Discovery
+![](ccd1.png)
+
 ### 4.2.3. Domain Message Flows Modeling
+![](dmdm1.png)
+
 ### 4.2.4. Bounded Context Canvases
+![](bcc1.png)
+
 ### 4.2.5. Context Mapping
 
 ## 4.3. Software Architecture
