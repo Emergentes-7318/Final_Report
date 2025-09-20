@@ -25,7 +25,7 @@ width=50%"/>
 |      Cabanillas Gora Andrea       | u202211711 |
 | Olivera Guerra, Santiago Mickelle | u20201a821 |
 | Navarro Robles, Lorenzo Sebastian | U201713141 |
-|                                   |            |
+| Vasquez Requejo, Augusto Mathias  | U20221A955 |
 |                                   |            |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
@@ -55,20 +55,18 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante                               | Tareas Asignadas        |
 | ---------------------------------------- | ----------------------- |
-| Vasquez Requejo Augusto Mathias Leonardo | Chapters 01,02,03,04,05 |
-| Cabanillas Gora Andrea Milagros          | Chapters 01,02,03,04,05 |
-| Olivera Guerra, Santiago Mickelle        | Chapters 01,02,03,04,05 |
-| Braithuaite Toledo Gabriel Anthony       | Chapters 01,02,03,04,05 |
-| Reyes Trujillano Fabian Alonso           | Chapters 01,02,03,04,05 |
-| Navarro Robles, Lorenzo Sebastian        | Chapters 01,02,03,04,05 |
+| Vasquez Requejo Augusto Mathias Leonardo | Chapters 01,02,03,04 |
+| Cabanillas Gora Andrea Milagros          | Chapters 01,02,03,04 |
+| Olivera Guerra, Santiago Mickelle        | Chapters 01,02,03,04 |
+| Diego Jesus Alonso Garay                 | Chapters 01,02,03,04 |
+| Navarro Robles, Lorenzo Sebastian        | Chapters 01,02,03,04 |
 
 Los integrantes son:
 
 - Vasquez Requejo Augusto Mathias Leonardo
 - Cabanillas Gora Andrea Milagros 
 - Olivera Guerra, Santiago Mickelle 
-- Braithuaite Toledo Gabriel Anthony 
-- Reyes Trujillano Fabian Alonso 
+- Diego Jesus Alonso Garay 
 - Navarro Robles, Lorenzo Sebastian
 
 ## Contenido
@@ -110,75 +108,27 @@ Los integrantes son:
     - [3.4. Product Backlog](#34-product-backlog)
     
 - [Capítulo IV: Solution Software Design](#capítulo-iv-product-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-style-guidelines)
-        - [4.1.1. EventStorming](#411-general-style-guidelines)
-            - [4.1.1.1 Candidate Context Discovery](#412-web-style-guidelines)
-            - [4.1.1.1 Domain Message Flows Modeling](#412-web-style-guidelines)
-            - [4.1.1.1 Bounded Context Canvases](#412-web-style-guidelines)
-        - [4.1.2 Context Mapping](#42-information-architecture)
-        - [4.1.3. Software Architecture](#421-organization-systems)
-            - [4.1.3.2 Software Architecture Context Level Diagrams](#422-labeling-systems)
-            - [4.1.3.3 Software Architecture Deployment Diagrams](#422-labeling-systems)
-    - [4.2. Tactical-Level Domain-Driven Design](#41-style-guidelines)
-        - [4.2.1. Bounded Context](#424-searching-systems)
-            - [4.2.1.1 Domain Layer](#425-navigation-systems)
-            - [4.2.1.2 Interface Layer](#425-navigation-systems)
-            - [4.2.1.3 Application Layer](#425-navigation-systems)
-            - [4.2.1.4 Infrastructure Layer](#425-navigation-systems)
-            - [4.2.1.5 Bounded Context Software Architecture Component Level Diagrams](#425-navigation-systems)
-            - [4.2.1.6 Bounded Context Software Architecture Code Level Diagrams](#425-navigation-systems)
-                - [4.2.1.6.1 Bounded Context Domain Layer Class Diagrams](#425-navigation-systems)
-                - [4.2.1.6.1 Bounded Context Database Design Diagram](#425-navigation-systems)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-ui/ux-design)
-    - [5.1. Product design](#41-style-guidelines)
-        - [5.1.1. Style Guidelines](#411-general-style-guidelines)
-            - [5.1.1.1 General Style Guidelines](#412-web-style-guidelines)
-        - [5.1.2 Information Architecture](#42-information-architecture)
-            - [5.1.2.1 Organization Systems](#422-labeling-systems)
-            - [5.1.2.2 Labelling Systems](#422-labeling-systems)
-            - [5.1.2.3 SEO Tags and Meta Tags](#422-labeling-systems)
-            - [5.1.2.4 Searching Systems](#422-labeling-systems)
-            - [5.1.2.5 Navigation Systems](#422-labeling-systems)
-        - [5.1.3. Landing Page UI Design](#424-searching-systems)
-            - [5.1.3.1 Landing Page Wireframe](#425-navigation-systems)
-            - [5.1.3.2 Landing Page Mock-up](#425-navigation-systems)
-        - [5.1.4. Mobile Applications UX/UI Design](#424-searching-systems)
-            - [5.1.4.1 Mobile Applications Wireframes](#425-navigation-systems)
-            - [5.1.4.2 Mobile Applications Wireflow Diagrams](#425-navigation-systems)
-            - [5.1.4.3 Mobile Applications Mock-ups](#425-navigation-systems)
-            - [5.1.4.4 Mobile Applications User Flow Diagrams](#425-navigation-systems)
-            - [5.1.4.5 Mobile Applications Prototyping](#425-navigation-systems)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-v-ui/ux-design)
-    - [6.1. Software Configuration Management](#41-style-guidelines)
-        - [6.1.1. Software Development Environment Configuration](#411-general-style-guidelines)
-        - [6.1.2 Source Code Management](#42-information-architecture)
-        - [6.1.3. Source Code Style Guide & Conventions](#424-searching-systems)
-        - [6.1.4. Source Code Style Guide & Conventions](#424-searching-systems)
-    - [6.2. Landing Page & Mobile Application Implementation](#41-style-guidelines)
-        - [6.2.1. Sprint 1](#424-searching-systems)
-            - [6.1.2.1 Sprint Planning 1](#425-navigation-systems)
-            - [6.1.2.2 Sprint Backlog 1](#425-navigation-systems)
-            - [6.1.2.3 Development Evidence for Sprint Review](#425-navigation-systems)
-            - [6.1.2.4 Testing Suite Evidence for Sprint Review](#425-navigation-systems)
-            - [6.1.2.5 Execution Evidence for Sprint Review](#425-navigation-systems)
-            - [6.1.2.6 Services Documentation Evidence for Sprint Review](#425-navigation-systems)
-            - [6.1.2.7 Software Deployment Evidence for Sprint Review](#425-navigation-systems)
-            - [6.1.2.8 Team Collaboration Insights during Sprint](#425-navigation-systems)
-        - [6.2.2. Sprint 2](#424-searching-systems)
-            - [6.2.2.1 Sprint Planning 2](#425-navigation-systems)
-            - [6.2.2.2 Sprint Backlog 2](#425-navigation-systems)
-            - [6.2.2.3 Development Evidence for Sprint Review](#425-navigation-systems)
-            - [6.2.2.4 Testing Suite Evidence for Sprint Review](#425-navigation-systems)
-            - [6.2.2.5 Execution Evidence for Sprint Review](#425-navigation-systems)
-            - [6.2.2.6 Services Documentation Evidence for Sprint Review](#425-navigation-systems)
-            - [6.2.2.7 Software Deployment Evidence for Sprint Review](#425-navigation-systems)
-            - [6.2.2.8 Team Collaboration Insights during Sprint](#425-navigation-systems)
-    - [6.3. Validation Interviews](#425-navigation-systems)
-        - [6.3.1. Diseño de Entrevistas](#411-general-style-guidelines)
-        - [6.3.2 Registro de Entrevistas](#42-information-architecture)
-        - [6.3.3. Evaluaciones según heurísticas](#424-searching-systems)
-    - [6.3. Video About-the-Product](#425-navigation-systems)
-- [Conclusiones](#conclusiones)
+    - [4.1. Strategic-Level Attribute-Driven Design](#41-style-guidelines)
+        - [4.1.1. Design Purpose](#411-general-style-guidelines)
+        - [4.1.2 Attribute-Driven Design Inputs](#42-information-architecture)
+            - [4.1.2.1 Primary Functionality (Primary User Stories).](#425-navigation-systems)
+            - [4.1.2.2 Quality attribute Scenarios](#425-navigation-systems)
+            - [4.1.2.3 Application Layer](#425-navigation-systems)
+            - [4.1.2.3 Constraints.](#421-organization-systems)
+        - [4.1.3 Architectural Drivers Backlog](#42-information-architecture)
+        - [4.1.4 Architectural Design Decisions](#42-information-architecture)
+        - [4.1.5 Quality Attribute Scenario Refinements.](#42-information-architecture)
+   - [4.2. Strategic-Level Domain-Driven Design](#41-style-guidelines)
+        - [4.2.1. EventStorming](#411-general-style-guidelines)
+        - [4.2.2. Candidate Context Discovery](#411-general-style-guidelines)
+        - [4.2.3. Domain Message Flows Modeling](#411-general-style-guidelines)
+        - [4.2.4. Bounded Context Canvases](#411-general-style-guidelines)
+        - [4.2.5. Context Mapping](#411-general-style-guidelines)
+   - [4.3. Software Architecture](#41-style-guidelines)
+        - [4.3.1. Software Architecture System Landscape Diagram](#411-general-style-guidelines)
+        - [4.3.2. Software Architecture Context Level Diagrams](#411-general-style-guidelines)
+        - [4.3.3. Software Architecture Container Level Diagrams](#411-general-style-guidelines)
+        - [4.3.4. Software Architecture Deployment Diagrams](#411-general-style-guidelines)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video About-the-Team](#video-about-the-team)
     
