@@ -57,10 +57,10 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 **Preguntas Segmento 1: Empresas y Startups**
 
--¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
--¿Usas actualmente alguna herramienta para ayudarte a resumir o buscar información dentro de PDFs?
--¿Cómo impactaría en tu productividad el poder extraer la información clave de forma inmediata?
--Te resultaría útil una aplicación que pueda responder preguntas sobre tus documentos en segundos?
+- ¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
+- ¿Usas actualmente alguna herramienta para ayudarte a resumir o buscar información dentro de PDFs?
+- ¿Cómo impactaría en tu productividad el poder extraer la información clave de forma inmediata?
+- Te resultaría útil una aplicación que pueda responder preguntas sobre tus documentos en segundos?
 
 ---
 
@@ -74,6 +74,65 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 
 ### 2.2.2. Registro de entrevistas.
 
+##   2.2.2 Registro de entrevistas
+### Segmento: Huespedes
+
+    
+#### Entrevista 1
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Gael Dario Lopez Diaz |
+| **Link del video:** [Entrevista1](https://drive.google.com/file/d/11cj9FE4x4g5A6O6EUy-XkMY1FOC01aiJ/view?usp=sharing)  |
+| **Edad:**  20 años |
+| **Procedencia:**  Lima, Ate |
+| ![Entrevista](../assets/Entrevista3.png)|
+| **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva   |
+
+
+#### Entrevista 2
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:**  Jose Shuan Saavedra|
+| **Minuto del video:**  [Entrevista2](https://drive.google.com/file/d/1i1ivouwuWsTCrAaC_HuoveDsd3FyW8On/view?usp=sharing)   |
+| **Edad:**  20 años |
+| **Procedencia:**  Lima, Lima |
+| ![Entrevista](../assets/Entrevista2.png)|
+| **Resumen:** Jose Shuan Saavedra es un estudiante de 24 años nos menciona que valora en un hotel la atención y trato que le dan al cliente , como sugerencia que puedas ver notificaciones por alguna promoción o descuento que se llegue a dar en el hotel |
+
+#### Entrevista 3
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:** Sebastian Mesias |
+| **Edad:** 19 años |
+| **Minuto del video:**  10:23 |
+| **Procedencia:** San Miguel, Lima |
+| ![Entrevista](../assets/Entrevista5.png)|
+| **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas   |
+
+### Segmento: Empresas Hoteleras
+
+#### Entrevista 4
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:** Gino Tineo |
+| **Edad:** 21 años |
+| **Link  del video:**  [Entrevista4](https://drive.google.com/file/d/1W5k2HvF7aKuh52XiQ8ZY9lHs8-faRJr7/view?usp=sharing)  |
+| **Procedencia:**  Lima |
+| ![Entrevista](../assets/Entrevistaa2.png) |
+| **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa    |
+
+#### Entrevista 5
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:** Mauricio Muñoz |
+| **Edad:** 21 años |
+| **Link del video:** [Entrevista5](https://drive.google.com/file/d/1tkAYCXns-7XTWoCbqovsGES0hfqhnQ8G/view?usp=sharing)   |
+| **Procedencia:**  Perú |
+| ![EntrevistaMaria](../assets/Entre.png) |
+| **Resumen:**  Nauricio Muñoz es un Gestor Hotelero de 21 años el considera que su edad si influye a la hora de gestionar un hotel ademas nos menciona que si utiliza herramientas tecnologicas para gestionar su hotel sin embargo le gusta usar metodos tradicionales como lapiz y papel porque se siente más familiarizado y su principal desafio que ha enfrentado es la comunicación con el staff . |
+
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT
 
 
 ### 2.2.3. Análisis de entrevistas.
