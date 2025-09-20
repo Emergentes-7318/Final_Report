@@ -75,111 +75,120 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 ### 2.2.2. Registro de entrevistas.
 
 ##   2.2.2 Registro de entrevistas
-### Segmento: Huespedes
+### Segmento: Sector Legal y Empresarial
 
     
 #### Entrevista 1
 | **Datos del entrevistado** | 
 |--------------------------|
 | **Nombre:**  Gael Dario Lopez Diaz |
-| **Link del video:** [Entrevista1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
+| **Link del video:** 0:00 - 3:03 [Entrevista1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
-| ![Entrevista](../assets/Entrevista3.png)|
-| **Resumen:** .  Gael Dario Lopez es un joven estudiante de 20 años que suele ir a hoteles y nos menciona que en lo que se fija para escoger un hotel se fija en la atención y  respuesta rapida a la hora de reservar lo que le hace valorar un hotel de acuerdo al trato que reciba , sugiere que podriamos implementar la atención de llamada  a la hora de realizar reserva   |
+| ![Entrevista](/asetss/Entrevista%201.png)|
+| **Resumen:** .  Andres Muñoz es un joven que desempeña el cargo de gestor de documentacion SUV trabaja en Essalud pero en el area de gerencia, es ingeniero de sistemas pero por el momento se dedica a la documentacion de las tareas que se tienen que realizar, tiene conocimientos respecto al uso de IA pero que no es necesario para el trabajo que realiza actualmente aunque le gustaria que se pudieran automatizar muchas acciones que le quitan mucho tiempo.   |
 
 
 #### Entrevista 2
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:**  Jose Shuan Saavedra|
-| **Minuto del video:**  [Entrevista2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Nombre:**  Abraham Arana|
+| **Minuto del video:** 3:04 - 14:25 [Entrevista2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
-| ![Entrevista](../assets/Entrevista2.png)|
-| **Resumen:** Jose Shuan Saavedra es un estudiante de 24 años nos menciona que valora en un hotel la atención y trato que le dan al cliente , como sugerencia que puedas ver notificaciones por alguna promoción o descuento que se llegue a dar en el hotel |
+| ![Entrevista](/asetss/Entrevista%202.png)|
+| **Resumen:** Abraham Arana es un estudiante de derecho, actualmente realiza sus practicas en un estudio de abogados, y cubre tambien varios proyectos personales, en su caso esta muy enterado de todo lo que la IA puede hacer para su sector y confirma que quiere poco a poco seguir estudiando para avanzar y conocer mas ese aspecto tecnologico, si bien cree que la IA puede automatizar muchos procesos de su actual trabajo y estudio considera que para la mayoria de acciones todavia deberia respetarse el accionar humano tanto como las decisiones que estos puedan tomar.|
 
 #### Entrevista 3
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:** Sebastian Mesias |
+| **Nombre:** Jefrey Sanchez |
 | **Edad:** 19 años |
-| **Minuto del video:**  10:23 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT| 
+| **Minuto del video:**  14:27 - 20.36  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT| 
 | **Procedencia:** San Miguel, Lima |
-| ![Entrevista](../assets/Entrevista5.png)|
-| **Resumen:**  Estudiante de 19 años nos menciona que prefieree reservar hoteles en distintos lugares del país debido a que le gusta viajar , nos menciona que su mayor dificultad a la de reservar es que hay veces que los hoteles suelen confundirse con el tipo de habitación que el solicita y que una sugerencia puede ser realizar una mejor organización a la hora de agendar sus reservas   |
+| ![Entrevista](/asetss/Entrevista%203.png)|
+| **Resumen:**  Estudiante de ingeniería de sistemas, actualmente participa en un laboratorio universitario de investigación y colabora en proyectos de software académico. Además de sus estudios, desarrolla iniciativas personales relacionadas con la automatización de flujos de trabajo y la implementación de herramientas colaborativas en la nube. Está convencido de que la inteligencia artificial representa una oportunidad única para optimizar procesos en la industria del software y la educación, por lo que dedica parte de su tiempo a capacitarse en modelos de lenguaje y aplicaciones de machine learning. No obstante, sostiene que el papel del profesional humano sigue siendo indispensable para garantizar la ética, la creatividad y la correcta interpretación de los resultados que ofrecen estas tecnologías. |
 
-### Segmento: Empresas Hoteleras
+### Segmento: Sector Académico y Científico
 
 #### Entrevista 4
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:** Gino Tineo |
-| **Edad:** 21 años |
-| **Link  del video:**  [Entrevista4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
+| **Nombre:** Liliana Requejo  |
+| **Edad:** 48 años |
+| **Link  del video:**  20:37 - 25:05 [Entrevista4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Procedencia:**  Lima |
-| ![Entrevista](../assets/Entrevistaa2.png) |
-| **Resumen:** Gino Tineo es un joven Gestor Hotelero de 21 años el considera que su edad si influye para gestionar un hotel porque aún no tiene tanta experiencia y nos menciona que tiene una herramienta tecnologica para su hotel pero esta no es tan especializada y su principal desafio es que su pagina web ayude a automatizar los procesos de pedido de reserva y que gestione las redes sociales de su empresa    |
+| ![Entrevista](/asetss/Entrevista%204.png) |
+| **Resumen:** Liliana Requejo es una médica de 48 años con amplia experiencia en el ámbito hospitalario y docente en una universidad de medicina. Actualmente participa en la revisión de protocolos clínicos y en la elaboración de reportes médicos para sus estudiantes y colegas. Al conocer el proyecto DocMind, destaca que una herramienta de este tipo puede ser de gran ayuda para agilizar la lectura de artículos científicos y guías clínicas, optimizando el tiempo que los profesionales de la salud destinan al análisis de literatura especializada. Considera que la inteligencia artificial puede convertirse en un soporte valioso para reducir la carga de información que reciben diariamente los médicos, siempre que los resultados se acompañen de transparencia, citas verificables y supervisión humana. Subraya que, aunque la tecnología puede acelerar procesos, las decisiones médicas deben seguir dependiendo de la experiencia y el criterio ético del profesional.   |
 
 #### Entrevista 5
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:** Mauricio Muñoz |
-| **Edad:** 21 años |
-| **Link del video:** [Entrevista5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Nombre:** Arwen Vasquez |
+| **Edad:** 35 años |
+| **Link del video:** 25:06 - 30:40  [Entrevista5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](../assets/Entre.png) |
-| **Resumen:**  Nauricio Muñoz es un Gestor Hotelero de 21 años el considera que su edad si influye a la hora de gestionar un hotel ademas nos menciona que si utiliza herramientas tecnologicas para gestionar su hotel sin embargo le gusta usar metodos tradicionales como lapiz y papel porque se siente más familiarizado y su principal desafio que ha enfrentado es la comunicación con el staff . |
+| ![EntrevistaMaria](/asetss/Entrevista%205.png) |
+| **Resumen:**  Arwen Vasquez es una médica de 35 años que trabaja en un hospital privado y, en paralelo, participa en proyectos de investigación clínica junto a su equipo académico. En su práctica diaria debe revisar múltiples artículos científicos y normativas de salud, lo que le demanda un tiempo considerable. Al conocer el proyecto DocMind, señala que la herramienta representa una oportunidad para simplificar la lectura y extracción de información clave de documentos extensos, permitiéndole concentrarse en la interpretación clínica y en la toma de decisiones. Reconoce que la inteligencia artificial puede ser un gran aliado para acelerar la investigación y la formación médica, aunque considera fundamental que los resultados se presenten con la mayor claridad posible y con enlaces directos a las fuentes, de modo que el médico pueda validar los hallazgos y mantener la rigurosidad científica. |
+
+#### Entrevista 6
+| **Datos del entrevistado** | 
+|--------------------------|
+| **Nombre:** Miguel Polo  |
+| **Edad:** 35 años |
+| **Link del video:** 30:40 - 35:28  [Entrevista5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Procedencia:**  Perú |
+| ![EntrevistaMaria](/asetss/Entrevista%206.png) |
+| **Resumen:**  Miguel Polo es un médico de 35 años que trabaja en una clínica especializada y participa activamente en congresos de actualización profesional. En su labor diaria debe analizar guías clínicas, papers internacionales y reportes técnicos para aplicar en la práctica médica y en la docencia con residentes más jóvenes. Al conocer el proyecto DocMind, destaca que la plataforma puede ser un recurso estratégico para reducir el tiempo invertido en la revisión de documentos extensos, permitiéndole acceder de forma rápida a resúmenes claros y citas verificables. Considera que la inteligencia artificial puede transformar positivamente la investigación médica y la educación, siempre que los resultados se presenten con transparencia y que el criterio humano siga siendo el eje central en la toma de decisiones clínicas. |
 
 
 
 ### 2.2.3. Análisis de entrevistas.
 
-A partir de las entrevistas realizadas, se pudo identificar un patrón común entre los participantes: la mayoría de ellos recurren constantemente al uso de herramientas de inteligencia artificial para facilitar su trabajo diario. Las personas entrevistadas señalaron que, dentro de sus actividades cotidianas, dedican gran parte de su tiempo a la lectura, análisis y procesamiento de documentos extensos, lo que suele demandar un esfuerzo considerable y ralentiza otras tareas.
+A partir de las entrevistas realizadas, se pudo identificar un patrón común entre los participantes: la mayoría recurre constantemente al uso de herramientas de inteligencia artificial para facilitar su trabajo diario. Las personas entrevistadas señalaron que, dentro de sus actividades cotidianas, dedican gran parte de su tiempo a la lectura, análisis y procesamiento de documentos extensos, lo que suele demandar un esfuerzo considerable y ralentiza otras tareas. Este hallazgo coincide con un estudio de IDC (2023), que indica que cerca del 30% de la jornada laboral de los profesionales del conocimiento se invierte en buscar, leer y organizar información, representando una pérdida significativa de productividad.
 
-En este sentido, se evidencia una oportunidad importante para el desarrollo de una aplicación basada en inteligencia artificial que pueda optimizar este proceso. Una herramienta de este tipo no solo permitiría agilizar la comprensión y el manejo de grandes volúmenes de información, sino que también ayudaría a organizar mejor el flujo de trabajo, reducir la carga cognitiva y aumentar la productividad.
+En este sentido, se evidencia una oportunidad importante para el desarrollo de una aplicación basada en inteligencia artificial que pueda optimizar este proceso. De acuerdo con un informe de PwC (2023), la adopción de soluciones de IA en entornos profesionales puede incrementar la productividad hasta en un 40% en sectores intensivos en información como la educación, el derecho y la salud. Una herramienta de este tipo no solo permitiría agilizar la comprensión y el manejo de grandes volúmenes de información, sino que también ayudaría a organizar mejor el flujo de trabajo, reducir la carga cognitiva y aumentar la productividad de manera transversal.
 
-Asimismo, los entrevistados manifestaron que contar con un sistema que ofrezca resúmenes automáticos, sugerencias contextuales o incluso apoyo en la redacción de informes, les resultaría de gran valor. De esta manera, una aplicación con estas características se perfila como una solución clave para responder a las necesidades detectadas y aportar beneficios significativos en su entorno profesional.
+Asimismo, los entrevistados manifestaron que contar con un sistema que ofrezca resúmenes automáticos, sugerencias contextuales y apoyo en la redacción de informes les resultaría de gran valor. Esto se alinea con encuestas recientes de McKinsey (2023), que muestran que el 63% de los profesionales del sector legal y el 58% del sector académico consideran la automatización de la lectura y el análisis documental como la principal aplicación práctica de la IA en su ámbito laboral.
+
+En conclusión, una aplicación con estas características se perfila como una solución clave para responder a las necesidades detectadas en las entrevistas, al mismo tiempo que se inserta en una tendencia global de transformación digital. Su implementación no solo beneficiaría a usuarios individuales, sino también a instituciones educativas, estudios legales y organizaciones empresariales que buscan reducir costos de operación y mejorar su capacidad de análisis estratégico.
 
 ## 2.3. Needfinding.
 
-1. Usuarios objetivo:
+**1. Usuarios objetivo:**
 
-Investigadores / estudiantes
+- Investigadores / estudiantes
 
-Médicos o personal de salud
+- Médicos o personal de salud
 
-Empresas
 
-Startups
+**2. Preguntas de Needfinding**
 
-2. Preguntas de Needfinding
+- ¿Qué tan seguido trabajas con documentos largos o complejos?
 
-¿Qué tan seguido trabajas con documentos largos o complejos?
+- ¿Qué partes del proceso te resultan más lentas o frustrantes?
 
-¿Qué partes del proceso te resultan más lentas o frustrantes?
+- ¿Has perdido oportunidades o cometido errores por no entender un documento a tiempo?
 
-¿Has perdido oportunidades o cometido errores por no entender un documento a tiempo?
+- ¿Qué haces ahora para acelerar la lectura o análisis de documentos?
 
-¿Qué haces ahora para acelerar la lectura o análisis de documentos?
+- ¿Qué sería “ideal” para ti al trabajar con documentos así?
 
-¿Qué sería “ideal” para ti al trabajar con documentos así?
+**3. Ejemplos de insights posibles**
 
-3. Ejemplos de insights posibles
+- Los abogados pierden tiempo buscando cláusulas específicas y comparando contratos.
 
-Los abogados pierden tiempo buscando cláusulas específicas y comparando contratos.
+- Los investigadores copian y pegan secciones para resumir manualmente.
 
-Los investigadores copian y pegan secciones para resumir manualmente.
+- Los investigadores  deben revisar manuales técnicos densos para encontrar solo un par de datos clave.
 
-Los investigadores  deben revisar manuales técnicos densos para encontrar solo un par de datos clave.
+**4. Traducción a oportunidades de diseño**
 
-4. Traducción a oportunidades de diseño
+- Función de búsqueda por conceptos, no solo por palabras exactas.
 
-Función de búsqueda por conceptos, no solo por palabras exactas.
+- Chat interactivo que cite de dónde sacó la información.
 
-Chat interactivo que cite de dónde sacó la información.
-
-Resúmenes personalizables .
+- Resúmenes personalizables .
 
 ### 2.3.1. User Personas.
 
