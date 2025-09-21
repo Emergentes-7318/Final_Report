@@ -248,6 +248,12 @@ Son las reglas que guían la toma de decisiones dentro del sistema. Esto incluye
 
 ### 4.2.5. Context Mapping
 
+Nuestros bounded context que corresponden al core de negocio son los que permiten el flujo de sesion para que el usuario pueda realizar consultas luego de seleccionar un documento. Una vez se vincula la cuenta a un provider(OneDrive), nuestro service de document accede a el mediante un enlace y obtiene los metadatos correspondientes y manda un evento de documento listo para procesamiento, nuestro servicio de IA realiza un parsing de documento y analisis mediante un modelo LLM pre entrenado y modificado con un proceso de fine tuning para el reporte de proyecto. Este mismo emite un evento de documento listo y permite que el servicio de chat inicie una sesion para el documento, donde el usuario puede realizar las consultas y basado en su membresia, acceder a la cantidad de consultas permitidas.
+
+![[{1938DEDD-B1C9-45D8-B1AE-397B007EEC25}.png]]
+
+Para poder definir la cantidad de consultas y la memoria de contexto para el chat, el usuario debe establecer un rol basado en suscripcion, por lo que para poder modificar su acceso luego de haber iniciado sesion, nuestra pasarela de pagos facilita que el usuario pueda ingresar sus datos de tarjeta y efectuar una compra, lo que emite luego una boleta al correo del usuario correspondiente.
+![[{0183DC42-6F69-4324-A05D-7ACD0638B2E4}.png]]
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram![](structurizr-70986-SystemContext-001.png)
 ### 4.3.1. Software Architecture Context Level Diagrams![](structurizr-70986-Container-001.png)

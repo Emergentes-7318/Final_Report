@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "chapter04.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -171,20 +171,21 @@
   },
   "active": "7adaf9cba0c07ec1",
   "lastOpenFiles": [
-    "dmfm1.png",
+    "{0183DC42-6F69-4324-A05D-7ACD0638B2E4}.png",
+    "{1938DEDD-B1C9-45D8-B1AE-397B007EEC25}.png",
+    "README.md",
+    "chapter01.md/chapter01.md",
+    "structurizr-70986-SystemContext-001.png",
+    "structurizr-70986-Container-001.png",
+    "structurizr-70986-Component-001.png",
     "es6.png",
     "es5.png",
     "es4.png",
     "es3.png",
     "es2.png",
-    "structurizr-70986-SystemContext-001.png",
-    "structurizr-70986-SystemContext-001.png",
+    "es1.png",
     "chapter04.md",
-    "Untitled-2025-06-27-2033.png",
-    "structurizr-70986-Component-001.png",
-    "structurizr-70986-Container-001.png",
-    "README.md",
-    "chapter01.md/chapter01.md",
+    "asetss",
     "chapter01.md"
   ]
 }
