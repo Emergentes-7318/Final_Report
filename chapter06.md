@@ -162,7 +162,7 @@ Para optimizar la visibilidad de **DocMind** en buscadores web, se implementará
 
 ## 6.3. Landing Page UI Design
 
-El desarrollo del UI Design de la Landing Page está en el siguiente link: https://www.figma.com/design/gNfFzd6YNyoKn9hXkA99vQ/wirefram-y-mock-up-emergentes?node-id=0-1&t=WE4kYk5VNdgK4JAm-1 
+El desarrollo del UI Design de la Landing Page está en el siguiente link: https://www.figma.com/design/gNfFzd6YNyoKn9hXkA99vQ/wirefram-y-mock-up-emergentes?node-id=0-1&t=WE4kYk5VNdgK4JAm-1
 
 ### 6.3.1. Landing Page Wireframe
 
