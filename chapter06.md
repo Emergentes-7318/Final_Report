@@ -14,10 +14,10 @@ La palabra **DocMind** utiliza una tipografía moderna, profesional y de bordes 
 <img src="assets/img/chapter-IV/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
 
 **Typography:**  
-La tipografía seleccionada para DocMind es **Poppins**, una familia moderna, legible y versátil que comunica claridad y equilibrio. Su uso mantiene consistencia visual en todos los dispositivos, asegurando una lectura óptima en textos técnicos y narrativos.  
+La tipografía seleccionada para DocMind es **Roboto**, una familia moderna, legible y versátil que comunica claridad y equilibrio. Su uso mantiene consistencia visual en todos los dispositivos, asegurando una lectura óptima en textos técnicos y narrativos.  
 Poppins combina excelente legibilidad en cuerpos de texto extensos con un estilo limpio en títulos y botones, transmitiendo innovación y confianza.  
 
-<img src="assets/img/chapter-IV/Tipografia.png" style="width:700px; height:auto;" alt="tipography">
+<img src="assets/Tipografia DocMind.png" style="width:700px; height:auto;" alt="tipography">
 
 **Colors:**  
 La paleta de colores de DocMind combina tonos fríos y neutros que transmiten confianza, claridad y precisión.  
@@ -30,7 +30,7 @@ El negro se usa en textos de alto contraste para garantizar legibilidad y jerarq
 - Texto principal: **#000000**  
 - Detalles y bordes: **#EAEAEA**
 
-<img src="assets/img/chapter-IV/Styles colors.png" style="width:700px; height:auto;" alt="colors">
+<img src="assets/Colors DocMind.png" style="width:700px; height:auto;" alt="colors">
 
 ---
 
