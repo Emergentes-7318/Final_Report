@@ -26,7 +26,7 @@ width=50%"/>
 | Olivera Guerra, Santiago Mickelle | u20201a821 |
 | Navarro Robles, Lorenzo Sebastian | U201713141 |
 | Vasquez Requejo, Augusto Mathias  | U20221A955 |
-| Diego Jesus, Alonso Garay          |            |
+| Diego Jesus, Alonso Garay         | U20221D014 |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
