@@ -166,9 +166,24 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ### 6.3.1. Landing Page Wireframe
 
+<img src="/assets/LandingWireframe1.png">
+<img src="/assets/LandingWireframe2.png">
+<img src="/assets/LandingWireframe3.png">
+<img src="/assets/LandingWireframe4.png">
+<img src="/assets/LandingWireframe5.png">
+<img src="/assets/LandingWireframe6.png">
+<img src="/assets/LandingWireframe7.png">
+
+
 ### 6.3.2. Landing Page Mock-up
 
-<img src="assets/img/chapter-IV/mockup-landing.jpg" style="width:700px; height:auto;" alt="mock up landing page">
+<img src="/assets/LandingMockup1.png">
+<img src="/assets/LandingMockup2.png">
+<img src="/assets/LandingMockup3.png">
+<img src="/assets/LandingMockup4.png">
+<img src="/assets/LandingMockup6.png">
+<img src="/assets/LandingMockup7.png">
+
 
 ## 6.6. Applications UX/UI Design.
 ### 6.6.1. Applications Wireframes.
@@ -190,6 +205,19 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ### 6.6.2. Applications Wireflow Diagrams.
 
+<img src="/assets/AppWireflow1.png">
+<img src="/assets/AppWireflow2.png">
+<img src="/assets/AppWireflow3.png">
+<img src="/assets/AppWireflow4.png">
+<img src="/assets/AppWireflow5.png">
+<img src="/assets/AppWireflow6.png">
+<img src="/assets/AppWireflow7.png">
+<img src="/assets/AppWireflow8.png">
+<img src="/assets/AppWireflow9.png">
+<img src="/assets/AppWireflow10.png">
+<img src="/assets/AppWireflow11.png">
+
+
 ### 6.6.2. Applications Mock-ups.
 ### 6.6.3. Applications User Flow Diagrams.
-## 6.5. Applications Prototyping.
+## 6.5. Applications Prototyping. 
