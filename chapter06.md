@@ -11,7 +11,7 @@ El objetivo es mantener una interfaz moderna, limpia y confiable que comunique p
 El branding de **DocMind** busca reflejar la unión entre la tecnología, el conocimiento y la confiabilidad. El logo representa una fusión entre el cerebro humano y un circuito digital, simbolizando el equilibrio entre inteligencia humana y artificial.  
 La palabra **DocMind** utiliza una tipografía moderna, profesional y de bordes suaves, transmitiendo accesibilidad y precisión. Los tonos predominantes refuerzan una imagen tecnológica, ética y orientada a la productividad intelectual.  
 
-<img src="assets/img/chapter-IV/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
+<img src="/assets/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
 
 **Typography:**  
 La tipografía seleccionada para DocMind es **Roboto**, una familia moderna, legible y versátil que comunica claridad y equilibrio. Su uso mantiene consistencia visual en todos los dispositivos, asegurando una lectura óptima en textos técnicos y narrativos.  
@@ -230,8 +230,11 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ### 6.6.3. Applications User Flow Diagrams.
 
-
-
-
+<img src="/assets/UserFlow1.png">
+<img src="/assets/UserFlow2.png">
+<img src="/assets/UserFlow3.png">
+<img src="/assets/UserFlow4.png">
+<img src="/assets/UserFlow5.png">
+<img src="/assets/UserFlow6.png">
 
 ## 6.5. Applications Prototyping. 
