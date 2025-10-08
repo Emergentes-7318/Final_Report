@@ -162,11 +162,9 @@ Para optimizar la visibilidad de **DocMind** en buscadores web, se implementará
 
 ## 6.3. Landing Page UI Design
 
-El desarrollo del UI Design de la Landing Page está en el siguiente link: https://www.figma.com/design/gNfFzd6YNyoKn9hXkA99vQ/wirefram-y-mock-up-emergentes?node-id=0-1&t=WE4kYk5VNdgK4JAm-1
+El desarrollo del UI Design de la Landing Page está en el siguiente link: https://www.figma.com/design/gNfFzd6YNyoKn9hXkA99vQ/wirefram-y-mock-up-emergentes?node-id=0-1&m=dev&t=ybndTfvrSpKFFRqs-1 
 
 ### 6.3.1. Landing Page Wireframe
-
-<img src="assets/img/chapter-IV/wireframe-landing.jpg" style="width:700px; height:auto;" alt="wireframe landing page">
 
 ### 6.3.2. Landing Page Mock-up
 
@@ -174,7 +172,24 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ## 6.6. Applications UX/UI Design.
 ### 6.6.1. Applications Wireframes.
+
+<img src="/assets/Wireframe1.png">
+<img src="/assets/Wireframe2.png">
+<img src="/assets/Wireframe3.png">
+<img src="/assets/Wireframe4.png">
+<img src="/assets/Wireframe5.png">
+<img src="/assets/Wireframe6.png">
+<img src="/assets/Wireframe7.png">
+<img src="/assets/Wireframe8.png">
+<img src="/assets/Wireframe9.png">
+<img src="/assets/Wireframe10.png">
+<img src="/assets/Wireframe11.png">
+<img src="/assets/Wireframe12.png">
+<img src="/assets/Wireframe13.png">
+<img src="/assets/Wireframe14.png">
+
 ### 6.6.2. Applications Wireflow Diagrams.
+
 ### 6.6.2. Applications Mock-ups.
 ### 6.6.3. Applications User Flow Diagrams.
 ## 6.5. Applications Prototyping.
