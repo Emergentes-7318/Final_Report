@@ -238,3 +238,5 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 <img src="/assets/UserFlow6.png">
 
 ## 6.5. Applications Prototyping. 
+
+Direccion del prototyping: https://youtu.be/2Cg4zA6XSVU 
