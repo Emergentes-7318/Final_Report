@@ -217,7 +217,21 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 <img src="/assets/AppWireflow10.png">
 <img src="/assets/AppWireflow11.png">
 
-
+  
 ### 6.6.2. Applications Mock-ups.
+
+<img src="/assets/WebAppMockup1.png">
+<img src="/assets/WebAppMockup2.png">
+<img src="/assets/WebAppMockup3.png">
+<img src="/assets/WebAppMockup4.png">
+<img src="/assets/WebAppMockup5.png">
+<img src="/assets/WebAppMockup6.png">
+<img src="/assets/WebAppMockup7.png">
+
 ### 6.6.3. Applications User Flow Diagrams.
+
+
+
+
+
 ## 6.5. Applications Prototyping. 
