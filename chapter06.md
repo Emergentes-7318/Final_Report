@@ -240,3 +240,34 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 ## 6.5. Applications Prototyping. 
 
 Direccion del prototyping: https://youtu.be/2Cg4zA6XSVU 
+
+
+# Conclusiones
+
+- El desarrollo del proyecto DocMind ha permitido consolidar una propuesta tecnológica sólida, orientada a resolver una necesidad real detectada en distintos sectores profesionales: la optimización del tiempo y la comprensión en el análisis de documentos extensos mediante inteligencia artificial. A través de las entrevistas realizadas, se identificó un patrón común de uso creciente de herramientas digitales, pero también una demanda insatisfecha por soluciones más precisas, trazables y adaptadas al contexto profesional de cada usuario.
+<br>
+- Durante el proceso de diseño y conceptualización, se estructuraron los lineamientos de marca, la arquitectura de información y las guías de estilo que garantizan una experiencia de usuario coherente y accesible tanto en la versión web como móvil. El trabajo de definición de épicas, historias de usuario y backlog permitió traducir las necesidades identificadas en funcionalidades medibles y priorizadas, sentando las bases para un desarrollo ágil y escalable. Asimismo, la elaboración del Lean UX Canvas facilitó la alineación entre los objetivos de negocio, los comportamientos del usuario y los resultados esperados, reforzando la visión estratégica del producto.
+<br>
+- DocMind se posiciona como una plataforma innovadora, capaz de combinar procesamiento de lenguaje natural, análisis documental y visualización de resultados de forma intuitiva y confiable. Su potencial de impacto abarca ámbitos académicos, legales, médicos y empresariales, demostrando que la aplicación de la inteligencia artificial puede integrarse de manera ética y responsable en los flujos de trabajo cotidianos. En conjunto, este trabajo refleja una comprensión integral del proceso de diseño de soluciones basadas en IA, desde la identificación del problema hasta la planificación de su implementación técnica y visual, consolidando una base firme para las siguientes etapas de desarrollo del proyecto.
+
+# Bibliografia 
+
+- Cooper, A., Reimann, R., Cronin, D., Noessel, C., Csizmadi, J., & LeMoine, D. (2014). About Face: The Essentials of Interaction Design (4th ed.). Wiley.
+
+- Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience. O’Reilly Media.
+
+- Nielsen, J., & Budiu, R. (2012). Mobile Usability. New Riders.
+
+- Norman, D. A. (2013). The Design of Everyday Things: Revised and Expanded Edition. Basic Books.
+
+- Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill Education.
+
+- Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., Elmqvist, N., & Diakopoulos, N. (2017). Designing the User Interface: Strategies for Effective Human-Computer Interaction (6th ed.). Pearson.
+
+- World Wide Web Consortium (W3C). (2023). Web Content Accessibility Guidelines (WCAG) 2.1. Recuperado de https://www.w3.org/TR/WCAG21/
+
+- McKinsey & Company. (2023). The Economic Potential of Generative AI: The Next Productivity Frontier. Recuperado de https://www.mckinsey.com/
+
+- PwC. (2023). AI Predictions 2023: Time to Accelerate. PwC Global Artificial Intelligence Report.
+
+- International Organization for Standardization. (2019). ISO 9241-210: Ergonomics of Human-System Interaction — Human-Centred Design for Interactive Systems. ISO.
