@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "58bef764480130b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c1ac1685d0bb33d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7adaf9cba0c07ec1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chapter04.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "chapter04"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ce77b4a9b05dd7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cf3b4574b78ac1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e387ebc559f9c5c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3301dfcc294da4ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "400edbbaa8a114c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.5
+  },
+  "right": {
+    "id": "fa7dc600e7f601a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b89da625a6f28cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b37575ad04e80fde",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "structurizr-70986-SystemContext-001.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for structurizr-70986-SystemContext-001"
+            }
+          },
+          {
+            "id": "5c8c2ae6839f7014",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "structurizr-70986-SystemContext-001.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from structurizr-70986-SystemContext-001"
+            }
+          },
+          {
+            "id": "314571de972379b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d9322866b77109ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "structurizr-70986-SystemContext-001.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of structurizr-70986-SystemContext-001"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7adaf9cba0c07ec1",
+  "lastOpenFiles": [
+    "{0183DC42-6F69-4324-A05D-7ACD0638B2E4}.png",
+    "{1938DEDD-B1C9-45D8-B1AE-397B007EEC25}.png",
+    "README.md",
+    "chapter01.md/chapter01.md",
+    "structurizr-70986-SystemContext-001.png",
+    "structurizr-70986-Container-001.png",
+    "structurizr-70986-Component-001.png",
+    "es6.png",
+    "es5.png",
+    "es4.png",
+    "es3.png",
+    "es2.png",
+    "es1.png",
+    "chapter04.md",
+    "asetss",
+    "chapter01.md"
+  ]
+}
