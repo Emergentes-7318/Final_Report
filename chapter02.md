@@ -82,7 +82,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Datos del entrevistado** | 
 |--------------------------|
 | **Nombre:**  Gael Dario Lopez Diaz |
-| **Link del video:** 0:00 - 3:03 [Entrevista1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
+| **Link del video:** 0:00 - 3:03 [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
 | ![Entrevista](/asetss/Entrevista%201.png)|
@@ -93,7 +93,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Datos del entrevistado** | 
 |--------------------------|
 | **Nombre:**  Abraham Arana|
-| **Minuto del video:** 3:04 - 14:25 [Entrevista2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Minuto del video:** 3:04 - 14:25 [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
 | ![Entrevista](/asetss/Entrevista%202.png)|
@@ -104,7 +104,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 |--------------------------|
 | **Nombre:** Jefrey Sanchez |
 | **Edad:** 19 años |
-| **Minuto del video:**  14:27 - 20.36  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT| 
+| **Minuto del video:**  14:27 - 20.36 [Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)| 
 | **Procedencia:** San Miguel, Lima |
 | ![Entrevista](/asetss/Entrevista%203.png)|
 | **Resumen:**  Estudiante de ingeniería de sistemas, actualmente participa en un laboratorio universitario de investigación y colabora en proyectos de software académico. Además de sus estudios, desarrolla iniciativas personales relacionadas con la automatización de flujos de trabajo y la implementación de herramientas colaborativas en la nube. Está convencido de que la inteligencia artificial representa una oportunidad única para optimizar procesos en la industria del software y la educación, por lo que dedica parte de su tiempo a capacitarse en modelos de lenguaje y aplicaciones de machine learning. No obstante, sostiene que el papel del profesional humano sigue siendo indispensable para garantizar la ética, la creatividad y la correcta interpretación de los resultados que ofrecen estas tecnologías. |
@@ -116,7 +116,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 |--------------------------|
 | **Nombre:** Liliana Requejo  |
 | **Edad:** 48 años |
-| **Link  del video:**  20:37 - 25:05 [Entrevista4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
+| **Link  del video:**  20:37 - 25:05 [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Procedencia:**  Lima |
 | ![Entrevista](/asetss/Entrevista%204.png) |
 | **Resumen:** Liliana Requejo es una médica de 48 años con amplia experiencia en el ámbito hospitalario y docente en una universidad de medicina. Actualmente participa en la revisión de protocolos clínicos y en la elaboración de reportes médicos para sus estudiantes y colegas. Al conocer el proyecto DocMind, destaca que una herramienta de este tipo puede ser de gran ayuda para agilizar la lectura de artículos científicos y guías clínicas, optimizando el tiempo que los profesionales de la salud destinan al análisis de literatura especializada. Considera que la inteligencia artificial puede convertirse en un soporte valioso para reducir la carga de información que reciben diariamente los médicos, siempre que los resultados se acompañen de transparencia, citas verificables y supervisión humana. Subraya que, aunque la tecnología puede acelerar procesos, las decisiones médicas deben seguir dependiendo de la experiencia y el criterio ético del profesional.   |
@@ -126,7 +126,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 |--------------------------|
 | **Nombre:** Arwen Vasquez |
 | **Edad:** 35 años |
-| **Link del video:** 25:06 - 30:40  [Entrevista5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Link del video:** 25:06 - 30:40  [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
 | ![EntrevistaMaria](/asetss/Entrevista%205.png) |
 | **Resumen:**  Arwen Vasquez es una médica de 35 años que trabaja en un hospital privado y, en paralelo, participa en proyectos de investigación clínica junto a su equipo académico. En su práctica diaria debe revisar múltiples artículos científicos y normativas de salud, lo que le demanda un tiempo considerable. Al conocer el proyecto DocMind, señala que la herramienta representa una oportunidad para simplificar la lectura y extracción de información clave de documentos extensos, permitiéndole concentrarse en la interpretación clínica y en la toma de decisiones. Reconoce que la inteligencia artificial puede ser un gran aliado para acelerar la investigación y la formación médica, aunque considera fundamental que los resultados se presenten con la mayor claridad posible y con enlaces directos a las fuentes, de modo que el médico pueda validar los hallazgos y mantener la rigurosidad científica. |
@@ -136,7 +136,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 |--------------------------|
 | **Nombre:** Miguel Polo  |
 | **Edad:** 35 años |
-| **Link del video:** 30:40 - 35:28  [Entrevista5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Link del video:** 30:40 - 35:28  [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
 | ![EntrevistaMaria](/asetss/Entrevista%206.png) |
 | **Resumen:**  Miguel Polo es un médico de 35 años que trabaja en una clínica especializada y participa activamente en congresos de actualización profesional. En su labor diaria debe analizar guías clínicas, papers internacionales y reportes técnicos para aplicar en la práctica médica y en la docencia con residentes más jóvenes. Al conocer el proyecto DocMind, destaca que la plataforma puede ser un recurso estratégico para reducir el tiempo invertido en la revisión de documentos extensos, permitiéndole acceder de forma rápida a resúmenes claros y citas verificables. Considera que la inteligencia artificial puede transformar positivamente la investigación médica y la educación, siempre que los resultados se presenten con transparencia y que el criterio humano siga siendo el eje central en la toma de decisiones clínicas. |
@@ -192,8 +192,14 @@ En conclusión, una aplicación con estas características se perfila como una s
 
 ### 2.3.1. User Personas.
 
-![User Persona1](/asetss/User%20persona%201.jpg)
+Este es el primer User persona que corresponde al primer segmento objetivo, el perfil de que una persona que trabaja en una clinica en la area administrativa o de reportes de historiales medicos, lo que es una extensa documentacion.
+<br>
 ![User Persona2](/asetss/user%20persona%202.jpg)
+
+Este es el primer User persona que corresponde al segundo segmento objetivo, el perfil de que una persona que trabaja en una corporacion y su trabajo se desarrolla principalmente en documentacion.
+<br>
+![User Persona1](/asetss/User%20persona%201.jpg)
+
 
 ### 2.3.2. User Task Matrix.
 
@@ -212,9 +218,13 @@ En conclusión, una aplicación con estas características se perfila como una s
 
 ### 2.3.3. Empathy Mapping.
 
+El Empathy Mapping permite comprender a profundidad a los usuarios de DocMind, identificando qué piensan, sienten, dicen y hacen en su interacción diaria con grandes volúmenes de documentos. Esta herramienta ayuda a visualizar sus frustraciones, necesidades y motivaciones, permitiendo diseñar una experiencia centrada en el usuario que realmente resuelva el problema de sobrecarga de información mediante inteligencia artificial.
+
 ![Empathy Mapping](/asetss/Empathy%20map.jpg)
 
 ### 2.3.4. As-is Scenario Mapping.
+
+El As-Is Scenario Mapping describe el flujo actual de trabajo que siguen los usuarios antes de utilizar DocMind. En este escenario, se analizan los pasos que realizan para leer, buscar y sintetizar información en documentos extensos, evidenciando los puntos de fricción, demoras y sobrecarga cognitiva. Este mapeo permite identificar las oportunidades de mejora que DocMind aprovechará al automatizar y optimizar este proceso con IA.
 
 ![As-is Scenario Mapping](/asetss/gra.png)
 
