@@ -1,0 +1,295 @@
+# **CAPÍTULO VI: PRODUCT DESIGN**
+
+## 6.1. Style Guidelines
+
+En esta sección se definen los lineamientos de estilo frontend que darán forma a la identidad visual de **DocMind**, considerando los principios de arquitectura de la información, accesibilidad y coherencia visual necesarios para su implementación en la **Landing Page** y la **Aplicación Web**.  
+El objetivo es mantener una interfaz moderna, limpia y confiable que comunique profesionalismo, innovación y transparencia, valores centrales de una herramienta basada en inteligencia artificial.
+
+### 6.1.1. General Style Guidelines
+
+**Branding:**  
+El branding de **DocMind** busca reflejar la unión entre la tecnología, el conocimiento y la confiabilidad. El logo representa una fusión entre el cerebro humano y un circuito digital, simbolizando el equilibrio entre inteligencia humana y artificial.  
+La palabra **DocMind** utiliza una tipografía moderna, profesional y de bordes suaves, transmitiendo accesibilidad y precisión. Los tonos predominantes refuerzan una imagen tecnológica, ética y orientada a la productividad intelectual.  
+
+<img src="/assets/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
+
+**Typography:**  
+La tipografía seleccionada para DocMind es **Roboto**, una familia moderna, legible y versátil que comunica claridad y equilibrio. Su uso mantiene consistencia visual en todos los dispositivos, asegurando una lectura óptima en textos técnicos y narrativos.  
+Poppins combina excelente legibilidad en cuerpos de texto extensos con un estilo limpio en títulos y botones, transmitiendo innovación y confianza.  
+
+<img src="assets/Tipografia DocMind.png" style="width:700px; height:auto;" alt="tipography">
+
+**Colors:**  
+La paleta de colores de DocMind combina tonos fríos y neutros que transmiten confianza, claridad y precisión.  
+El color principal, **#10BEAE**, refuerza la identidad tecnológica y moderna, mientras los tonos blancos y grises equilibran la interfaz para favorecer la lectura prolongada.  
+El negro se usa en textos de alto contraste para garantizar legibilidad y jerarquía visual.  
+
+- Primario: **#10BEAE**  
+- Secundario: **#00A896**  
+- Fondo general: **#FFFFFF**  
+- Texto principal: **#000000**  
+- Detalles y bordes: **#EAEAEA**
+
+<img src="assets/Colors DocMind.png" style="width:700px; height:auto;" alt="colors">
+
+---
+
+### 6.1.2. Web, Mobile & Devices Style Guidelines
+
+Para la interfaz web y móvil de **DocMind**, se ha diseñado un estilo visual minimalista y limpio, con prioridad en la legibilidad, la organización y la consistencia entre plataformas.  
+El diseño busca reflejar una herramienta confiable, profesional y accesible, orientada a distintos tipos de profesionales (médicos, abogados, investigadores, ingenieros).
+
+Los principios clave incluyen:
+
+- Uso predominante de **Poppins** para mantener una lectura moderna y clara.  
+- Aplicación estratégica de la paleta de colores:  
+  - **#10BEAE** para botones, íconos interactivos y elementos destacados.  
+  - **#FFFFFF** como fondo principal para crear amplitud visual.  
+  - **#000000** para textos y elementos de contraste.  
+- Espaciado generoso, alineaciones consistentes y márgenes equilibrados.  
+- Íconos lineales minimalistas, representando funciones principales como “subir documento”, “resumen”, “responder” o “exportar”.  
+- Adaptabilidad total a distintos tamaños de pantalla (responsive design).
+
+#### 6.1.2.1. iOS Mobile Style Guidelines
+
+En iOS se seguirán las pautas de **Apple Human Interface Guidelines**, personalizadas según la identidad de DocMind:
+
+- **Tipografía:** Poppins Regular para cuerpo de texto, Poppins Medium para encabezados.  
+- **Tamaño de fuente recomendado:**  
+  - Título: 26 pt  
+  - Subtítulo: 18 pt  
+  - Cuerpo: 16 pt  
+- **Colores:**  
+  - Botones primarios: fondo **#10BEAE**, texto **#FFFFFF**  
+  - Fondo general: **#FFFFFF**  
+  - Textos: **#000000**  
+- **Espaciado táctil:** mínimo de 66x66 pt por elemento interactivo.  
+- **Bordes redondeados:** 6–8 pt para tarjetas, botones y modales.  
+- **Navegación:** barras inferiores o pestañas jerarquizadas según secciones (Documentos, Chat, Reportes, Perfil).  
+
+#### 6.1.2.2. Android Mobile Style Guidelines
+
+En Android se seguirán las **Material Design Guidelines**, aplicadas al esquema visual de DocMind:
+
+- **Tipografía:** Poppins Regular (texto) y Poppins Medium (encabezados).  
+- **Tamaño de fuente recomendado:**  
+  - Título: 22–26 sp  
+  - Subtítulo: 16–18 sp  
+  - Cuerpo: 16 sp  
+- **Colores:**  
+  - Botones primarios: **#10BEAE** con texto **#FFFFFF**  
+  - Fondo general: **#FFFFFF**  
+  - Texto: **#000000**  
+- **Espaciado táctil:** mínimo 66x66 dp por elemento.  
+- **Sombras suaves:** para botones flotantes (FAB) y tarjetas.  
+- **Navegación:** Drawer y Bottom Navigation combinados para un acceso rápido a secciones.  
+- **Animaciones:** suaves y breves al cargar resultados o transitar entre vistas.
+
+---
+
+## 6.2. Information Architecture
+
+La arquitectura de información de **DocMind** se ha diseñado para que el usuario pueda acceder, analizar y exportar información de manera rápida y lógica, priorizando la claridad y la reducción de fricción cognitiva.  
+El flujo principal se centra en tres acciones esenciales: **subir documento**, **consultar con IA** y **generar reporte**.
+
+### 6.2.2. Labeling Systems
+
+- **Sistemas de Organización Visual:**  
+  Se aplicará una **organización jerárquica y secuencial**, permitiendo que el usuario avance paso a paso:  
+  1. Cargar documentos o conectar con Google Drive.  
+  2. Analizar el contenido mediante IA (resumen o preguntas).  
+  3. Revisar resultados con citas verificables.  
+  4. Exportar reportes personalizados.  
+
+- **Esquemas de Categorización del Contenido:**  
+  - Por función: *Inicio*, *Documentos*, *Análisis IA*, *Reportes*, *Perfil*.  
+  - Por tipo de interacción: *Lectura*, *Consulta*, *Exportación*, *Configuración*.  
+  Esto permitirá que el usuario ubique rápidamente la herramienta que necesita sin saturar la interfaz.
+
+---
+
+### 6.2.3. Searching Systems
+
+En la **Landing Page**, se usarán etiquetas simples e intuitivas que guíen al visitante:
+
+- **Home:** Presentación general de DocMind.  
+- **Features:** Funciones principales (análisis, resumen, citas, reportes).  
+- **Plans:** Planes y licencias disponibles.  
+- **Testimonials:** Opiniones de profesionales y casos de uso.  
+- **Contact:** Formulario de contacto y soporte técnico.  
+- **Log In / Sign Up:** Acceso a la aplicación y registro de usuarios.
+
+En la **Aplicación Web**, la búsqueda permitirá encontrar documentos, fragmentos o respuestas dentro del sistema de IA mediante **búsqueda semántica** (por tema o palabra clave).
+
+---
+
+### 6.2.4. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad de **DocMind** en buscadores web, se implementarán las siguientes etiquetas:
+
+- **Title:** DocMind  
+- **Meta Tags:**  
+  - **Description:** Plataforma inteligente que genera resúmenes y reportes automáticos a partir de documentos, impulsada por IA.  
+  - **Keywords:** inteligencia artificial, resúmenes automáticos, análisis documental, reportes, productividad, LLM.  
+  - **Author:** DocMind AI Solutions.  
+
+---
+
+### 6.2.5. Navigation Systems
+
+**Landing Page:**  
+- *Home:* Introducción general y CTA hacia “Probar DocMind”.  
+- *Features:* Sección informativa con capturas y ejemplos de análisis.  
+- *Plans:* Comparativa de suscripciones (Free, Pro, Enterprise).  
+- *Testimonials:* Casos de éxito y opiniones de profesionales.  
+- *Contact:* Formulario y redes de soporte.  
+- *Log In:* Botón de acción principal (CTA) que redirige a la aplicación web.
+
+**Web Application:**  
+- *Dashboard:* Vista principal con resumen de actividad reciente.  
+- *My Documents:* Administración de documentos y carpetas conectadas.  
+- *AI Analysis:* Chat o panel de interacción con el modelo de lenguaje.  
+- *Reports:* Generación, descarga y edición de reportes personalizados.  
+- *Profile & Settings:* Configuración de cuenta, idioma y preferencias.
+
+**Mobile Application:**  
+- Barra inferior con cinco íconos: *Inicio*, *Documentos*, *IA*, *Reportes*, *Perfil*.  
+- Notificaciones contextuales para recordar análisis pendientes o reportes listos.  
+- Transiciones fluidas entre vistas, manteniendo coherencia con el entorno web.
+
+---
+
+
+## 6.3. Landing Page UI Design
+
+El desarrollo del UI Design de la Landing Page está en el siguiente link: https://www.figma.com/design/gNfFzd6YNyoKn9hXkA99vQ/wirefram-y-mock-up-emergentes?node-id=0-1&m=dev&t=ybndTfvrSpKFFRqs-1 
+
+### 6.3.1. Landing Page Wireframe
+
+<img src="/assets/LandingWireframe1.png">
+<img src="/assets/LandingWireframe2.png">
+<img src="/assets/LandingWireframe3.png">
+<img src="/assets/LandingWireframe4.png">
+<img src="/assets/LandingWireframe5.png">
+<img src="/assets/LandingWireframe6.png">
+<img src="/assets/LandingWireframe7.png">
+
+
+### 6.3.2. Landing Page Mock-up
+
+<img src="/assets/LandingMockup1.png">
+<img src="/assets/LandingMockup2.png">
+<img src="/assets/LandingMockup3.png">
+<img src="/assets/LandingMockup4.png">
+<img src="/assets/LandingMockup6.png">
+<img src="/assets/LandingMockup7.png">
+
+
+## 6.6. Applications UX/UI Design.
+### 6.6.1. Applications Wireframes.
+
+<img src="/assets/Wireframe1.png">
+<img src="/assets/Wireframe2.png">
+<img src="/assets/Wireframe3.png">
+<img src="/assets/Wireframe4.png">
+<img src="/assets/Wireframe5.png">
+<img src="/assets/Wireframe6.png">
+<img src="/assets/Wireframe7.png">
+<img src="/assets/Wireframe8.png">
+<img src="/assets/Wireframe9.png">
+<img src="/assets/Wireframe10.png">
+<img src="/assets/Wireframe11.png">
+<img src="/assets/Wireframe12.png">
+<img src="/assets/Wireframe13.png">
+<img src="/assets/Wireframe14.png">
+
+### 6.6.2. Applications Wireflow Diagrams.
+
+
+Wireflow 1: Acceder a metricas e historial 
+<img src="/assets/AppWireflow1.png">
+
+Wireflow 2:  Descargar y exportar PDF ya resumido.
+<img src="/assets/AppWireflow2.png">
+
+Wireflow 3: Comparar citas en el mismo documento.
+<img src="/assets/AppWireflow3.png">
+
+Wireflow 4: Busqueda especifica en el documento por término.
+<img src="/assets/AppWireflow4.png">
+
+Wireflow 5: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
+<img src="/assets/AppWireflow5.png">
+
+Wireflow 6: Documento subido a la aplicacion para que resumenes sean generados y guardados en un historial
+<img src="/assets/AppWireflow6.png">
+
+Wireflow 7: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
+
+<img src="/assets/AppWireflow7.png">
+
+  
+### 6.6.2. Applications Mock-ups.
+
+<img src="/assets/WebAppMockup1.png">
+<img src="/assets/WebAppMockup2.png">
+<img src="/assets/WebAppMockup3.png">
+<img src="/assets/WebAppMockup4.png">
+<img src="/assets/WebAppMockup5.png">
+<img src="/assets/WebAppMockup6.png">
+<img src="/assets/WebAppMockup7.png">
+
+### 6.6.3. Applications User Flow Diagrams.
+
+User goal 1: Como usuario quiero poder ingresar y logearme o registrarme en la pagina de DocMind.
+<img src="/assets/UserFlow1.png">
+
+User goal 2: Como usuario una vez registrado, quisiera poder cambiar de contraseña como verificar mi cuenta para mayor seguridad
+<img src="/assets/UserFlow2.png">
+
+User goal 3: Como usuario una vez dentro de la aplicacion, puede elegir entre todas las funciones disponibles como ver mis documentos
+<img src="/assets/UserFlow3.png">
+
+User goal 4: Como usuario quisiera poder crear una carpeta para agrupar los PDFs que necesite para tener una mayor facilidad de acceso.
+<img src="/assets/UserFlow4.png">
+
+User goal 5: Como usuario quiero poder cargar mi PDF en la aplicacion, hacer un resumen del mismo y hacerle consultas, de tal forma que las consultas hechas se guarden en un historial.
+<img src="/assets/UserFlow5.png">
+
+User goal 6: Como usuario quiero poder chatear con la IA para poder resolver duda que tenga respecto a mi documento.
+<img src="/assets/UserFlow6.png">
+
+## 6.5. Applications Prototyping. 
+
+Direccion del prototyping: https://youtu.be/2Cg4zA6XSVU 
+
+
+# Conclusiones
+
+- El desarrollo del proyecto DocMind ha permitido consolidar una propuesta tecnológica sólida, orientada a resolver una necesidad real detectada en distintos sectores profesionales: la optimización del tiempo y la comprensión en el análisis de documentos extensos mediante inteligencia artificial. A través de las entrevistas realizadas, se identificó un patrón común de uso creciente de herramientas digitales, pero también una demanda insatisfecha por soluciones más precisas, trazables y adaptadas al contexto profesional de cada usuario.
+<br>
+- Durante el proceso de diseño y conceptualización, se estructuraron los lineamientos de marca, la arquitectura de información y las guías de estilo que garantizan una experiencia de usuario coherente y accesible tanto en la versión web como móvil. El trabajo de definición de épicas, historias de usuario y backlog permitió traducir las necesidades identificadas en funcionalidades medibles y priorizadas, sentando las bases para un desarrollo ágil y escalable. Asimismo, la elaboración del Lean UX Canvas facilitó la alineación entre los objetivos de negocio, los comportamientos del usuario y los resultados esperados, reforzando la visión estratégica del producto.
+<br>
+- DocMind se posiciona como una plataforma innovadora, capaz de combinar procesamiento de lenguaje natural, análisis documental y visualización de resultados de forma intuitiva y confiable. Su potencial de impacto abarca ámbitos académicos, legales, médicos y empresariales, demostrando que la aplicación de la inteligencia artificial puede integrarse de manera ética y responsable en los flujos de trabajo cotidianos. En conjunto, este trabajo refleja una comprensión integral del proceso de diseño de soluciones basadas en IA, desde la identificación del problema hasta la planificación de su implementación técnica y visual, consolidando una base firme para las siguientes etapas de desarrollo del proyecto.
+
+# Bibliografia 
+
+- Cooper, A., Reimann, R., Cronin, D., Noessel, C., Csizmadi, J., & LeMoine, D. (2014). About Face: The Essentials of Interaction Design (4th ed.). Wiley.
+
+- Gothelf, J., & Seiden, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience. O’Reilly Media.
+
+- Nielsen, J., & Budiu, R. (2012). Mobile Usability. New Riders.
+
+- Norman, D. A. (2013). The Design of Everyday Things: Revised and Expanded Edition. Basic Books.
+
+- Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill Education.
+
+- Shneiderman, B., Plaisant, C., Cohen, M., Jacobs, S., Elmqvist, N., & Diakopoulos, N. (2017). Designing the User Interface: Strategies for Effective Human-Computer Interaction (6th ed.). Pearson.
+
+- World Wide Web Consortium (W3C). (2023). Web Content Accessibility Guidelines (WCAG) 2.1. Recuperado de https://www.w3.org/TR/WCAG21/
+
+- McKinsey & Company. (2023). The Economic Potential of Generative AI: The Next Productivity Frontier. Recuperado de https://www.mckinsey.com/
+
+- PwC. (2023). AI Predictions 2023: Time to Accelerate. PwC Global Artificial Intelligence Report.
+
+- International Organization for Standardization. (2019). ISO 9241-210: Ergonomics of Human-System Interaction — Human-Centred Design for Interactive Systems. ISO.
