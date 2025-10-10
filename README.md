@@ -1250,98 +1250,98 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ### 6.3.1. Landing Page Wireframe
 
-<img src="/assets/LandingWireframe1.png">
-<img src="/assets/LandingWireframe2.png">
-<img src="/assets/LandingWireframe3.png">
-<img src="/assets/LandingWireframe4.png">
-<img src="/assets/LandingWireframe5.png">
-<img src="/assets/LandingWireframe6.png">
-<img src="/assets/LandingWireframe7.png">
+<img src="assets/LandingWireframe1.png">
+<img src="assets/LandingWireframe2.png">
+<img src="assets/LandingWireframe3.png">
+<img src="assets/LandingWireframe4.png">
+<img src="assets/LandingWireframe5.png">
+<img src="assets/LandingWireframe6.png">
+<img src="assets/LandingWireframe7.png">
 
 
 ### 6.3.2. Landing Page Mock-up
 
-<img src="/assets/LandingMockup1.png">
-<img src="/assets/LandingMockup2.png">
-<img src="/assets/LandingMockup3.png">
-<img src="/assets/LandingMockup4.png">
-<img src="/assets/LandingMockup6.png">
-<img src="/assets/LandingMockup7.png">
+<img src="assets/LandingMockup1.png">
+<img src="assets/LandingMockup2.png">
+<img src="assets/LandingMockup3.png">
+<img src="assets/LandingMockup4.png">
+<img src="assets/LandingMockup6.png">
+<img src="assets/LandingMockup7.png">
 
 
 ## 6.6. Applications UX/UI Design.
 ### 6.6.1. Applications Wireframes.
 
-<img src="/assets/Wireframe1.png">
-<img src="/assets/Wireframe2.png">
-<img src="/assets/Wireframe3.png">
-<img src="/assets/Wireframe4.png">
-<img src="/assets/Wireframe5.png">
-<img src="/assets/Wireframe6.png">
-<img src="/assets/Wireframe7.png">
-<img src="/assets/Wireframe8.png">
-<img src="/assets/Wireframe9.png">
-<img src="/assets/Wireframe10.png">
-<img src="/assets/Wireframe11.png">
-<img src="/assets/Wireframe12.png">
-<img src="/assets/Wireframe13.png">
-<img src="/assets/Wireframe14.png">
+<img src="assets/Wireframe1.png">
+<img src="assets/Wireframe2.png">
+<img src="assets/Wireframe3.png">
+<img src="assets/Wireframe4.png">
+<img src="assets/Wireframe5.png">
+<img src="assets/Wireframe6.png">
+<img src="assets/Wireframe7.png">
+<img src="assets/Wireframe8.png">
+<img src="assets/Wireframe9.png">
+<img src="assets/Wireframe10.png">
+<img src="assets/Wireframe11.png">
+<img src="assets/Wireframe12.png">
+<img src="assets/Wireframe13.png">
+<img src="assets/Wireframe14.png">
 
 ### 6.6.2. Applications Wireflow Diagrams.
 
 
 Wireflow 1: Acceder a metricas e historial 
-<img src="/assets/AppWireflow1.png">
+<img src="assets/AppWireflow1.png">
 
 Wireflow 2:  Descargar y exportar PDF ya resumido.
-<img src="/assets/AppWireflow2.png">
+<img src="assets/AppWireflow2.png">
 
 Wireflow 3: Comparar citas en el mismo documento.
-<img src="/assets/AppWireflow3.png">
+<img src="assets/AppWireflow3.png">
 
 Wireflow 4: Busqueda especifica en el documento por término.
-<img src="/assets/AppWireflow4.png">
+<img src="assets/AppWireflow4.png">
 
 Wireflow 5: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
-<img src="/assets/AppWireflow5.png">
+<img src="assets/AppWireflow5.png">
 
 Wireflow 6: Documento subido a la aplicacion para que resumenes sean generados y guardados en un historial
-<img src="/assets/AppWireflow6.png">
+<img src="assets/AppWireflow6.png">
 
 Wireflow 7: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
 
-<img src="/assets/AppWireflow7.png">
+<img src="assets/AppWireflow7.png">
 
   
 ### 6.6.2. Applications Mock-ups.
 
-<img src="/assets/WebAppMockup1.png">
-<img src="/assets/WebAppMockup2.png">
-<img src="/assets/WebAppMockup3.png">
-<img src="/assets/WebAppMockup4.png">
-<img src="/assets/WebAppMockup5.png">
-<img src="/assets/WebAppMockup6.png">
-<img src="/assets/WebAppMockup7.png">
+<img src="assets/WebAppMockup1.png">
+<img src="assets/WebAppMockup2.png">
+<img src="assets/WebAppMockup3.png">
+<img src="assets/WebAppMockup4.png">
+<img src="assets/WebAppMockup5.png">
+<img src="assets/WebAppMockup6.png">
+<img src="assets/WebAppMockup7.png">
 
 ### 6.6.3. Applications User Flow Diagrams.
 
 User goal 1: Como usuario quiero poder ingresar y logearme o registrarme en la pagina de DocMind.
-<img src="/assets/UserFlow1.png">
+<img src="assets/UserFlow1.png">
 
 User goal 2: Como usuario una vez registrado, quisiera poder cambiar de contraseña como verificar mi cuenta para mayor seguridad
-<img src="/assets/UserFlow2.png">
+<img src="assets/UserFlow2.png">
 
 User goal 3: Como usuario una vez dentro de la aplicacion, puede elegir entre todas las funciones disponibles como ver mis documentos
-<img src="/assets/UserFlow3.png">
+<img src="assets/UserFlow3.png">
 
 User goal 4: Como usuario quisiera poder crear una carpeta para agrupar los PDFs que necesite para tener una mayor facilidad de acceso.
-<img src="/assets/UserFlow4.png">
+<img src="assets/UserFlow4.png">
 
 User goal 5: Como usuario quiero poder cargar mi PDF en la aplicacion, hacer un resumen del mismo y hacerle consultas, de tal forma que las consultas hechas se guarden en un historial.
-<img src="/assets/UserFlow5.png">
+<img src="assets/UserFlow5.png">
 
 User goal 6: Como usuario quiero poder chatear con la IA para poder resolver duda que tenga respecto a mi documento.
-<img src="/assets/UserFlow6.png">
+<img src="assets/UserFlow6.png">
 
 ## 6.5. Applications Prototyping. 
 
