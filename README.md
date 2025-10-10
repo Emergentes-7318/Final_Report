@@ -209,11 +209,11 @@ Convertirnos en la plataforma líder a nivel global en análisis inteligente de 
 ### **1.1.2 Perfiles de integrantes del equipo**
 | Nombre Completo del integrante        | Descripcion de Carrera                                                                          | Fotografía                                                                                        | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| Augusto Mathias Vasquez Requejo       | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="/asetss/Augusto Vasquez (1).jpg" alt="pr" style="width: auto height: auto;">            | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |     |
-| Cabanillas Gora Andrea                | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](/asetss/288x240%20rgb%20(1).jpg)                                                 | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |     |
-| Santiago Mickelle Olivera Guerra    | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="/asetss/Santiago pfp.png" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. | .   |
-| Diego Jesus Alonso Garay | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Imagen de sihuar](/asetss/diego%20fpf.png);">                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |     |
-| Lorenzo Navarro                       | Ingenieria de software - 8vo ciclo                                                              | ![](/asetss/lorenzo.jpg)                                                                    | - Actualmente trabajo con arquitecturas de redes neuronales y desarrollo de sistemas basados en microservicios. Utilizo typescript y Python para mi trabajo. Considero que sera mi mayor aporte para el proyecto.                                                                   |
+| Augusto Mathias Vasquez Requejo       | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | <img src="asetss/Augusto Vasquez (1).jpg" alt="pr" style="width: auto height: auto;">            | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |     |
+| Cabanillas Gora Andrea                | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](asetss/288x240%20rgb%20(1).jpg)                                                 | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |     |
+| Santiago Mickelle Olivera Guerra    | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="asetss/Santiago pfp.png" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. | .   |
+| Diego Jesus Alonso Garay | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Imagen de sihuar](asetss/diego%20fpf.png);">                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |     |
+| Lorenzo Navarro                       | Ingenieria de software - 8vo ciclo                                                              | ![](asetss/lorenzo.jpg)                                                                    | - Actualmente trabajo con arquitecturas de redes neuronales y desarrollo de sistemas basados en microservicios. Utilizo typescript y Python para mi trabajo. Considero que sera mi mayor aporte para el proyecto.                                                                   |
 
 ## **1.2 Solution Profile**
 
@@ -456,7 +456,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Link del video:** 0:00 - 3:03 [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
-| ![Entrevista](/asetss/Entrevista%201.png)|
+| ![Entrevista](asetss/Entrevista%201.png)|
 | **Resumen:** .  Andres Muñoz es un joven que desempeña el cargo de gestor de documentacion SUV trabaja en Essalud pero en el area de gerencia, es ingeniero de sistemas pero por el momento se dedica a la documentacion de las tareas que se tienen que realizar, tiene conocimientos respecto al uso de IA pero que no es necesario para el trabajo que realiza actualmente aunque le gustaria que se pudieran automatizar muchas acciones que le quitan mucho tiempo.   |
 
 
@@ -467,7 +467,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Minuto del video:** 3:04 - 14:25 [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
-| ![Entrevista](/asetss/Entrevista%202.png)|
+| ![Entrevista](asetss/Entrevista%202.png)|
 | **Resumen:** Abraham Arana es un estudiante de derecho, actualmente realiza sus practicas en un estudio de abogados, y cubre tambien varios proyectos personales, en su caso esta muy enterado de todo lo que la IA puede hacer para su sector y confirma que quiere poco a poco seguir estudiando para avanzar y conocer mas ese aspecto tecnologico, si bien cree que la IA puede automatizar muchos procesos de su actual trabajo y estudio considera que para la mayoria de acciones todavia deberia respetarse el accionar humano tanto como las decisiones que estos puedan tomar.|
 
 #### Entrevista 3
@@ -477,7 +477,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 19 años |
 | **Minuto del video:**  14:27 - 20.36 [Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)| 
 | **Procedencia:** San Miguel, Lima |
-| ![Entrevista](/asetss/Entrevista%203.png)|
+| ![Entrevista](asetss/Entrevista%203.png)|
 | **Resumen:**  Estudiante de ingeniería de sistemas, actualmente participa en un laboratorio universitario de investigación y colabora en proyectos de software académico. Además de sus estudios, desarrolla iniciativas personales relacionadas con la automatización de flujos de trabajo y la implementación de herramientas colaborativas en la nube. Está convencido de que la inteligencia artificial representa una oportunidad única para optimizar procesos en la industria del software y la educación, por lo que dedica parte de su tiempo a capacitarse en modelos de lenguaje y aplicaciones de machine learning. No obstante, sostiene que el papel del profesional humano sigue siendo indispensable para garantizar la ética, la creatividad y la correcta interpretación de los resultados que ofrecen estas tecnologías. |
 
 ### Segmento: Sector Académico y Científico
@@ -489,7 +489,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 48 años |
 | **Link  del video:**  20:37 - 25:05 [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Procedencia:**  Lima |
-| ![Entrevista](/asetss/Entrevista%204.png) |
+| ![Entrevista](asetss/Entrevista%204.png) |
 | **Resumen:** Liliana Requejo es una médica de 48 años con amplia experiencia en el ámbito hospitalario y docente en una universidad de medicina. Actualmente participa en la revisión de protocolos clínicos y en la elaboración de reportes médicos para sus estudiantes y colegas. Al conocer el proyecto DocMind, destaca que una herramienta de este tipo puede ser de gran ayuda para agilizar la lectura de artículos científicos y guías clínicas, optimizando el tiempo que los profesionales de la salud destinan al análisis de literatura especializada. Considera que la inteligencia artificial puede convertirse en un soporte valioso para reducir la carga de información que reciben diariamente los médicos, siempre que los resultados se acompañen de transparencia, citas verificables y supervisión humana. Subraya que, aunque la tecnología puede acelerar procesos, las decisiones médicas deben seguir dependiendo de la experiencia y el criterio ético del profesional.   |
 
 #### Entrevista 5
@@ -499,7 +499,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 35 años |
 | **Link del video:** 25:06 - 30:40  [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](/asetss/Entrevista%205.png) |
+| ![EntrevistaMaria](asetss/Entrevista%205.png) |
 | **Resumen:**  Arwen Vasquez es una médica de 35 años que trabaja en un hospital privado y, en paralelo, participa en proyectos de investigación clínica junto a su equipo académico. En su práctica diaria debe revisar múltiples artículos científicos y normativas de salud, lo que le demanda un tiempo considerable. Al conocer el proyecto DocMind, señala que la herramienta representa una oportunidad para simplificar la lectura y extracción de información clave de documentos extensos, permitiéndole concentrarse en la interpretación clínica y en la toma de decisiones. Reconoce que la inteligencia artificial puede ser un gran aliado para acelerar la investigación y la formación médica, aunque considera fundamental que los resultados se presenten con la mayor claridad posible y con enlaces directos a las fuentes, de modo que el médico pueda validar los hallazgos y mantener la rigurosidad científica. |
 
 #### Entrevista 6
@@ -509,7 +509,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 35 años |
 | **Link del video:** 30:40 - 35:28  [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](/asetss/Entrevista%206.png) |
+| ![EntrevistaMaria](asetss/Entrevista%206.png) |
 | **Resumen:**  Miguel Polo es un médico de 35 años que trabaja en una clínica especializada y participa activamente en congresos de actualización profesional. En su labor diaria debe analizar guías clínicas, papers internacionales y reportes técnicos para aplicar en la práctica médica y en la docencia con residentes más jóvenes. Al conocer el proyecto DocMind, destaca que la plataforma puede ser un recurso estratégico para reducir el tiempo invertido en la revisión de documentos extensos, permitiéndole acceder de forma rápida a resúmenes claros y citas verificables. Considera que la inteligencia artificial puede transformar positivamente la investigación médica y la educación, siempre que los resultados se presenten con transparencia y que el criterio humano siga siendo el eje central en la toma de decisiones clínicas. |
 
 
@@ -565,11 +565,11 @@ En conclusión, una aplicación con estas características se perfila como una s
 
 Este es el primer User persona que corresponde al primer segmento objetivo, el perfil de que una persona que trabaja en una clinica en la area administrativa o de reportes de historiales medicos, lo que es una extensa documentacion.
 <br>
-![User Persona2](/asetss/user%20persona%202.jpg)
+![User Persona2](asetss/user%20persona%202.jpg)
 
 Este es el primer User persona que corresponde al segundo segmento objetivo, el perfil de que una persona que trabaja en una corporacion y su trabajo se desarrolla principalmente en documentacion.
 <br>
-![User Persona1](/asetss/User%20persona%201.jpg)
+![User Persona1](asetss/User%20persona%201.jpg)
 
 
 ### 2.3.2. User Task Matrix.
@@ -597,7 +597,7 @@ El Empathy Mapping permite comprender a profundidad a los usuarios de DocMind, i
 
 El As-Is Scenario Mapping describe el flujo actual de trabajo que siguen los usuarios antes de utilizar DocMind. En este escenario, se analizan los pasos que realizan para leer, buscar y sintetizar información en documentos extensos, evidenciando los puntos de fricción, demoras y sobrecarga cognitiva. Este mapeo permite identificar las oportunidades de mejora que DocMind aprovechará al automatizar y optimizar este proceso con IA.
 
-![As-is Scenario Mapping](/asetss/gra.png)
+![As-is Scenario Mapping](asetss/gra.png)
 
 ## 2.4. Ubiquitous Language.
 
