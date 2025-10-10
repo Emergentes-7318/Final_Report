@@ -22,11 +22,11 @@ width=50%"/>
 
 |              Nombre               |   Código   |
 | :-------------------------------: | :--------: |
-|      Cabanillas Gora Andrea       | u202211711 |
-| Olivera Guerra, Santiago Mickelle | u20201a821 |
+| Alonso Garay, Diego Jesus         | U20221D014 |
+| Cabanillas Gora Andrea            | U202211711 |
 | Navarro Robles, Lorenzo Sebastian | U201713141 |
-| Vasquez Requejo, Augusto Mathias  | U20221A955 |
-| Diego Jesus, Alonso Garay         | U20221D014 |
+| Olivera Guerra, Santiago Mickelle | u20201a821 |
+| Vasquez Requejo, Augusto Mathias  | U20221a955 |
 
 <h5 style="text-align: center"> Ciclo 2025-02 </h5>
 
@@ -36,7 +36,8 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 | Versión | Fecha      | Autores                     | Descripción de Modificaciones |
 |---------|------------|-----------------------------|-------------------------------|
-| 1era    |  09/10/2025 | Cabanillas Gora Andrea Milagros, Olivera Guerra, Santiago Mickelle , Vasquez Requejo Augusto Mathias Leonardo, Fabian Reyes Trujillano, Gabriel Anthony Braithuaite Toledo|Carátula, CapítuloI, Capítulo II, Capítulo III, Capítulo IV |
+| 1era    |  09/10/2025 | Cabanillas Gora Andrea Milagros, Olivera Guerra, Santiago Mickelle , Vasquez Requejo Augusto Mathias Leonardo, Navarro Lorenzo, Alonso Diego|Carátula, CapítuloI, Capítulo II, Capítulo III, Capítulo IV |
+| 2da    |  10/10/2025 | Cabanillas Gora Andrea Milagros, Olivera Guerra, Santiago Mickelle , Vasquez Requejo Augusto Mathias Leonardo, Navarro Lorenzo, Alonso Diego |Mejora continua y Capitulos V y VI.|
 
 
 
@@ -55,19 +56,19 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 | Integrante                               | Tareas Asignadas        |
 | ---------------------------------------- | ----------------------- |
-| Vasquez Requejo Augusto Mathias Leonardo | Chapters 01,02,03,04 |
-| Cabanillas Gora Andrea Milagros          | Chapters 01,02,03,04 |
-| Olivera Guerra, Santiago Mickelle        | Chapters 01,02,03,04 |
-| Diego Jesus Alonso Garay                 | Chapters 01,02,03,04 |
-| Navarro Robles, Lorenzo Sebastian        | Chapters 01,02,03,04 |
+| Alonso Garay, Diego Jesus         | Capitulo V |
+| Cabanillas Gora Andrea            | Capitulo V y VI |
+| Navarro Robles, Lorenzo Sebastian | Capitulo V y VI |
+| Olivera Guerra, Santiago Mickelle | Capitulo V |
+| Vasquez Requejo, Augusto Mathias  | Capitulo V y VI |
 
 Los integrantes son:
 
-- Vasquez Requejo Augusto Mathias Leonardo
-- Cabanillas Gora Andrea Milagros 
+- Alonso Garay, Diego Jesus         
+-  Cabanillas Gora Andrea            
+-  Navarro Robles, Lorenzo Sebastian
 - Olivera Guerra, Santiago Mickelle 
-- Diego Jesus Alonso Garay 
-- Navarro Robles, Lorenzo Sebastian
+- Vasquez Requejo, Augusto Mathias  
 
 ## Contenido
 ## Índice
@@ -129,6 +130,14 @@ Los integrantes son:
         - [4.3.2. Software Architecture Context Level Diagrams](#411-general-style-guidelines)
         - [4.3.3. Software Architecture Container Level Diagrams](#411-general-style-guidelines)
         - [4.3.4. Software Architecture Deployment Diagrams](#411-general-style-guidelines)
+
+        - [Capítulo V. : Tactical-Level Software Design]
+
+   - [5.1. Software Architecture](#41-style-guidelines)
+        - [4.3.1. Software Architecture System Landscape Diagram](#411-general-style-guidelines)
+        - [4.3.2. Software Architecture Context Level Diagrams](#411-general-style-guidelines)
+        - [4.3.3. Software Architecture Container Level Diagrams](#411-general-style-guidelines)
+        - [4.3.4. Software Architecture Deployment Diagrams](#411-general-style-guidelines)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video About-the-Team](#video-about-the-team)
     
@@ -139,5 +148,5 @@ Los integrantes son:
 
 | Criterio Específico | Acciones Realizadas | Conclusiones |
 |-----------------|--------------------|---------------------|
-|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.|**Augusto Mathias Leonardo Vasquez Requejo** <br> TB1: Chapter 01 y aportes en los demas capitulos </br> **Andrea Cabanillas Gora** <br> TB1: Chapter 02 y aportes en los demas capitulos </br> **Santiago Mickelle Olivera Guerra** <br> TB1: Chapter 03 y aportes en los demas capitulos </br> **Diego Jesus Alonso Garay** <br> TB1: Chapter 04 y aportes en los demas capitulos </br> **Navarro Robles, Lorenzo Sebastian** <br> TB1: Chapter 04 y aportes en los demas capitulos </br> |El proyecto DocMind permite que los cinco integrantes actualicen y apliquen conocimientos clave para su desarrollo profesional en soluciones de software al integrar tecnologías emergentes de IA (LLMs, RAG, embeddings y bases vectoriales) dentro de una arquitectura cloud-native segura, escalable y orientada a microservicios; fortalecer prácticas ágiles mediante la definición y priorización de épicas, user stories, criterios de aceptación y estimación con story points; consolidar habilidades de desarrollo web y móvil con enfoque UX/UI y accesibilidad; practicar integración de servicios externos (OAuth de Google, lectura de Drive) con buenas prácticas de seguridad y privacidad; mejorar la ingeniería de calidad a través de versionado, testing, métricas y trazabilidad; y potenciar competencias transversales —comunicación, coordinación, liderazgo y resolución de problemas— al asumir roles complementarios (PO, Scrum Master, Dev, QA) y transformar un reto real (generar reportes confiables desde documentos) en entregables funcionales alineados con estándares de la industria. </br>|   El equipo llevó a cabo una amplia gama de actividades para comunicar de manera efectiva las ideas y resultados del proyecto de ingeniería. Esto incluyó la realización de entrevistas, la elaboración de Statements y Hypothesis Statements como parte del proceso Lean UX, la creación de User Personas y el mapeo de la experiencia del usuario. Además, se realizó un análisis competitivo, se desarrollaron User Stories y se establecieron estrategias frente a competidores. Se utilizaron herramientas visuales como Lean UX Canvas y Style Guidelines, y se llevaron a cabo actividades como Empathy Mapping para comprender las necesidades de los usuarios. Todo esto se complementó con la creación de Landing Page y el diseño de interfaces de usuario para transmitir la propuesta de valor del proyecto de manera efectiva.<br>  Actualizar nuestros conocimientos técnicos como equipo nos permitió aplicar soluciones más eficientes en el desarrollo de la aplicación móvil, incorporando herramientas modernas como Flutter, Firebase y principios de arquitectura limpia, lo que fortaleció tanto la calidad del proyecto como nuestras competencias profesionales. |
-|Capacidad de comunicarse efectivamente con un rango de audiencias|**Augusto Mathias Leonardo Vasquez Requejo** <br> TB1: Chapter 01 y aportes en los demas capitulos </br> **Andrea Cabanillas Gora** <br> TB1: Chapter 02 y aportes en los demas capitulos </br> **Santiago Mickelle Olivera Guerra** <br> TB1: Chapter 03 y aportes en los demas capitulos </br> **Diego Jesus Alonso Garay** <br> TB1: Chapter 04 y aportes en los demas capitulos </br> **Navarro Robles, Lorenzo Sebastian** <br> TB1: Chapter 04 y aportes en los demas capitulos|    El desarrollo de DocMind potencia la capacidad del equipo para comunicarse efectivamente con un rango de audiencias, ya que al definir épicas, user stories y criterios de aceptación deben expresar de manera clara y precisa requerimientos técnicos comprensibles tanto para programadores como para docentes, clientes potenciales o usuarios finales; al preparar el backlog y priorizar funcionalidades, aprenden a adaptar el lenguaje según la audiencia, utilizando términos ágiles y métricas de negocio para gerentes, explicaciones técnicas para desarrolladores y mensajes sencillos para usuarios; además, en la documentación, presentaciones y reportes del proyecto, el equipo practica cómo traducir ideas complejas de inteligencia artificial, seguridad y arquitectura cloud en explicaciones accesibles, lo que fortalece su competencia para interactuar en contextos académicos, profesionales y empresariales diversos.
+|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.|**Augusto Mathias Leonardo Vasquez Requejo** <br> TB1: Chapter 01 y aportes en los demas capitulos <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Andrea Cabanillas Gora** <br> TB1: Chapter 02 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Santiago Mickelle Olivera Guerra** <br> TB1: Chapter 03 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Diego Jesus Alonso Garay** <br> TB1: Chapter 04 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Navarro Robles, Lorenzo Sebastian** <br> TB1: Chapter 04 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> |El proyecto DocMind permite que los cinco integrantes actualicen y apliquen conocimientos clave para su desarrollo profesional en soluciones de software al integrar tecnologías emergentes de IA (LLMs, RAG, embeddings y bases vectoriales) dentro de una arquitectura cloud-native segura, escalable y orientada a microservicios; fortalecer prácticas ágiles mediante la definición y priorización de épicas, user stories, criterios de aceptación y estimación con story points; consolidar habilidades de desarrollo web y móvil con enfoque UX/UI y accesibilidad; practicar integración de servicios externos (OAuth de Google, lectura de Drive) con buenas prácticas de seguridad y privacidad; mejorar la ingeniería de calidad a través de versionado, testing, métricas y trazabilidad; y potenciar competencias transversales —comunicación, coordinación, liderazgo y resolución de problemas— al asumir roles complementarios (PO, Scrum Master, Dev, QA) y transformar un reto real (generar reportes confiables desde documentos) en entregables funcionales alineados con estándares de la industria. </br>|   El equipo llevó a cabo una amplia gama de actividades para comunicar de manera efectiva las ideas y resultados del proyecto de ingeniería. Esto incluyó la realización de entrevistas, la elaboración de Statements y Hypothesis Statements como parte del proceso Lean UX, la creación de User Personas y el mapeo de la experiencia del usuario. Además, se realizó un análisis competitivo, se desarrollaron User Stories y se establecieron estrategias frente a competidores. Se utilizaron herramientas visuales como Lean UX Canvas y Style Guidelines, y se llevaron a cabo actividades como Empathy Mapping para comprender las necesidades de los usuarios. Todo esto se complementó con la creación de Landing Page y el diseño de interfaces de usuario para transmitir la propuesta de valor del proyecto de manera efectiva.<br>  Actualizar nuestros conocimientos técnicos como equipo nos permitió aplicar soluciones más eficientes en el desarrollo de la aplicación móvil, incorporando herramientas modernas como Flutter, Firebase y principios de arquitectura limpia, lo que fortaleció tanto la calidad del proyecto como nuestras competencias profesionales. |
+|Capacidad de comunicarse efectivamente con un rango de audiencias|**Augusto Mathias Leonardo Vasquez Requejo** <br> TB1: Chapter 01 y aportes en los demas capitulos. <br> TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6.</br> **Andrea Cabanillas Gora** <br> TB1: Chapter 02 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Santiago Mickelle Olivera Guerra** <br> TB1: Chapter 03 y aportes en los demas capitulos <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Diego Jesus Alonso Garay** <br> TB1: Chapter 04 y aportes en los demas capitulos. <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6. </br> **Navarro Robles, Lorenzo Sebastian** <br> TB1: Chapter 04 y aportes en los demas capitulos <br>TP1: Mejora continua del informe y desarrollo del capitulo 5 y 6.|    El desarrollo de DocMind potencia la capacidad del equipo para comunicarse efectivamente con un rango de audiencias, ya que al definir épicas, user stories y criterios de aceptación deben expresar de manera clara y precisa requerimientos técnicos comprensibles tanto para programadores como para docentes, clientes potenciales o usuarios finales; al preparar el backlog y priorizar funcionalidades, aprenden a adaptar el lenguaje según la audiencia, utilizando términos ágiles y métricas de negocio para gerentes, explicaciones técnicas para desarrolladores y mensajes sencillos para usuarios; además, en la documentación, presentaciones y reportes del proyecto, el equipo practica cómo traducir ideas complejas de inteligencia artificial, seguridad y arquitectura cloud en explicaciones accesibles, lo que fortalece su competencia para interactuar en contextos académicos, profesionales y empresariales diversos.
