@@ -940,7 +940,7 @@ Para poder definir la cantidad de consultas y la memoria de contexto para el cha
 ## 4.3. Software Architecture
 ### 4.3.1. Software Architecture System Landscape Diagram![](structurizr-70986-SystemContext-001.png)
 ### 4.3.1. Software Architecture Context Level Diagrams![](structurizr-70986-Container-001.png)
->>>>>>> a0fa72498c941ab16e58b13e680164eba16dff62
+
 ### 4.3.2. Software Architecture Container Level Diagrams
 ![](structurizr-70986-Component-001.png)
 ### 4.3.3. Software Architecture Deployment Diagrams
