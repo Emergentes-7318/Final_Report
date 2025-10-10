@@ -209,37 +209,24 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 Wireflow 1: Acceder a metricas e historial 
 <img src="/assets/AppWireflow1.png">
 
-Wireflow 2: Como usuario quisiera poder hacer una busqueda especifica en el documento por término.
+Wireflow 2:  Descargar y exportar PDF ya resumido.
 <img src="/assets/AppWireflow2.png">
 
-Wireflow 3: Como usuario quisiera poder hacer una busqueda especifica en el documento por término.
+Wireflow 3: Comparar citas en el mismo documento.
 <img src="/assets/AppWireflow3.png">
 
-Wireflow 4: Como usuario quisiera poder hacer una busqueda especifica en el documento por término.
+Wireflow 4: Busqueda especifica en el documento por término.
 <img src="/assets/AppWireflow4.png">
 
-Wireflow 5: Como usuario quisiera poder hacer una busqueda especifica en el documento por término.
+Wireflow 5: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
 <img src="/assets/AppWireflow5.png">
 
-Wireflow 6: Como usuario quisiera poder hacer una busqueda especifica en el documento por término.
+Wireflow 6: Documento subido a la aplicacion para que resumenes sean generados y guardados en un historial
 <img src="/assets/AppWireflow6.png">
 
-Wireflow 7: Como usuario quisiera poder tener acceso a los resumenes que ya fueron creados para cualquier documento.
+Wireflow 7: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
 
 <img src="/assets/AppWireflow7.png">
-
-Wireflow 8: Como usuario quisiera poder guardar los PDFs que yo necesito en un apartado especial llamado "Mis Documentos" y si por alguna razon no se guarda correctamente poder saberlo.
-<img src="/assets/AppWireflow8.png">
-
-Wireflow 9: Creacion de una carpeta para agrupar los PDFs.
-<img src="/assets/AppWireflow9.png">
-
-Wireflow 10: Subir PDF en la aplicacion, hacer un resumen del mismo y consultas, las consultas realizadas se guardan en historial.
-
-<img src="/assets/AppWireflow10.png">
-
-Wireflow 11: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
-<img src="/assets/AppWireflow11.png">
 
   
 ### 6.6.2. Applications Mock-ups.
