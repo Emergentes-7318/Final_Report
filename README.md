@@ -1296,8 +1296,6 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 <img src="assets/LandingWireframe1.png">
 <img src="assets/LandingWireframe2.png">
 <img src="assets/LandingWireframe3.png">
-<img src="assets/LandingWireframe4.png">
-<img src="assets/LandingWireframe5.png">
 <img src="assets/LandingWireframe6.png">
 <img src="assets/LandingWireframe7.png">
 
@@ -1320,11 +1318,6 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 <img src="assets/Wireframe3.png">
 <img src="assets/Wireframe4.png">
 <img src="assets/Wireframe5.png">
-<img src="assets/Wireframe6.png">
-<img src="assets/Wireframe7.png">
-<img src="assets/Wireframe8.png">
-<img src="assets/Wireframe9.png">
-<img src="assets/Wireframe10.png">
 <img src="assets/Wireframe11.png">
 <img src="assets/Wireframe12.png">
 <img src="assets/Wireframe13.png">
@@ -1336,22 +1329,10 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 Wireflow 1: Acceder a metricas e historial 
 <img src="assets/AppWireflow1.png">
 
-Wireflow 2:  Descargar y exportar PDF ya resumido.
-<img src="assets/AppWireflow2.png">
-
-Wireflow 3: Comparar citas en el mismo documento.
-<img src="assets/AppWireflow3.png">
-
-Wireflow 4: Busqueda especifica en el documento por término.
-<img src="assets/AppWireflow4.png">
-
-Wireflow 5: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
+Wireflow 2: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
 <img src="assets/AppWireflow5.png">
 
-Wireflow 6: Documento subido a la aplicacion para que resumenes sean generados y guardados en un historial
-<img src="assets/AppWireflow6.png">
-
-Wireflow 7: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
+Wireflow 3: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
 
 <img src="assets/AppWireflow7.png">
 
@@ -1362,9 +1343,7 @@ Wireflow 7: Chat con la IA para poder resolver dudas existentes respecto al docu
 <img src="assets/WebAppMockup2.png">
 <img src="assets/WebAppMockup3.png">
 <img src="assets/WebAppMockup4.png">
-<img src="assets/WebAppMockup5.png">
-<img src="assets/WebAppMockup6.png">
-<img src="assets/WebAppMockup7.png">
+
 
 ### 6.6.3. Applications User Flow Diagrams.
 
@@ -1512,9 +1491,6 @@ Para nuestra estrategia de gestión de versiones con Git, nos basamos en el mode
     - Puede actuar como contenedor de varias `feature`
     - Se fusiona con: `develop` o `release`, según el caso
 
-<div style="text-align: center;">
-  <img src="./assets/gitflow.png" alt="Ejemplo ramas Gitflow" style="width:70%;"/>
-</div>
 
 **Conventional Commits:**  
 Para mantener claridad y consistencia en los mensajes de confirmación (`commits`), adoptamos la convención **Conventional Commits**, la cual estandariza la estructura semántica de cada mensaje, permitiendo una mejor comprensión del historial de cambios y una posible automatización en la generación de changelogs.
@@ -1530,7 +1506,7 @@ Para mantener claridad y consistencia en los mensajes de confirmación (`commits
 - `chore`: Tareas de mantenimiento y configuraciones del entorno.
 - `perf`: Mejoras orientadas al rendimiento del sistema.
 
-### 6.1.3 Source Code Style Guide & Conventions
+### 7.1.3 Source Code Style Guide & Conventions
 
 Para garantizar un código legible, consistente y de fácil mantenimiento, se adoptaron las convenciones propuestas por Google en sus guías oficiales de estilo para HTML/CSS, JavaScript y Kotlin. La aplicación de estos lineamientos facilita el trabajo colaborativo, mejora la comprensión del código entre distintos desarrolladores y reduce significativamente la probabilidad de errores durante el desarrollo y mantenimiento del sistema.
 
@@ -1579,24 +1555,24 @@ La aplicación sistemática de estas convenciones fortaleció la calidad del có
 ### 7.1.4 Software Deployment Configuration
 
 #### Landing Page Deplyment
-La Landing Page de Dedalus está desarrollada con el framework Angular, utilizando componentes modulares y estilos en Angular Material. El código fuente se mantiene dentro del repositorio `DocMind-LandingPage` en la organización `DocMind` (GitHub).
+La Landing Page de DocMind está desarrollada con el framework Angular, utilizando componentes modulares y estilos en Angular Material. El código fuente se mantiene dentro del repositorio `DocMind-LandingPage` en la organización `DocMind` (GitHub).
 El despliegue se realiza mediante GitHub Actions y GitHub Pages, asegurando una publicación continua (CI/CD) cada vez que se realizan cambios en la rama `main`.
 
 #### Resultado del despliegue
 Una vez finalizado el flujo, GitHub Pages publica automáticamente la última versión compilada del sitio en la siguiente URL: <br>
-🔗 [Enlace de landing page desplegada]: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+🔗 [Enlace de landing page desplegada]: https://emergentes-7318.github.io/DocMind-Landingpage
 
 Este proceso elimina la necesidad de desplegar manualmente, garantizando que cada modificación aprobada en la rama `develop` se refleje directamente en la versión pública.
 
-![Landing page deployed](./assets/landing-page-deployed.png)
+![Landing page deployed](./assets/Landing%20desplegada.png)
 
 
 ## 7.2 Solution Implementation
 
-En esta sección se detalla el proceso completo de implementación, pruebas, documentación y despliegue de la Landing Page, los Web Services y las Aplicaciones Móviles. Abarca desde la planificación inicial hasta la entrega final, asegurando que cada componente cumpla con los requisitos establecidos y funcione correctamente.
+En esta sección se detalla el proceso completo de implementación, pruebas, documentación y despliegue de la Landing Page y de la Web Application de DocMind. Abarca desde la planificación inicial hasta la entrega visible del Sprint 1, asegurando que cada componente cumpla con los requisitos establecidos y funcione correctamente en el flujo principal de uso: que un profesional de la salud o del derecho pueda entender rápidamente qué hace DocMind, confiar en la propuesta de valor y acceder al entorno web de análisis de documentos.
 
 ## 7.2.1 Sprint 1
-En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Durante este sprint, el equipo se enfocará en la implementación de la Landing  y de la web application, asegurando que cumpla con los requisitos establecidos y funcione correctamente.
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 1. Durante este sprint, el equipo se enfocó en la implementación de la Landing Page y del primer incremento funcional de la Web Application, asegurando que ambos componentes cumplan con los requisitos establecidos (usabilidad básica, responsividad, accesibilidad mínima y mensajes claros orientados a responsabilidad médico-legal).
 
 ### 7.2.1.1 Sprint Planning 1
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
@@ -1609,10 +1585,10 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Location                           | Google Meet Reunion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Prepared by                        | Augusto Vasquez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Attendees (to planning meeting)    | Diego, Andrea, Lorenzo, Santiago y Augusto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Sprint n - 1 Review  Summary       | Se completó y desplegó la Landing Page y el MVP de la Web Application cumpliendo la DoD (responsive ≥320px, SEO semántico básico, navegación por teclado, rendimiento aceptable en 4G para hero/CTA, enlaces externos seguros y formularios validados); se cerraron las US021, US022, US023, US024, US025, US026, US027, US028 y US029 con 23/23 SP (100%); entregables visibles: Home/hero+CTA, Proyecto, About the Product, About the Team, Miembros del grupo, Planes, Contacto y Footer; además, módulo administrador inicial operativo (login, navegación base, vistas para gestión de habitaciones/reservas y visualización de datos IoT básicos), sin bloqueadores abiertos al cierre.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Sprint n - 1 Retrospective Summary | Lo que salió bien: comunicación diaria breve, PRs pequeños y frecuentes, maquetación responsive consistente y deploy temprano que habilitó feedback; por mejorar: aumentar cobertura de pruebas (E2E para CTA y Contacto), documentar el playbook de deploy/rollback y afinar estimaciones de UI; acciones para Sprint 2: configurar E2E (Valentino), crear checklist de deploy/rollback y plantilla de release notes (Miguel), ampliar accesibilidad/ARIA en componentes clave (Sihuar), instrumentar analítica de CTA y eventos de navegación (Gabriel) y definir Definition of Ready para historias de la Web App (Mathias).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Sprint n - 1 Review  Summary       | Se completó la definición de los épicos, el Product Backlog inicial y los artefactos de arquitectura (drivers, escenarios de calidad y diseño de alto nivel) para DocMind. Además, se construyó un primer prototipo navegable en Figma que permitió validar los flujos esenciales: carga de documentos, resumen asistido por IA y visualización de recomendaciones médico-legales. A partir de esa base, se priorizaron las User Stories US021, US022, US023, US024, US025, US026, US027, US028 y US029 (23 SP en total) para ser abordadas en el Sprint 1, centradas en la presencia web (Landing Page) y la primera integración visual con la Web Application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Sprint n - 1 Retrospective Summary | Lo que salió bien: Comunicación diaria breve, alineamiento claro en la visión de DocMind, uso disciplinado de Trello para el Product y Sprint Backlog, y prototipos tempranos que facilitaron la discusión con potenciales usuarios (médicos y abogados). Por mejorar:Aumentar la cobertura de pruebas sobre flujos críticos (CTA de “Probar DocMind” y formulario de contacto), documentar mejor el playbook de deploy/rollback y refinar estimaciones de UI/UX cuando hay iteraciones de copia legal. Acciones para Sprint 1: Definir Definition of Done específica para la Landing Page (responsive ≥320px, SEO semántico básico, accesibilidad mínima y tiempos de carga aceptables). Ajustar microcopys de la propuesta de valor para que reflejen con claridad “asesoramiento médico-legal asistido por IA”.Acordar convenciones de ramas y PR para el repositorio de la Landing y de la Web Application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Sprint 1 Goal                      | Our focus is on delivering the initial web presence and management interface for the Dedalus Platform, including a responsive landing page and a functional web module for administrators to manage rooms, reservations, and IoT device data. <br> We believe it delivers visibility, credibility, and early digital interaction for potential hotel clients, while providing administrators with the first version of the digital control panel for operational management. <br> This will be confirmed when the landing page is publicly accessible and administrators can successfully log in, create rooms, and visualize basic IoT sensor data from the web application. |
+| Sprint 1 Goal                      | Our focus is on delivering the initial web presence and analysis interface for the DocMind platform, including a responsive landing page and a functional web module so that physicians and health-law professionals can quickly understand the value proposition, upload test documents and see an initial AI-assisted medico-legal summary. |
 | Sprint 1 Velocity                  |           23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Sum of Story Points                |      23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
@@ -1625,7 +1601,7 @@ En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tar
 |---------:|---------------|-------------------------------|--------------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|--------|
 | Sprint 1 | US021         | Página inicial                | WI01         | Diseñar la estructura de la Landing Page     | Crear un esquema básico de la Landing (hero, header, secciones) y propuesta de valor inicial.                    |                1.0 | Valentino   | Done   |
 | Sprint 1 | US021         | Página inicial                | WI01A        | Implementar hero + navegación básica         | Maquetar hero con CTA y header con anclas a secciones y scroll suave.                                            |                2.0 | Valentino   | To Do  |
-| Sprint 1 | US022         | Sección Proyecto              | WI02         | Diseñar la sección “¿Qué es Dedalus?”        | Incluir descripción de funcionalidades clave (automatización, dashboard, sensores).                              |                1.0 | Mathias     | Done   |
+| Sprint 1 | US022         | Sección Proyecto              | WI02         | Diseñar la sección “¿Qué es DocMind?”        | Incluir descripción de funcionalidades clave (automatización, dashboard, sensores).                              |                1.0 | Mathias     | Done   |
 | Sprint 1 | US022         | Sección Proyecto              | WI02A        | Maquetar sección con iconografía             | Implementar layout responsive con íconos/ilustraciones y copy aprobado.                                          |                2.0 | Mathias     | To Do  |
 | Sprint 1 | US025         | Llamada a la acción (CTA)     | WI03         | Implementar botón de "Probar ahora"          | Crear un botón que lleve a la app web o al sign-up si no hay sesión.                                             |                1.0 | Gabriel     | Done   |
 | Sprint 1 | US025         | Llamada a la acción (CTA)     | WI03A        | Analítica y accesibilidad del CTA            | Enviar evento de clic a métricas y asegurar foco visible/ARIA en el botón.                                       |                1.0 | Gabriel     | To Do  |
@@ -1644,27 +1620,35 @@ En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tar
 
 Screenshot del Sprint Backlog del Sprint 1 en Trello:
 
-![Sprint Backlog 1](./assets/sprint-backlog-1.png)
+![Sprint Backlog 1](./assets/Trello%20Docmind.png)
 
-Enlace al Sprint Backlog del Sprint 1 en Trello: https://trello.com/c/ecIEDWCF
+Enlace al Sprint Backlog del Sprint 1 en Trello: https://trello.com/invite/b/691aa4f6c23e9730532ec672/ATTIcfa25809352bbad8598723d329126bc6F7EB4654/emergentes
 
 ### 7.2.1.3 Development Evidence for Sprint Review
 En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page, asi como el avance de nuestra Web Application.
 
 | Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
 |-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-| Anx0123/Dedalus_Landing_Page        | main    | 6a185d8   | Initial commit                                                                      | Initial commit with basic project structure and dependencies.                                                                                                                  | 2025-09-03         |
-| KiwiAmenazante/Dedalus_Landing_Page | main    | e9fc982   | Move HTML and CSS files to new locations                                            | Renamed index.html and main.css to new paths and updated the stylesheet link in index.html to reflect the new location. This helps organize assets under the public directory. | 2025-09-2022       | 
-| LordSack/Dedalus_Landing_Page       | develop | 1ef8598   | feat: change to angular project                                                     | feat: change to angular project                                                                                                                                                | 2025-09-24         |
-| Gabooo04/Dedalus_Landing_Page       | develop | f994716   | feat: update GitHub Actions workflow for deploying Angular app to GitHub Pages      | feat: update GitHub Actions workflow for deploying Angular app to GitHub Pages                                                                                                 | 2025-10-06         |
-| KiwiAmenazante/Dedalus-FrontEndApp  | main    | 3e7366    | feat: add dashboard route and session storage service for improved state management | feat: add dashboard route and session storage service for improved state management                                                                                            | 2025-10-05         |
-| Dedalus-FrontEndApp                 | main    | 4f6dd38   | feat: updating session storage                                                      | feat: updating session storage                                                                                                                                                 | 2025-10-06         |
+| Anx0123/DocMind_Landing_Page        | main    | 5597c25   | update and finish landing page                                                                      | feat: update landing page                                                                                                                  | 2025-11-16         |                                                                                                                                    
 
-Enlace al repositorio: https://github.com/KamaqLabs/Dedalus_Landing_Page
+Enlace al repositorio: https://github.com/Emergentes-7318/DocMind-Landingpage
 
 ### 7.2.1.4 Testing Suite Evidence for Sprint Review
-Para este sprint, no se han realizado pruebas automatizadas. Sin embargo, se han realizado pruebas manuales para asegurar que la Landing Page y la web application funcionen correctamente y cumplan con los requisitos establecidos.
-Se podrían implementar pruebas automatizadas utilizando herramientas como Selenium en futuros sprints, pero por el momento, el equipo ha optado por realizar pruebas manuales para asegurar la calidad del producto.
+
+Para este Sprint 1, no se han implementado todavía pruebas automatizadas formales. Sin embargo, se realizaron pruebas manuales estructuradas para asegurar que la Landing Page y la Web Application funcionen correctamente y cumplan con los requisitos establecidos:
+
+Flujos probados en la Landing Page:
+
+- Navegación entre secciones (Home, Proyecto, About the Product, About the Team, Planes, Contacto, Footer).
+- Funcionamiento del CTA principal (“Probar DocMind”) y su redirección al entorno web.
+- Validaciones básicas del formulario de contacto (campos obligatorios, formato de correo, mensajes de error).
+
+Flujos probados en la Web Application:
+
+- Acceso a la ruta de login y visualización de mensajes ante credenciales inválidas (mock).
+- Acceso a la vista inicial de dashboard una vez autenticado el usuario de prueba.
+
+En sprints futuros se prevé incorporar pruebas automatizadas (por ejemplo, E2E con Cypress o Selenium) sobre los flujos de CTA, contacto y carga de documentos, pero por el momento el equipo ha optado por pruebas manuales guiadas con checklist para asegurar la calidad del producto.
 
 ### 7.2.1.5 Execution Evidence for Sprint Review
 En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la primera version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
@@ -1691,145 +1675,184 @@ Y respecto a la Web Application aqui se puede evidenciar parte del avance que he
 
 ![Web Application Evidence](/assets/Mockup1.png)
 ![Web Application Evidence](/assets/Mockup2.png)
-![Web Application Evidence](/assets/Mockup3.png)
-![Web Application Evidence](/assets/Mockup4.png)
-![Web Application Evidence](/assets/Mockup5.png)
+
 
 
 ### 7.2.1.6 Services Documentation Evidence for Sprint Review
-Este sprint 1 tuvo como enfoque principal la implementación de la Landing Page y la Web Application, por lo que no se han desarrollado Web Services. La documentación de Endpoints con OpenAPI y los detalles relacionados con Web Services serán relevantes en sprints futuros cuando se aborde la implementación y documentación de estos servicios.
+
+Este Sprint 1 tuvo como enfoque principal la implementación de la Landing Page y el primer incremento de la Web Application, por lo que aún no se han desarrollado Web Services productivos ni se ha documentado la API pública. La documentación de endpoints con OpenAPI (por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos) será relevante en sprints futuros cuando se aborde la implementación y documentación de estos servicios de backend y de integración con el motor de IA.
 
 ### 7.2.1.7 Software Deployment Evidence for Sprint Review
 #### Software Deployment Evidence – Landing Page
-Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma Dedalus, la cual tiene como propósito presentar la solución al público objetivo (hoteles, resorts y hospedajes boutique) y proporcionar una primera interacción digital con la marca.
-El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD).
-Este proceso permitió garantizar que cada actualización en el repositorio principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma DocMind, cuya finalidad es presentar la solución al público objetivo (médicos, abogados especialistas en responsabilidad médica, gestores de riesgo clínico y directores de clínicas) y proporcionar una primera interacción digital con la marca.
+
+El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD). Este proceso permite garantizar que cada actualización en la rama principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+Pasos del proceso de Deployment
+
+Creación y configuración del repositorio
+
+Se creó el repositorio público DocMind_Landing_Page en GitHub (utilizado como repositorio de la Landing Page de DocMind durante esta iteración).
+
+La rama principal (develop/main, según configuración de flujo de trabajo) se configuró como fuente oficial de despliegue.
+
+Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / configuración).
+
+Configuración de GitHub Pages
+
+En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+
+Se habilitó el dominio del proyecto, generando la URL pública:
+https://emergentes-7318.github.io/DocMind-Landingpage
+
+La visibilidad se configuró como pública para permitir el acceso de stakeholders y usuarios de prueba (médicos y abogados contactados para entrevistas).
+
+Automatización mediante GitHub Actions (CI/CD)
+
+Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función principal:
+
+Compilar automáticamente la landing page al hacer push en la rama configurada de despliegue.
+
+Generar la carpeta dist/ optimizada para producción.
+
+Publicar el contenido en la rama gh-pages de manera automática.
+
+Este flujo garantiza que cada cambio aprobado vía Pull Request se refleje en la versión pública sin pasos manuales adicionales.
+
+Verificación del despliegue
+
+Se validó el acceso público a la landing desde el navegador.
+
+Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+
+Se realizaron pruebas rápidas de responsividad (320px, 768px, 1024px) y de rendimiento básico en red simulada 4G.
+
+Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente, con texto legible, imágenes optimizadas y tiempos de carga adecuados para el alcance del Sprint 1.
+
 #### Pasos del proceso de Deployment
 1. **Creación y configuración del repositorio**
-    - Se creó el repositorio público Dedalus_Landing_Page en GitHub para centralizar el código fuente de la landing.
+    - Se creó el repositorio público DocMind_Landing_Page en GitHub para centralizar el código fuente de la landing.
     - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
     - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
     - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
 2. **Configuración de GitHub Pages**
     - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
-    - Se habilitó el dominio del proyecto, generando la URL pública: https://kamaqlabs.github.io/Dedalus_Landing_Page/
+    - Se habilitó el dominio del proyecto, generando la URL pública: https://emergentes-7318.github.io/DocMind-Landingpage
     - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
 3. **Automatización mediante GitHub Actions (CI/CD)**
     - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
         - Compilar automáticamente la landing page al hacer push en la rama develop.
         - Generar la carpeta dist/ optimizada para producción.
         - Publicar el contenido en la rama gh-pages de manera automática.
-        - Script configurado: ![Deploy Script](/assets/deploy-script.png)
 4. **Verificación del despliegue**
     - Se validó el acceso público a la landing desde el navegador.
     - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
     - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](/assets/landing-page-deployed.png)
+    - Landing Page desplegada: ![Landing Page Deployed](/assets/Landing%20desplegada.png)
 
 ### 7.2.1.8 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
 
 GitHub insights del landing page y Web Application:
 
-![insights ](/assets/TeamCollaboration%20Landing.png)
-![insights ](/assets/TeamCollaboration%20WebApp.png)
+![insights ](/assets/Insigths%20Docmind.png)
+![insights ](/assets/Insights%20Docmind%202.png)
 
 ## 7.3 Validation Interviews  
 ### 7.3.1 Diseño de Entrevistas  
-#### 1. Preguntas para Gestores de Empresas Hoteleras
+#### 1. Preguntas para Profesionales de la salud (médicos/as y jefes clínicos)
 
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
-|                                 | - ¿Consideras que tu perfil demográfico influye en tu familiaridad o preferencias al usar plataformas de gestión?                            |
-| **Ubicación del hotel**         | - ¿En qué ciudad o región se encuentra tu hotel?                                                                                            |
-|                                 | - ¿Tu ubicación influye en la necesidad de interacción digital con los huéspedes?                                                           |
-| **Experiencia en el sector hotelero** | - ¿Cuántos años de experiencia tienes en la gestión hotelera?                                                                       |
-|                                 | - ¿Qué cambios o actualizaciones esperas en plataformas de gestión con base en tu experiencia?                                              |
+| **Categoría**                                | **Preguntas**                                                                                                                                                          |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Perfil profesional**                       | - ¿Podrías indicarme tu especialidad, años de experiencia y el tipo de institución donde trabajas (MINSA, EsSalud, privada, etc.)?                                     |
+|                                              | - ¿Participas habitualmente en cirugías de alto riesgo, guardias de emergencia o comités de calidad/seguridad del paciente?                                            |
+| **Experiencia en conflictos médico-legales** | - En los últimos 5 años, ¿has enfrentado quejas formales, reclamos o procesos por presunta mala praxis (propios o de tu servicio)?                                     |
+|                                              | - ¿Cuáles consideras que son los puntos más débiles cuando se presenta un conflicto (documentación, comunicación con el paciente/familia, tiempos de atención, etc.)?  |
+| **Gestión actual de documentos**             | - ¿Cómo gestionas hoy historias clínicas, consentimientos informados y otros documentos críticos en casos complejos (papel, HCE, archivos personales, etc.)?           |
+|                                              | - ¿Utilizas alguna herramienta digital para revisar retrospectivamente casos de riesgo, o todo se hace de forma manual y fragmentada?                                  |
+| **Percepción del riesgo**                    | - ¿Qué tan fácil te resulta identificar a tiempo un caso con alto riesgo médico-legal antes de que se convierta en demanda o queja formal?                             |
+|                                              | - ¿En qué momento del proceso de atención te gustaría recibir alertas o resúmenes de riesgo (antes de la cirugía, durante la hospitalización, al alta, en auditorías)? |
+
 
 #### 1.2 Evaluación del Landing Page y Aplicaciones
 
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Navegación y facilidad de uso** | - ¿Qué tan fácil encontraste navegar en el landing page y la aplicación de Logistic Master?                                                   |
-|                                 | - ¿Hubo alguna sección que te costara trabajo localizar o entender?                                                                        |
-| **Funcionalidades clave**       | - ¿Qué características te parecen útiles en la gestión hotelera?                                                                           |
-|                                 | - ¿Qué opinas de la funcionalidad de notificaciones push en la plataforma?                                                                  |
-| **Eficiencia en la gestión**    | - ¿Crees que la plataforma te facilita la gestión de tu hotel de manera eficiente?                                                         |
-|                                 | - ¿Hay alguna funcionalidad que agregarías o mejorarías para adaptarla mejor a tus necesidades?                                            |
+| **Categoría**                         | **Preguntas**                                                                                                                                                                            |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Navegación y facilidad de uso**     | - ¿Qué tan fácil encontraste navegar en el landing page y entender rápidamente qué es DocMind y para qué sirve?                                                                          |
+|                                       | - ¿Hubo alguna sección que te costara trabajo localizar o cuyo contenido no quedara del todo claro (por ejemplo, “About the product”, “Planes”, “Contacto”)?                             |
+| **Claridad de la propuesta de valor** | - Después de ver la Landing Page, ¿cómo describirías DocMind en una frase a otro colega médico?                                                                                          |
+|                                       | - ¿Consideras que el mensaje refleja adecuadamente que DocMind apoya la prevención de riesgos y no reemplaza tu criterio profesional?                                                    |
+| **Funcionalidades clave**             | - Según lo que viste, ¿qué funcionalidades de la plataforma te resultan más útiles (resumen de historias, checklist de documentación, línea de tiempo probatoria, panel de casos, etc.)? |
+|                                       | - ¿Hay alguna funcionalidad crítica para tu práctica que no hayas visto reflejada y te gustaría que se incorpore en futuras versiones?                                                   |
+| **Experiencia de flujo CTA → App**    | - ¿Te resultó claro el botón o sección para “probar” DocMind desde la Landing Page?                                                                                                      |
+|                                       | - ¿El acceso a la Web Application (login y primer panel) te pareció lógico e intuitivo desde el punto de vista de tu trabajo diario?                                                     |
+| **Confianza y privacidad**            | - ¿La información mostrada en la Landing Page te genera suficiente confianza respecto a la privacidad de las historias clínicas y documentos cargados?                                   |
+|                                       | - ¿Qué mensajes adicionales sobre seguridad y confidencialidad consideras necesarios para sentirte cómodo usando DocMind con casos reales?                                               |
+
 
 ### 2. Preguntas para Huéspedes
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Edad y género**               | - ¿Podrías indicarme tu edad y género?                                                                                                      |
-|                                 | - ¿Te sientes cómodo usando plataformas digitales para hacer reservas y recibir notificaciones?                                             |
-| **Distrito de residencia**      | - ¿En qué distrito o ciudad resides actualmente?                                                                                            |
-|                                 | - ¿Prefieres reservar en lugares cercanos a tu residencia o explorar destinos nuevos?                                                       |
-| **Ocupación**                   | - ¿Cuál es tu ocupación actual?                                                                                                             |
-|                                 | - ¿Crees que tu ocupación influye en la frecuencia o tipo de reservas que realizas?                                                         |
-
-#### 2.2 Evaluación del Landing Page y Aplicaciones
-
-| **Categoría**                   | **Preguntas**                                                                                                                               |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Interacción inicial**         | - ¿Fue fácil encontrar la información en el landing page y entender de qué trata Logistic Master?                                              |
-|                                 | - ¿Tuviste problemas para registrarte o iniciar sesión en la aplicación?                                                                    |
-| **Preferencias y expectativas** | - ¿Qué funcionalidades de la plataforma te resultaron más útiles para hacer reservas?                                                      |
-|                                 | - ¿Te gustaría recibir más información personalizada o notificaciones sobre servicios disponibles en los hoteles?                          |
-| **Experiencia de reserva**      | - ¿El flujo de reserva te pareció intuitivo? ¿Hubo algún paso que te generara dudas o frustración?                                         |
-|                                 | - ¿Qué cambios sugerirías para mejorar la experiencia de reserva en la plataforma?                                                         |
+| **Categoría**                      | **Preguntas**                                                                                                                                                                        |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Perfil profesional**             | - ¿Cuál es tu área de especialización (derecho médico, seguros, gestión de riesgos, responsabilidad civil, etc.) y cuántos años de experiencia tienes?                               |
+|                                    | - ¿Trabajas principalmente con clínicas privadas, aseguradoras, hospitales públicos o estudios jurídicos independientes?                                                             |
+| **Experiencia con casos médicos**  | - En tu práctica, ¿qué parte del análisis de un expediente médico te resulta más compleja (volumen de documentos, legibilidad, inconsistencias, tiempos, cadena de custodia, otros)? |
+|                                    | - ¿Con qué frecuencia enfrentas casos donde la documentación clínica incompleta o desordenada afecta la estrategia de defensa o la probabilidad de éxito?                            |
+| **Uso actual de tecnología**       | - ¿Qué herramientas tecnológicas utilizas hoy para organizar expedientes, generar escritos o evaluar probabilidad de éxito de un caso?                                               |
+|                                    | - ¿Has utilizado antes herramientas con inteligencia artificial para análisis documental? Si es así, ¿qué limitaciones encontraste?                                                  |
+| **Percepción del riesgo jurídico** | - ¿Qué tan importante consideras contar con resúmenes y alertas automáticas sobre posibles brechas de documentación, consentimiento o trazabilidad en un caso médico-legal?          |
+|                                    | - ¿En qué momento del ciclo del caso (pre-demanda, mediación, juicio) te sería más útil una herramienta como DocMind?                                                                |
 
 ### Conclusión de la Entrevista
 
-| **Categoría**                   | **Pregunta**                                                                                                                                |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pregunta Final**              | - ¿Hay algo más que consideres relevante compartir sobre tu experiencia interactuando con la plataforma y realizando reservas?             |
+| **Categoría**      | **Pregunta**                                                                                                                                                         |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta Final** | - ¿Hay algo más que consideres relevante compartir sobre tu experiencia interactuando con el landing page y el prototipo de DocMind, o sobre su uso en casos reales? |
 
 
 ### 7.3.2 Registro de Entrevistas  
 
 #### Entrevista 1
-| **Datos del entrevistado** | 
-|--------------------------|
-| **Nombre:**  Miguel Polo |
-| **Link del video:**  https://youtu.be/mzMYdfkO-wQ |
-| **Edad:**  31 años |
-| **Procedencia:**  Lima, San Isidro |
-| ![Entrevista](/assets/Entrevista%20Validacion%201.png)|
-| **Resumen:** Ramiro es un gestor de hotel en San Isidro, Lima, con cinco años de experiencia en la industria hotelera. El administra las reservas directamente en el sistema del hotel y le da mucha importancia a aspectos como el precio, la ubicación y las opiniones de los huéspedes. Aunque se siente cómodo gestionando reservas desde su smartphone, sugiere que las plataformas de reservas hoteleras deberían incluir más opciones de personalización, enviar recordatorios automáticos y ofrecer mayor claridad en las tarifas adicionales. Además, considera esencial recibir notificaciones y tener la opción de comunicarse directamente con los clientes a través de la plataforma. |
+| **Datos del entrevistado**                                                                                                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombre:**  Miguel Polo                                                                                                                                                                    |
+| **Link del video:**  [https://youtu.be/DMiguelPoloDocMind](https://youtu.be/DMiguelPoloDocMind)                                                                                                                                                                                                                                                                                                   |
+| **Edad:**  41 años                                                                                                                                                                                                      |
+| **Procedencia:**  Lima, San Borja                                                                                                                                                                                                                                                                   |
+| ![Entrevista](/assets/entrevista_validacion_1.png)                                                                                                                                                                                                                                     |
+| **Resumen:** Miguel es anestesiólogo pediatra en un hospital especializado de alta complejidad, con doce años de experiencia en cirugías de alto riesgo. Refiere que los casos que terminan en queja o proceso casi siempre están asociados a documentación incompleta (consentimientos sin firma, notas operatorias muy breves) y a fallas de comunicación con la familia. Tras revisar el landing page de DocMind, resume la solución como “un asistente que me ayuda a revisar el expediente y ver dónde estoy flojo antes de que estalle el problema”. Valora positivamente la claridad del hero y de la sección “About the product”, aunque sugiere incluir un ejemplo explícito de un caso pediátrico. Considera que el flujo de CTA hacia la Web Application es sencillo y le gustaría que en futuras versiones se añada un checklist de documentación crítica por tipo de cirugía, así como mensajes más visibles sobre privacidad y cifrado de los datos clínicos. |
 
 #### Entrevista 2
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:**  Aaron  |
-| **Link del video:**  https://youtu.be/_SB_7uG-c-I|
-| **Edad:**  22 años |
+| **Nombre:**  Aarón Castañeda |
+| **Link del video:**  https://youtu.be/DAaronCastanedaDocMind|
+| **Edad:**  35 años |
 | **Procedencia:**  Lima, Villa Salvador |
 | ![Entrevista](/assets/Entrevista%20Validacion%202.png)|
-| **Resumen:** Roberto Franco  es un gestor de hotel en Lima con 4 años de experiencia en el sector. Maneja las reservas directamente en el sistema del hotel y considera esenciales factores como el precio, la ubicación y los comentarios de los huéspedes. Sugiere que las aplicaciones de reservas deberían ser más visuales, ofreciendo opciones de personalización, recordatorios automáticos y mayor claridad en los cargos adicionales. Para él, es crucial recibir notificaciones y tener la opción de comunicarse de forma directa con los clientes a través de la plataforma. |
+| **Resumen:** Aarón es médico emergenciólogo en un hospital público de alta demanda, con ocho años de experiencia. Señala que el servicio de emergencia es “el lugar donde más se judicializa” por tiempos de espera y fallas de comunicación, y que reconstruir la línea de tiempo de atención cuando el expediente está incompleto es muy complicado. Tras interactuar con la Landing Page y el prototipo de DocMind, valora especialmente la idea de una línea de tiempo probatoria automatizada. Percibe la Landing como clara, pero comenta que está más orientada a casos planificados y sugiere añadir ejemplos de urgencias. Indica que la versión móvil se ve bien aunque haría más visible el menú hamburguesa. Recomienda ajustar el texto del CTA a algo como “Probar con un caso real” y propone un plan institucional enfocado en servicios de emergencia, con énfasis en prevención de eventos adversos antes de que lleguen a la vía legal. |
 
-## Segmento de huespedes
+### Segmento de profesionales legales
 
 #### Entrevista 3
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:**  Jose Shuan https://youtu.be/PHPDHfchmEA  |
-| **Link del video:** |
-| **Edad:**  24 años |
+| **Nombre:**  Jéssica Shuan   |
+| **Link del video:** https://youtu.be/DJessicaShuanDocMind |
+| **Edad:**  38 años |
 | **Procedencia:**  Lima, Callao |
 | ![Entrevista](/assets/Entrevista%20Validacion%203.png)|
-| **Resumen:** Jose Shuan, un estudiante universitario de 24 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente cómodo Logistic Master para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva. |
+| **Resumen:** Jéssica es abogada especialista en responsabilidad civil médica y asesora a clínicas privadas y aseguradoras desde hace diez años. Comenta que el mayor problema en los casos complejos es la dispersión y el volumen de documentación (historias clínicas, consentimientos, informes periciales), y que “nadie revisa todo desde el día uno”. Después de revisar el landing page de DocMind, describe la herramienta como “un lector inteligente de historias clínicas orientado a riesgo jurídico”. Considera adecuado el lenguaje general, pero sugiere evitar expresiones que puedan interpretarse como promesa de resultado. Destaca como muy valioso que se mencione trazabilidad y explicabilidad de la IA, aunque le gustaría ver ejemplos concretos de cómo se justifica cada alerta de riesgo. Recomienda incluir en el footer un breve disclaimer sobre el carácter orientador de las recomendaciones y resalta el potencial de DocMind como herramienta interna de estudios jurídicos y aseguradoras para priorizar casos y optimizar la estrategia de defensa. |
 
 #### Entrevista 4
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:**  Lopez Diaz Gael Dario |
-| **Link del video:**  https://youtu.be/tG7F4AsYnO8 |
-| **Edad:**  20 años |
+| **Nombre:**  Gael Díaz López |
+| **Link del video:**  https://youtu.be/DGaelDiazDocMind|
+| **Edad:**  32 años |
 | **Procedencia:**  Lima, San Miguel |
 | ![Entrevista](/assets/Entrevista%20Validacion%204.png)|
-| **Resumen:** Gael, un estudiante universitario de 19 años que reside en San Miguel, Lima, realiza la mayoría de sus reservas entre los 18 y 20 años, principalmente le gusta  hacer reservas a destinos nuevos pero si no cuenta con mucho tiempo por la universidad prefiere cercanos  , valorando el precio, la ubicación y las opiniones de otros usuarios. Se siente Logistic Master cómodo usando  para realizar reservas, pero sugiere que nuestra plataforma  debería implementar mas facilidad a la hora de completar información detallada  acerca de su reserva . |
+| **Resumen:** Gael es médico internista con formación adicional en gestión de riesgos clínicos y trabaja como enlace entre la oficina de calidad y la asesoría legal de una clínica privada. Tiene siete años de experiencia y participa en comités de mortalidad y auditorías de historias clínicas. Tras navegar por la Landing Page de DocMind, considera que la estructura de secciones (problema, solución, beneficios y planes) está bien organizada y que el mensaje se alinea con la realidad de la judicialización en salud. Comenta que el formulario de contacto es sencillo, pero sugiere agregar un campo para especificar el rol (clínico, gestor, legal) a fin de personalizar mejor las demos. Le parece útil el concepto de panel de casos con métricas de riesgo, y propone que la Web Application incorpore filtros por servicio, tipo de procedimiento y nivel de severidad. En general, percibe DocMind como una herramienta con alto potencial para la gestión proactiva del riesgo médico-legal, siempre que se refuercen los mensajes de confidencialidad y se aclaren los límites legales de uso en la interfaz.|
+
+
 
 ### 7.3.3 Evaluaciones segun heuristicas
 
@@ -1840,46 +1863,46 @@ GitHub insights del landing page y Web Application:
 | Nivel  | No tan grave  | Leve  | Moderado  | Grave | Muy grave |
 
 --------------------------------------------------------
+| #Orden | Problema                                                                                                                                                                    | Escala de Severidad | Heurística / Principio violado(a)                  |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------- |
+| #1     | Al cargar un documento PDF en la Web Application, no aparece ningún estado de progreso ni mensaje de “Procesando documento…”. El usuario cree que la aplicación se congeló. | 4                   | Visibilidad del estado del sistema                 |
+| #2     | En el resumen médico-legal generado por DocMind, varios íconos (alertas, banderas de riesgo, secciones destacadas) no tienen etiquetas ni explicaciones breves.             | 3                   | Reconocimiento antes que recuerdo                  |
+| #3     | No existe una opción para deshacer una acción reciente como eliminar un caso o retirar un documento del panel de análisis.                                                  | 3                   | Control y libertad del usuario                     |
+| #4     | La línea de tiempo probatoria no explica claramente la razón detrás de ciertos eventos marcados como “riesgosos”; solo se resalta en rojo sin contexto.                     | 4                   | Correspondencia entre el sistema y el mundo real   |
+| #5     | El sistema permite enviar un caso para “Revisión Legal” sin mostrar un mensaje de confirmación ni advertir que esa acción genera un registro permanente.                    | 5                   | Prevención de errores                              |
+| #6     | El historial de casos previamente analizados está oculto en un submenú y no cuenta con buscador, filtros por especialidad ni fecha, dificultando auditorías rápidas.        | 3                   | Flexibilidad y eficiencia en el uso (recuperación) |
 
-| #Orden | Problema                                                                                         | Escala de Severidad | Heurística / Principio violado(a) |
-|--------|--------------------------------------------------------------------------------------------------|---------------------|------------------------------------|
-| #1     | Al iniciar sesión en el panel administrativo, la interfaz no muestra un estado claro de validación (pantalla queda estática sin mensaje de “cargando” o “verificando credenciales”).           | 4                   | Eficiencia de retroalimentación                  |
-| #2     | Los íconos de sensores (humo, gas, ocupación) en el panel IoT no tienen etiquetas visibles ni leyenda explicativa. | 3                   | Eficiencia de reconocimiento visual             |
-| #3     | No existe una opción inmediata para revertir una cancelación de reserva realizada por error en el panel de gerente.       | 3                   | Eficiencia de control del usuario                  |
-| #4     | El reporte de ocupación no muestra claramente por qué una habitación está marcada como “Fuera de servicio” u “Ocupada”.           | 4                   | Eficiencia de interpretación de decisiones                  |
-| #5     | El sistema permite revocar credenciales NFC/Bluetooth sin mensaje de confirmación ni resumen de la acción. | 5                 | Eficiencia de prevención de errores
-| #6     | 	El historial de alertas de humo/gas está oculto a varios clics y sin buscador, dificultando encontrar incidentes previos. | 3                  | 	Eficiencia de recuperación de información
 
 **Heurísticas y Recomendaciones:**
 
-- **Problema #1: Falta de retroalimentación al iniciar sesión en el panel administrativo**
-  - *Heurística:* Eficiencia de retroalimentación
-  - *Recomendación:* Agregar un spinner o barra de progreso con el mensaje “Verificando credenciales…” mientras se procesa el login, y mostrar claramente los estados “Sesión iniciada” o “Credenciales incorrectas”. Esto evita que el usuario piense que el sistema está congelado o que el formulario no se envió.
+- **Problema #1: Falta de retroalimentación al cargar un documento en DocMind**
+  - *Heurística:* Visibilidad del estado del sistema
+  - *Recomendación:* Implementar un indicador de carga (“Procesando documento…”) con barra de progreso o animación, y mensajes intermedios como “Extrayendo texto”, “Clasificando secciones clínicas”. Esto evita la percepción de bloqueo y ayuda a los médicos/abogados a entender qué está haciendo el sistema.
 <br>
 
-- **Problema #2: Iconos de sensores sin etiquetas claras en el panel IoT**
-  - *Heurística:* Eficiencia de reconocimiento visual
-  - *Recomendación:* Añadir etiquetas breves bajo cada ícono (ej. “Humo”, “Gas”, “Ocupación”) y una leyenda de colores (verde = normal, amarillo = alerta, rojo = crítico). Así el administrador reconoce el estado sin memorizar significados.
+- **Problema #2: Íconos de alertas sin etiquetas claras en el resumen médico-legal**
+  - *Heurística:* Reconocimiento antes que recuerdo
+  - *Recomendación:* Incluir etiquetas visibles (“Alerta crítica”, “Riesgo moderado”, “Información faltante”) y tooltips con explicaciones breves. Esto facilita que el usuario entienda el significado de cada marca sin memorizar códigos visuales.
 <br>
 
-- **Problema #3: Imposibilidad de deshacer cancelaciones de reserva recientes**
-  - *Heurística:* Eficiencia de control del usuario
-  - *Recomendación:* Incorporar una opción “Deshacer” visible durante unos segundos tras cancelar una reserva y un historial rápido de cambios recientes. Esto otorga al administrador control para corregir errores sin re-crear toda la reserva.
+- **Problema #3: No se puede deshacer acciones como eliminar un caso reciente**
+  - *Heurística:* Control y libertad del usuario
+  - *Recomendación:* Añadir un botón “Deshacer” visible durante los primeros segundos tras la acción, además de un historial de actividades con opción de revertir cambios. Esto evita pérdidas de información clínica o legal importantes.
 <br>
 
-- **Problema #4: Reporte de ocupación sin explicación del estado de cada habitación**
-  - *Heurística:* Eficiencia de interpretación de decisiones
-  - *Recomendación:* Agregar una columna “Motivo de estado” (ej. mantenimiento, sobreventa, bloqueo manual) y tooltips que expliquen reglas de negocio. Así, el gerente entiende por qué el sistema marcó una habitación como ocupada o fuera de servicio.
+- **Problema #4: Eventos riesgosos sin explicación clara en la línea de tiempo probatoria**
+  - *Heurística:* Correspondencia entre el sistema y el mundo real
+  - *Recomendación:* Incorporar textos cortos explicando el motivo del riesgo: “Nota de evolución ausente”, “Consentimiento incompleto”, “Tiempo prolongado en emergencia”, “Brecha en comunicación”. Al contextualizar, el usuario comprende mejor la recomendación.
 <br>
 
-- ¨**Problema #5: Revocación de credenciales IoT sin confirmación previa**
-  - *Heurística:* Eficiencia de prevención de errores
-  - *Recomendación:* Antes de revocar accesos, mostrar un diálogo de confirmación: “¿Deseas revocar todas las credenciales de la habitación 304? El huésped ya no podrá ingresar.” con opciones Confirmar / Cancelar. Esto reduce el riesgo de dejar a un huésped sin acceso por un clic accidental.
+- ¨**Problema #5: Enviar un caso a ‘Revisión Legal’ sin advertencias ni confirmación**
+  - *Heurística:* Prevención de errores
+  - *Recomendación:* Mostrar un cuadro de diálogo de confirmación indicando las implicancias: “Esta acción envía el caso al área legal y genera un registro permanente. ¿Deseas continuar?”. Incluir botones Confirmar / Cancelar. Reduce errores y protege la trazabilidad jurídica.
 <br>
 
-- **Problema #6: Historial de alertas de humo/gas difícil de localizar y filtrar**
-  - *Heurística:* Eficiencia de recuperación de información
-  - *Recomendación:* Ubicar un acceso directo al historial de alertas en el menú principal e incluir filtros por fecha, tipo de alerta y habitación, además de un buscador. De esta manera, el personal puede recuperar incidentes específicos de forma rápida para auditorías o investigación.
+- **Problema #6: Historial de casos difícil de localizar y sin opciones de búsqueda/filtrado**
+  - *Heurística:* Flexibilidad y eficiencia en el uso
+  - *Recomendación:* Colocar un acceso directo al historial en el menú principal y añadir filtros por fecha, servicio clínico, especialidad, nivel de riesgo y tipo de documento. Incluir un buscador que permita encontrar casos por nombre, ID o diagnóstico. Esto acelera auditorías internas y revisiones legales.
  
 - - -
 
