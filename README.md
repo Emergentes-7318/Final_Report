@@ -1302,12 +1302,11 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 
 ### 6.3.2. Landing Page Mock-up
 
-<img src="assets/LandingMockup1.png">
-<img src="assets/LandingMockup2.png">
-<img src="assets/LandingMockup3.png">
-<img src="assets/LandingMockup4.png">
-<img src="assets/LandingMockup6.png">
-<img src="assets/LandingMockup7.png">
+<img src="assets/Docmind1.png">
+<img src="assets/Docmind 2.png">
+<img src="assets/Docmind 3.png">
+<img src="assets/Docmind 4.png">
+<img src="assets/Docmind 5.png">
 
 
 ## 6.6. Applications UX/UI Design.
@@ -1655,26 +1654,24 @@ En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la pr
 
 <br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
 atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](/assets/LandingPageMockup1.png)
+<br> ![Landing Page Access](/assets/Docmind1.png)
+
 <br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
 Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
 desarrollo.
-<br> ![Landing Page About Section](/assets/LandingPageMockup2.png)
-<br> ![Landing Page About Team Section](/assets/LandingPageMockup3.png)
-<br>**Subscriptions Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
+<br> ![Landing Page About Section](/assets/Docmind%202.png) 
+<br> ![Landing Page About Team Section](/assets/Docmind%203.png)
+<br> **About the team Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
 usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](/assets/LandingPageMockup4.png)
-<br>**Contact Section**: La sección que permite a los usuarios ponerse en contacto con el equipo de desarrollo.
-Incluye un formulario de contacto con campos para el nombre, correo electrónico y mensaje.
-<br> ![Landing Page Contact Section](/assets/LandingPageMockup5.png)
+<br> ![Landing Page Subscriptions Section](/assets/Docmind%204.png)
 <br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](/assets/LandingPageMockup6.png)
+<br> ![Landing Page Footer Section](/assets/Docmind%205.png)
 
 
 Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
 
-![Web Application Evidence](/assets/Mockup1.png)
-![Web Application Evidence](/assets/Mockup2.png)
+![Web Application Evidence](/assets/docmidn%20web%201.jpg)
+![Web Application Evidence](/assets/docmidn%20web2.jpg)
 
 
 
