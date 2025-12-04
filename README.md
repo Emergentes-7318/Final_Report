@@ -467,7 +467,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Datos del entrevistado** | 
 |--------------------------|
 | **Nombre:**  Andres Muñoz |
-| **Link del video:** 0:00 - 3:03 [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
+| **Link del video:** 0:00 - 3:03 [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/IQApZmJpGvsuRpix-TW0zIoHAeLcyY7xuvg-H5AhEuegJns?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sZt7Br)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
 | ![Entrevista1](/assets/Entrevista%201.png)|
@@ -478,7 +478,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Datos del entrevistado** | 
 |--------------------------|
 | **Nombre:**  Abraham Arana|
-| **Minuto del video:** 3:04 - 14:25 [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
+| **Minuto del video:** 3:04 - 14:25 [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/IQA_OjJW7GuaR6x9gHGETzkxAZb2HwyIfTgiubEl_2F1I58?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=wZajSh)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
 | ![Entrevista2](/assets/Entrevista%202.png)|
@@ -1691,7 +1691,7 @@ El despliegue se efectuó utilizando **GitHub Pages** como servicio de hosting e
 
 ---
 
-### Pasos del proceso de *Deployment*
+### Pasos del proceso de Deployment
 
 #### 1. Creación y configuración del repositorio
 
@@ -1825,7 +1825,15 @@ Y respecto a la Mobile Application aqui se puede evidenciar parte del avance que
 Este Sprint 2 tuvo como enfoque principal el desarrollo de la Web Application. Se desarrollo de la documentación de endpoints con OpenAPI por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos.
 
 ### 7.2.2.7 Software Deployment Evidence for Sprint Review
-#### Software Deployment Evidence – Landing Page
+#### Software Deployment Evidence – Application Web
+
+![Evidencia despliegue ](/assets/Evidencia%20Sprint%202.jpg)
+
+Se muestra la ejecución correcta del backend REST API construido con NestJS dentro de una instancia EC2 en AWS.
+La consola reporta la inicialización de todos los módulos del proyecto, incluyendo ConfigModule, JwtModule, ChatModule, UsersModule y DocumentsModule. Se visualiza además el mapeo automático de rutas y controladores, evidenciando que la API está activa, con los endpoints correctamente registrados y expuestos.
+
+![Evidencia despliegue ](/assets/Evidencia%202%20Sprint%202.jpg)
+
 
 
 ### 7.2.2.8 Team Collaboration Insights during Sprint
@@ -1992,9 +2000,13 @@ Enlace al video de About the product: https://youtu.be/RTo2_SW8ntw
 # Conclusiones
 
 - El desarrollo del proyecto DocMind ha permitido consolidar una propuesta tecnológica sólida, orientada a resolver una necesidad real detectada en distintos sectores profesionales: la optimización del tiempo y la comprensión en el análisis de documentos extensos mediante inteligencia artificial. A través de las entrevistas realizadas, se identificó un patrón común de uso creciente de herramientas digitales, pero también una demanda insatisfecha por soluciones más precisas, trazables y adaptadas al contexto profesional de cada usuario.
+
 <br>
+
 - Durante el proceso de diseño y conceptualización, se estructuraron los lineamientos de marca, la arquitectura de información y las guías de estilo que garantizan una experiencia de usuario coherente y accesible tanto en la versión web como móvil. El trabajo de definición de épicas, historias de usuario y backlog permitió traducir las necesidades identificadas en funcionalidades medibles y priorizadas, sentando las bases para un desarrollo ágil y escalable. Asimismo, la elaboración del Lean UX Canvas facilitó la alineación entre los objetivos de negocio, los comportamientos del usuario y los resultados esperados, reforzando la visión estratégica del producto.
+
 <br>
+
 - DocMind se posiciona como una plataforma innovadora, capaz de combinar procesamiento de lenguaje natural, análisis documental y visualización de resultados de forma intuitiva y confiable. Su potencial de impacto abarca ámbitos académicos, legales, médicos y empresariales, demostrando que la aplicación de la inteligencia artificial puede integrarse de manera ética y responsable en los flujos de trabajo cotidianos. En conjunto, este trabajo refleja una comprensión integral del proceso de diseño de soluciones basadas en IA, desde la identificación del problema hasta la planificación de su implementación técnica y visual, consolidando una base firme para las siguientes etapas de desarrollo del proyecto.
 
 # Bibliografia 
