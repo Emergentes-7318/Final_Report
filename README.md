@@ -1820,8 +1820,6 @@ Y respecto a la Mobile Application aqui se puede evidenciar parte del avance que
 ![Mobile Application Evidence](/assets/docmidn%20web%201.jpg)
 ![Mobile Application Evidence](/assets/docmidn%20web2.jpg)
 
-
-
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review
 
 Este Sprint 2 tuvo como enfoque principal el desarrollo de la Web Application. Se desarrollo de la documentación de endpoints con OpenAPI por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos.
