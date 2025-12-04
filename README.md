@@ -1742,7 +1742,7 @@ GitHub insights del landing page y Web Application:
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Durante este sprint, el equipo se enfocó en consolidar el flujo completo de análisis documental en la Web Application, integrando la importación desde Google Drive, el módulo de preguntas y respuestas con IA y el visor con citas básicas. Asimismo, se finalizó la integración de la Landing Page con la aplicación web mediante el botón de llamada a la acción (CTA), de modo que los usuarios puedan pasar de la presentación de DocMind a la experiencia de uso real de forma fluida.
 
 ### 7.2.2.1 Sprint Planning 2
-En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 2. Este encuentro permitió definir el segundo incremento de producto, orientado a completar el ciclo “descubrir DocMind en la landing → autenticarse → importar documento → obtener resumen y respuestas con citas”. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 2. Este encuentro permitió definir el segundo incremento de producto, orientado a completar el ciclo “descubrir DocMind en la landing, autenticarse, importar documento, obtener resumen y respuestas con citas”. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
 
 | **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1778,7 +1778,8 @@ En esta sección se explican y presentan los avances en la implementación de lo
 
 | Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
 |-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
-| Emergentes-7318/DocMind-DocMind API        | main    | fe70a80   | Subida limpia final page                                                                      | feat: update application API page                                                                                                                  | 2025-12-4         |                                                                                                                                    
+| Emergentes-7318/DocMind-DocMind API        | main    | fe70a80   | Subida limpia final page                                                                      | feat: update application API page                                                                                                                  | 2025-12-4         |       
+| Emergentes-7318/DocMind-Frontend        | main    | 1b65a9c   | cambio al puerto 3001, importante, este es el unico junto al 3000 aceptados por drive page                                                                      | feat: cambio al puerto 3001, importante, este es el unico junto al 3000 aceptados por drive page                                                                                                                  | 2025-12-4         |                                                                                                                              
 
 Enlace al repositorio: https://github.com/Emergentes-7318/DocMind-Landingpage
 Enlace al repositorio: https://github.com/Emergentes-7318/Frontend
@@ -1878,8 +1879,8 @@ Para el desarrollo de este sprint, el equipo designó a un integrante para el de
 
 GitHub insights del landing page y Web Application:
 
-![insights ](/assets/Insigths%20Docmind.png)
-![insights ](/assets/Insights%20Docmind%202.png)
+![insights ](/assets/Insights%201%20Sprint%202.png)
+![insights ](/assets/Insights%202%20Sprint%202.png)
 
 
 ## 7.3 Validation Interviews  
