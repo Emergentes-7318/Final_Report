@@ -1607,30 +1607,19 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | Sum of Story Points                |      23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 
-
 ### 7.2.1.2 Sprint Backlog 1
-En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y el avance de nuestro Web Application. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+En esta sección se presenta el Sprint Backlog del Sprint 1, que incluye las tareas y actividades planificadas para el desarrollo de la Landing Page y las primeras funcionalidades de la Web Application (autenticación, carga de documentos y resumen automático). Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
 
-| Sprint # | User Story Id | Title                          | Work Item Id | Task Title                                   | Description                                                                                                       | Estimation (Hours) | Assigned To | Status |
-|---------:|---------------|-------------------------------|--------------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|--------|
-| Sprint 1 | US021         | Página inicial                | WI01         | Diseñar la estructura de la Landing Page     | Crear un esquema básico de la Landing (hero, header, secciones) y propuesta de valor inicial.                    |                1.0 | Lorenzo   | Done   |
-| Sprint 1 | US021         | Página inicial                | WI01A        | Implementar hero + navegación básica         | Maquetar hero con CTA y header con anclas a secciones y scroll suave.                                            |                2.0 | Lorenzo   | To Do  |
-| Sprint 1 | US022         | Sección Proyecto              | WI02         | Diseñar la sección “¿Qué es DocMind?”        | Incluir descripción de funcionalidades clave (automatización, dashboard, sensores).                              |                1.0 | Mathias     | Done   |
-| Sprint 1 | US022         | Sección Proyecto              | WI02A        | Maquetar sección con iconografía             | Implementar layout responsive con íconos/ilustraciones y copy aprobado.                                          |                2.0 | Mathias     | To Do  |
-| Sprint 1 | US025         | Llamada a la acción (CTA)     | WI03         | Implementar botón de "Probar ahora"          | Crear un botón que lleve a la app web o al sign-up si no hay sesión.                                             |                1.0 | Santiago     | Done   |
-| Sprint 1 | US025         | Llamada a la acción (CTA)     | WI03A        | Analítica y accesibilidad del CTA            | Enviar evento de clic a métricas y asegurar foco visible/ARIA en el botón.                                       |                1.0 | Santiago     | To Do  |
-| Sprint 1 | US026         | Sección “About the Product”   | WI04         | Diseñar la sección "About the product"       | Incluir una descripción resumida del producto y beneficios.                                                       |                1.0 | Andrea      | Done   |
-| Sprint 1 | US026         | Sección “About the Product”   | WI04A        | Diagrama + enlace a documentación            | Agregar diagrama/arquitectura (SVG) y enlaces a documentación en nueva pestaña.                                  |                2.0 | Andrea      | To Do  |
-| Sprint 1 | US027         | Sección “About the Team”      | WI05         | Diseñar la sección "About the team"          | Incluir una breve presentación del equipo y roles principales.                                                    |                1.0 | Diego      | Done   |
-| Sprint 1 | US027         | Sección “About the Team”      | WI05A        | Grid de tarjetas con fotos y roles           | Implementar tarjetas con nombre, rol y foto (lazy-load) en layout responsive.                                    |                2.0 | Diego      | To Do  |
-| Sprint 1 | US024         | Sección de planes             | WI06         | Diseñar la sección "Planes de Pago"          | Incluir dos o más planes con precios y características.                                                           |                1.0 | Diego      | Done   |
-| Sprint 1 | US024         | Sección de planes             | WI06A        | Implementar cards y CTA por plan             | Maquetar cards comparables y redirección de cada CTA al flujo correspondiente.                                    |                2.0 | Miguel      | To Do  |
-| Sprint 1 | US028         | Sección “Miembros del grupo”  | WI07         | Diseñar la sección "Miembros del grupo"      | Incluir fotos y nombres de los miembros del equipo de desarrollo.                                                 |                1.0 | Lorenzo   | Done   |
-| Sprint 1 | US028         | Sección “Miembros del grupo”  | WI07A        | Perfiles con enlaces y texto alternativo     | Añadir enlaces a redes, ofuscación de correos y `alt` descriptivo en imágenes.                                    |                1.5 | Lorenzo   | To Do  |
-| Sprint 1 | US023         | Sección de contacto           | WI08         | Diseñar la sección "Contacto"                | Incluir un formulario con campos: nombre, correo, teléfono y mensaje.                                             |                1.0 | Mathias     | Done   |
-| Sprint 1 | US023         | Sección de contacto           | WI08A        | Validaciones + envío (mock/API)              | Validar campos en frontend y conectar envío a mock/API con manejo de respuesta y errores.                        |                2.0 | Mathias     | To Do  |
-| Sprint 1 | US029         | Footer                        | WI09         | Diseñar el footer                            | Incluir un aviso de derechos de autor.                                                                            |                1.0 | Santiago     | Done   |
-| Sprint 1 | US029         | Footer                        | WI09A        | Enlaces legales y comportamiento de apertura | Añadir enlaces a privacidad/términos y abrir en nueva pestaña con `rel="noopener noreferrer"`.                   |                0.5 | Santiago     | To Do  |
+| Sprint # | User Story Id | Title                                   | Work Item Id | Task Title                                            | Description                                                                                                                | Estimation (Hours) | Assigned To | Status |
+|---------:|---------------|-----------------------------------------|--------------|-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|--------|
+| Sprint 1 | USL01         | Landing Page con CTA                    | WI01         | Diseñar la estructura de la Landing Page             | Definir el esquema básico de la Landing (header, hero, secciones principales) y la propuesta de valor inicial de DocMind. |                1.0 | Lorenzo     | Done   |
+| Sprint 1 | USL01         | Landing Page con CTA                    | WI01A        | Implementar hero + botón “Probar ahora”              | Maquetar el hero con texto principal, call to action y navegación básica hacia secciones de la página.                    |                2.0 | Lorenzo     | Done   |
+| Sprint 1 | US021         | Autenticación con Google/IAM            | WI02         | Configurar proveedor de identidad                     | Configurar el proveedor de autenticación (Google/IAM) en el backend y registrar las credenciales necesarias.              |                2.0 | Mathias     | Done   |
+| Sprint 1 | US021         | Autenticación con Google/IAM            | WI02A        | Implementar flujo de login en la WebApp              | Añadir el botón de “Iniciar sesión con Google”, manejar redirecciones y validar el token para acceder al panel principal. |                3.0 | Mathias     | Done   |
+| Sprint 1 | US001         | Carga de documentos PDF                 | WI03         | Diseñar vista “Mis documentos”                       | Crear el layout de la pantalla donde se listan los documentos subidos y se muestra su estado básico.                      |                2.0 | Santiago    | Done   |
+| Sprint 1 | US001         | Carga de documentos PDF                 | WI03A        | Implementar subida de PDF + validaciones             | Conectar el formulario de carga al backend, validar tipo/tamaño de archivo y mostrar mensajes de éxito o error.          |                3.0 | Santiago    | Done   |
+| Sprint 1 | US006         | Resumen automático (3 párrafos)         | WI04         | Conectar endpoint de resumen en el backend           | Implementar el endpoint que recibe un documento procesado y devuelve un resumen corto generado por la IA.                 |                3.0 | Andrea      | Done   |
+| Sprint 1 | US006         | Resumen automático (3 párrafos)         | WI04A        | Mostrar resumen en la interfaz de la WebApp          | Añadir en la vista del documento un área donde se vea el resumen de 3 párrafos y permitir volver a generarlo si es necesario. |                2.0 | Andrea      | Done   |
 
 Screenshot del Sprint Backlog del Sprint 1 en Trello:
 
@@ -1769,6 +1758,173 @@ GitHub insights del landing page y Web Application:
 ![insights ](/assets/Insigths%20Docmind.png)
 ![insights ](/assets/Insights%20Docmind%202.png)
 
+## 7.2.2 Sprint 2
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 2. Durante este sprint, el equipo se enfocó en consolidar el flujo completo de análisis documental en la Web Application, integrando la importación desde Google Drive, el módulo de preguntas y respuestas con IA y el visor con citas básicas. Asimismo, se finalizó la integración de la Landing Page con la aplicación web mediante el botón de llamada a la acción (CTA), de modo que los usuarios puedan pasar de la presentación de DocMind a la experiencia de uso real de forma fluida.
+
+### 7.2.2.1 Sprint Planning 2
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting del Sprint 2. Este encuentro permitió definir el segundo incremento de producto, orientado a completar el ciclo “descubrir DocMind en la landing → autenticarse → importar documento → obtener resumen y respuestas con citas”. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
+
+| **Sprint #**                       | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Date                               | 2025-12-11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Time                               | 16:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Location                           | Google Meet Reunion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Prepared by                        | Augusto Vasquez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Attendees (to planning meeting)    | Diego, Andrea, Lorenzo, Santiago y Augusto                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sprint n - 1 Review  Summary       | En el Sprint 1 se logró desplegar la Landing Page responsiva con CTA principal, así como el primer incremento funcional de la Web Application: autenticación mediante Google/IAM, carga de documentos PDF y generación de un resumen automático corto (3 párrafos) por documento. El equipo validó estos flujos con usuarios de prueba, quienes pudieron iniciar sesión, subir un archivo y visualizar su resumen en la interfaz. Estos resultados confirmaron la viabilidad técnica del backend y del motor de IA para resúmenes básicos, dejando como siguientes pasos la integración con Google Drive y la habilitación de consultas en lenguaje natural. |
+| Sprint n - 1 Retrospective Summary | Lo que salió bien: buena coordinación entre frontend y backend para el flujo de login y subida de documentos, decisiones rápidas ante bloqueos técnicos, y documentación mínima pero clara de los endpoints utilizados para resúmenes. Por mejorar: reducir re-trabajos en estilos de la interfaz, anticipar mejor los tiempos de integración con la nube y mantener un checklist más explícito para pruebas cruzadas entre navegadores. Acciones para Sprint 2: acordar criterios de aceptación más detallados para Google Drive y Q&A, definir casos de prueba básicos para el visor con citas, y consolidar un flujo único desde la Landing Page hasta la pantalla de “Mis documentos”. |
+| **Sprint Goal & User Stories**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Sprint 2 Goal                      | Our focus is on enabling a complete end-to-end document analysis experience: users coming from the landing page will be able to sign in, import documents from Google Drive, ask natural language questions about their PDFs and see AI-generated answers with basic citations inside the web viewer.                                                                                                                                                                                                                                                                                                                                                                      |
+| Sprint 2 Velocity                  | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Sum of Story Points                | 20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+### 7.2.2.2 Sprint Backlog 2
+En esta sección se presenta el Sprint Backlog del Sprint 2, que incluye las tareas y actividades planificadas para completar el flujo de análisis documental: integración de la Landing Page con la Web Application mediante el CTA, importación de documentos desde Google Drive, módulo de preguntas y respuestas con IA y visor con citas básicas. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint.
+
+| Sprint # | User Story Id | Title                                   | Work Item Id | Task Title                                                | Description                                                                                                                                                                         | Estimation (Hours) | Assigned To | Status |
+|---------:|---------------|-----------------------------------------|--------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------:|-------------|--------|
+| Sprint 2 | USL01         | Landing Page con CTA                    | WI10         | Conectar CTA con flujo de WebApp                          | Configurar el botón “Probar ahora” para redirigir correctamente a la ruta de login de la Web Application y mantener parámetros básicos de tracking.                               |                1.5 | Lorenzo     | Done   |
+| Sprint 2 | USL01         | Landing Page con CTA                    | WI10A        | Verificar navegación post-login                           | Asegurar que, tras autenticarse, el usuario llegue a la pantalla “Mis documentos” y no a una vista vacía o genérica.                                                               |                1.5 | Lorenzo     | Done   |
+| Sprint 2 | US003         | Importación desde Google Drive          | WI11         | Diseñar vista de integración con Google Drive             | Crear la sección de interfaz donde el usuario pueda conectar su cuenta de Google Drive y visualizar la lista de archivos disponibles para importar.                               |                2.0 | Santiago    | Done   |
+| Sprint 2 | US003         | Importación desde Google Drive          | WI11A        | Implementar autenticación y listado de archivos de Drive  | Integrar el SDK/API de Google Drive, manejar el flujo de autorización y mostrar la lista de archivos PDF seleccionables para importación.                                         |                3.0 | Santiago    | Done   |
+| Sprint 2 | US007         | Preguntas y respuestas en lenguaje natural | WI12       | Implementar endpoint de Q&A en el backend                 | Crear el endpoint que reciba una pregunta y el identificador del documento, consulte el motor de IA y devuelva una respuesta basada en el contenido del PDF.                      |                3.0 | Andrea      | Done   |
+| Sprint 2 | US007         | Preguntas y respuestas en lenguaje natural | WI12A      | Integrar módulo de chat/Q&A en la WebApp                  | Añadir el componente de chat en la vista del documento, permitir enviar preguntas, mostrar respuestas y manejar estados de carga y errores básicos.                               |                3.0 | Andrea      | Done   |
+| Sprint 2 | US011         | Visor con citas básicas ancladas        | WI13         | Extender visor de documento con área de respuesta         | Adaptar el visor para mostrar, junto al documento, un panel de respuestas con la referencia a la página o sección de origen.                                                       |                2.0 | Diego       | Done   |
+| Sprint 2 | US011         | Visor con citas básicas ancladas        | WI13A        | Implementar navegación a fragmento citado                 | Hacer que al hacer clic en una cita, el visor se desplace a la página correspondiente del PDF o resalte el área relacionada.                                                       |                2.0 | Diego       | Done   |
+
+### 7.2.2.3 Development Evidence for Sprint Review
+En esta sección se explican y presentan los avances en la implementación de los productos de la solución según el alcance del Sprint 1. Durante este sprint, el equipo se ha enfocado en la creación y despliegue de la Landing Page, asi como el avance de nuestra Web Application.
+
+| Repository                          | Branch  | Commit Id | Commit Message                                                                      | Commit Message Body                                                                                                                                                            | Commited on (Date) |
+|-------------------------------------|---------|-----------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Emergentes-7318/DocMind-Landingpage        | main    | 5597c25   | update and finish landing page                                                                      | feat: update landing page                                                                                                                  | 2025-11-16         |                                                                                                                                    
+
+Enlace al repositorio: https://github.com/Emergentes-7318/DocMind-Landingpage
+
+### 7.2.2.4 Testing Suite Evidence for Sprint Review
+
+Para este Sprint 1, no se han implementado todavía pruebas automatizadas formales. Sin embargo, se realizaron pruebas manuales estructuradas para asegurar que la Landing Page y la Web Application funcionen correctamente y cumplan con los requisitos establecidos:
+
+Flujos probados en la Landing Page:
+
+- Navegación entre secciones (Home, Proyecto, About the Product, About the Team, Planes, Contacto, Footer).
+- Funcionamiento del CTA principal (“Probar DocMind”) y su redirección al entorno web.
+- Validaciones básicas del formulario de contacto (campos obligatorios, formato de correo, mensajes de error).
+
+Flujos probados en la Web Application:
+
+- Acceso a la ruta de login y visualización de mensajes ante credenciales inválidas (mock).
+- Acceso a la vista inicial de dashboard una vez autenticado el usuario de prueba.
+
+En sprints futuros se prevé incorporar pruebas automatizadas (por ejemplo, E2E con Cypress o Selenium) sobre los flujos de CTA, contacto y carga de documentos, pero por el momento el equipo ha optado por pruebas manuales guiadas con checklist para asegurar la calidad del producto.
+
+### 7.2.2.5 Execution Evidence for Sprint Review
+En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la primera version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
+
+<br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
+atractivo, una imagen llamativa y un botón de llamada a la acción.
+<br> ![Landing Page Access](/assets/Docmind1.png)
+
+<br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
+Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
+desarrollo.
+<br> ![Landing Page About Section](/assets/Docmind%202.png) 
+<br> ![Landing Page About Team Section](/assets/Docmind%203.png)
+<br> **About the team Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
+usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
+<br> ![Landing Page Subscriptions Section](/assets/Docmind%204.png)
+<br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
+<br> ![Landing Page Footer Section](/assets/Docmind%205.png)
+
+
+Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
+
+![Web Application Evidence](/assets/docmidn%20web%201.jpg)
+![Web Application Evidence](/assets/docmidn%20web2.jpg)
+
+
+
+### 7.2.2.6 Services Documentation Evidence for Sprint Review
+
+Este Sprint 1 tuvo como enfoque principal la implementación de la Landing Page y el primer incremento de la Web Application, por lo que aún no se han desarrollado Web Services productivos ni se ha documentado la API pública. La documentación de endpoints con OpenAPI (por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos) será relevante en sprints futuros cuando se aborde la implementación y documentación de estos servicios de backend y de integración con el motor de IA.
+
+### 7.2.2.7 Software Deployment Evidence for Sprint Review
+#### Software Deployment Evidence – Landing Page
+Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma DocMind, cuya finalidad es presentar la solución al público objetivo (médicos, abogados especialistas en responsabilidad médica, gestores de riesgo clínico y directores de clínicas) y proporcionar una primera interacción digital con la marca.
+
+El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD). Este proceso permite garantizar que cada actualización en la rama principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
+Pasos del proceso de Deployment
+
+Creación y configuración del repositorio
+
+Se creó el repositorio público DocMind_Landing_Page en GitHub (utilizado como repositorio de la Landing Page de DocMind durante esta iteración).
+
+La rama principal (develop/main, según configuración de flujo de trabajo) se configuró como fuente oficial de despliegue.
+
+Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / configuración).
+
+Configuración de GitHub Pages
+
+En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+
+Se habilitó el dominio del proyecto, generando la URL pública:
+https://emergentes-7318.github.io/DocMind-Landingpage
+
+La visibilidad se configuró como pública para permitir el acceso de stakeholders y usuarios de prueba (médicos y abogados contactados para entrevistas).
+
+Automatización mediante GitHub Actions (CI/CD)
+
+Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función principal:
+
+Compilar automáticamente la landing page al hacer push en la rama configurada de despliegue.
+
+Generar la carpeta dist/ optimizada para producción.
+
+Publicar el contenido en la rama gh-pages de manera automática.
+
+Este flujo garantiza que cada cambio aprobado vía Pull Request se refleje en la versión pública sin pasos manuales adicionales.
+
+Verificación del despliegue
+
+Se validó el acceso público a la landing desde el navegador.
+
+Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+
+Se realizaron pruebas rápidas de responsividad (320px, 768px, 1024px) y de rendimiento básico en red simulada 4G.
+
+Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente, con texto legible, imágenes optimizadas y tiempos de carga adecuados para el alcance del Sprint 1.
+
+#### Pasos del proceso de Deployment
+1. **Creación y configuración del repositorio**
+    - Se creó el repositorio público DocMind_Landing_Page en GitHub para centralizar el código fuente de la landing.
+    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
+    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
+    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
+2. **Configuración de GitHub Pages**
+    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+    - Se habilitó el dominio del proyecto, generando la URL pública: https://emergentes-7318.github.io/DocMind-Landingpage
+    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
+3. **Automatización mediante GitHub Actions (CI/CD)**
+    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
+        - Compilar automáticamente la landing page al hacer push en la rama develop.
+        - Generar la carpeta dist/ optimizada para producción.
+        - Publicar el contenido en la rama gh-pages de manera automática.
+4. **Verificación del despliegue**
+    - Se validó el acceso público a la landing desde el navegador.
+    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
+    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
+    - Landing Page desplegada: ![Landing Page Deployed](/assets/Landing%20desplegada.png)
+
+### 7.2.2.8 Team Collaboration Insights during Sprint
+Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
+
+GitHub insights del landing page y Web Application:
+
+![insights ](/assets/Insigths%20Docmind.png)
+![insights ](/assets/Insights%20Docmind%202.png)
+
+
 ## 7.3 Validation Interviews  
 ### 7.3.1 Diseño de Entrevistas  
 #### 1. Preguntas para Profesionales de la salud (médicos/as y jefes clínicos)
@@ -1863,7 +2019,6 @@ GitHub insights del landing page y Web Application:
 | **Procedencia:**  Lima, San Miguel |
 | ![Entrevista](/assets/Entrevista%20Validacion%204.png)|
 | **Resumen:** Gael es médico internista con formación adicional en gestión de riesgos clínicos y trabaja como enlace entre la oficina de calidad y la asesoría legal de una clínica privada. Tiene siete años de experiencia y participa en comités de mortalidad y auditorías de historias clínicas. Tras navegar por la Landing Page de DocMind, considera que la estructura de secciones (problema, solución, beneficios y planes) está bien organizada y que el mensaje se alinea con la realidad de la judicialización en salud. Comenta que el formulario de contacto es sencillo, pero sugiere agregar un campo para especificar el rol (clínico, gestor, legal) a fin de personalizar mejor las demos. Le parece útil el concepto de panel de casos con métricas de riesgo, y propone que la Web Application incorpore filtros por servicio, tipo de procedimiento y nivel de severidad. En general, percibe DocMind como una herramienta con alto potencial para la gestión proactiva del riesgo médico-legal, siempre que se refuercen los mensajes de confidencialidad y se aclaren los límites legales de uso en la interfaz.|
-
 
 
 ### 7.3.3 Evaluaciones segun heuristicas
