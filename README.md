@@ -1678,77 +1678,57 @@ Y respecto a la Web Application aqui se puede evidenciar parte del avance que he
 ![Web Application Evidence](/assets/docmidn%20web2.jpg)
 
 
-
 ### 7.2.1.6 Services Documentation Evidence for Sprint Review
 
 Este Sprint 1 tuvo como enfoque principal la implementación de la Landing Page y el primer incremento de la Web Application, por lo que aún no se han desarrollado Web Services productivos ni se ha documentado la API pública. La documentación de endpoints con OpenAPI (por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos) será relevante en sprints futuros cuando se aborde la implementación y documentación de estos servicios de backend y de integración con el motor de IA.
 
 ### 7.2.1.7 Software Deployment Evidence for Sprint Review
 #### Software Deployment Evidence – Landing Page
-Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma DocMind, cuya finalidad es presentar la solución al público objetivo (médicos, abogados especialistas en responsabilidad médica, gestores de riesgo clínico y directores de clínicas) y proporcionar una primera interacción digital con la marca.
 
-El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD). Este proceso permite garantizar que cada actualización en la rama principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
-Pasos del proceso de Deployment
+Durante este Sprint se realizó el **despliegue de la Landing Page oficial de la plataforma DocMind**, cuya finalidad es presentar la solución al público objetivo (**médicos, abogados especialistas en responsabilidad médica, gestores de riesgo clínico y directores de clínicas**) y proporcionar una primera interacción digital con la marca.
 
-Creación y configuración del repositorio
+El despliegue se efectuó utilizando **GitHub Pages** como servicio de hosting estático y **GitHub Actions** como herramienta de automatización continua (CI/CD). Este proceso permite garantizar que cada actualización en la rama principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
 
-Se creó el repositorio público DocMind_Landing_Page en GitHub (utilizado como repositorio de la Landing Page de DocMind durante esta iteración).
+---
 
-La rama principal (develop/main, según configuración de flujo de trabajo) se configuró como fuente oficial de despliegue.
+### Pasos del proceso de *Deployment*
 
-Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / configuración).
+#### 1. Creación y configuración del repositorio
 
-Configuración de GitHub Pages
+- Se creó el repositorio público **`DocMind_Landing_Page`** en GitHub (utilizado como repositorio de la Landing Page de DocMind durante esta iteración).
+- La rama principal (**`develop`/`main`**, según configuración de flujo de trabajo) se configuró como **fuente oficial de despliegue**.
+- Se añadieron los archivos esenciales del proyecto:
+  - Código fuente (Angular / HTML / CSS)
+  - Carpeta **`assets/`**
+  - Archivos de configuración necesarios para el build y el deploy.
 
-En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
+#### 2. Configuración de GitHub Pages
 
-Se habilitó el dominio del proyecto, generando la URL pública:
-https://emergentes-7318.github.io/DocMind-Landingpage
+- En **Settings → Pages**, se seleccionó la rama **`gh-pages`** (generada automáticamente por la acción de despliegue) como fuente del sitio.
+- Se habilitó el dominio del proyecto, generando la URL pública:
 
-La visibilidad se configuró como pública para permitir el acceso de stakeholders y usuarios de prueba (médicos y abogados contactados para entrevistas).
+  > **https://emergentes-7318.github.io/DocMind-Landingpage**
 
-Automatización mediante GitHub Actions (CI/CD)
+- La visibilidad se configuró como **pública** para permitir el acceso de *stakeholders* y usuarios de prueba (médicos y abogados contactados para entrevistas).
 
-Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función principal:
+#### 3. Automatización mediante GitHub Actions (CI/CD)
 
-Compilar automáticamente la landing page al hacer push en la rama configurada de despliegue.
+- Se creó un archivo de flujo de trabajo **`.github/workflows/deploy.yml`** con la siguiente función principal:
+  - Compilar automáticamente la landing page al hacer **push** en la rama configurada de despliegue.
+  - Generar la carpeta **`dist/`** optimizada para producción.
+  - Publicar el contenido en la rama **`gh-pages`** de manera automática.
 
-Generar la carpeta dist/ optimizada para producción.
+- Este flujo garantiza que **cada cambio aprobado vía Pull Request** se refleje en la versión pública **sin pasos manuales adicionales**.
 
-Publicar el contenido en la rama gh-pages de manera automática.
+#### 4. Verificación del despliegue
 
-Este flujo garantiza que cada cambio aprobado vía Pull Request se refleje en la versión pública sin pasos manuales adicionales.
+- Se validó el **acceso público** a la landing desde el navegador.
+- Se comprobó la **correcta carga de recursos** (imágenes, estilos y scripts).
+- Se realizaron pruebas rápidas de:
+  - **Responsividad** (ancho de 320px, 768px y 1024px).
+  - **Rendimiento básico** en red simulada 4G.
 
-Verificación del despliegue
-
-Se validó el acceso público a la landing desde el navegador.
-
-Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
-
-Se realizaron pruebas rápidas de responsividad (320px, 768px, 1024px) y de rendimiento básico en red simulada 4G.
-
-Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente, con texto legible, imágenes optimizadas y tiempos de carga adecuados para el alcance del Sprint 1.
-
-#### Pasos del proceso de Deployment
-1. **Creación y configuración del repositorio**
-    - Se creó el repositorio público DocMind_Landing_Page en GitHub para centralizar el código fuente de la landing.
-    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
-    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
-    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
-2. **Configuración de GitHub Pages**
-    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
-    - Se habilitó el dominio del proyecto, generando la URL pública: https://emergentes-7318.github.io/DocMind-Landingpage
-    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
-3. **Automatización mediante GitHub Actions (CI/CD)**
-    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
-        - Compilar automáticamente la landing page al hacer push en la rama develop.
-        - Generar la carpeta dist/ optimizada para producción.
-        - Publicar el contenido en la rama gh-pages de manera automática.
-4. **Verificación del despliegue**
-    - Se validó el acceso público a la landing desde el navegador.
-    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
-    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](/assets/Landing%20desplegada.png)
+Los resultados de validación fueron **satisfactorios**: el sitio se muestra correctamente, con texto legible, imágenes optimizadas y tiempos de carga adecuados para el alcance del **Sprint 1**.
 
 ### 7.2.1.8 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
@@ -1801,10 +1781,12 @@ En esta sección se explican y presentan los avances en la implementación de lo
 | Emergentes-7318/DocMind-Landingpage        | main    | 5597c25   | update and finish landing page                                                                      | feat: update landing page                                                                                                                  | 2025-11-16         |                                                                                                                                    
 
 Enlace al repositorio: https://github.com/Emergentes-7318/DocMind-Landingpage
+Enlace al repositorio: https://github.com/Emergentes-7318/Frontend
+Enlace al repositorio: https://github.com/Emergentes-7318/Docmind-API
 
 ### 7.2.2.4 Testing Suite Evidence for Sprint Review
 
-Para este Sprint 1, no se han implementado todavía pruebas automatizadas formales. Sin embargo, se realizaron pruebas manuales estructuradas para asegurar que la Landing Page y la Web Application funcionen correctamente y cumplan con los requisitos establecidos:
+Para este Sprint 2, no se han implementado todavía pruebas automatizadas formales. Sin embargo, se realizaron pruebas manuales estructuradas para asegurar que la Landing Page y la Web Application funcionen correctamente y cumplan con los requisitos establecidos:
 
 Flujos probados en la Landing Page:
 
@@ -1816,105 +1798,37 @@ Flujos probados en la Web Application:
 
 - Acceso a la ruta de login y visualización de mensajes ante credenciales inválidas (mock).
 - Acceso a la vista inicial de dashboard una vez autenticado el usuario de prueba.
+- Acceso al dashbord principal, apartado de documentos, configuracion de perfil, etc. 
 
-En sprints futuros se prevé incorporar pruebas automatizadas (por ejemplo, E2E con Cypress o Selenium) sobre los flujos de CTA, contacto y carga de documentos, pero por el momento el equipo ha optado por pruebas manuales guiadas con checklist para asegurar la calidad del producto.
 
 ### 7.2.2.5 Execution Evidence for Sprint Review
-En este Sprint 1, el equipo ha desarrollado y desplegado la Landing Page y la primera version de nuestra Web Application, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 1, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
-
-<br>**Hero Section**: La sección principal de la Landing Page, que incluye una barra de navegación, un título
-atractivo, una imagen llamativa y un botón de llamada a la acción.
-<br> ![Landing Page Access](/assets/Docmind1.png)
-
-<br>**About Section**: La sección que proporciona información sobre la aplicación y sus características principales.
-Incluye un título, una descripción y una imagen representativa. Además, tiene uan sección sobre el equipo de
-desarrollo.
-<br> ![Landing Page About Section](/assets/Docmind%202.png) 
-<br> ![Landing Page About Team Section](/assets/Docmind%203.png)
-<br> **About the team Section**: La sección que muestra los diferentes planes de suscripción disponibles para los
-usuarios. Incluye un título, una descripción y nuestros dos planes con precios y características.
-<br> ![Landing Page Subscriptions Section](/assets/Docmind%204.png)
-<br>**Footer Section**: La sección que incluye un aviso de derechos de autor.
-<br> ![Landing Page Footer Section](/assets/Docmind%205.png)
-
+En este Sprint 2, el equipo ha desarrollado y desplegado la aplicacion web, asegurando que cumpla con los requisitos establecidos y funcione correctamente. A continuación, se presentan las evidencias de ejecución del Sprint 2, que incluyen capturas de pantalla y descripciones de las funcionalidades implementadas.
 
 Y respecto a la Web Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
 
-![Web Application Evidence](/assets/docmidn%20web%201.jpg)
-![Web Application Evidence](/assets/docmidn%20web2.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%201.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%202.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%203.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%204.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%205.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%206.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%207.jpg)
+![Web Application Evidence](/assets/Evidencia%20Ejecucion%208.jpg)
+
+Y respecto a la Mobile Application aqui se puede evidenciar parte del avance que hemos realizado para esta entrega:
+
+![Mobile Application Evidence](/assets/docmidn%20web%201.jpg)
+![Mobile Application Evidence](/assets/docmidn%20web2.jpg)
 
 
 
 ### 7.2.2.6 Services Documentation Evidence for Sprint Review
 
-Este Sprint 1 tuvo como enfoque principal la implementación de la Landing Page y el primer incremento de la Web Application, por lo que aún no se han desarrollado Web Services productivos ni se ha documentado la API pública. La documentación de endpoints con OpenAPI (por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos) será relevante en sprints futuros cuando se aborde la implementación y documentación de estos servicios de backend y de integración con el motor de IA.
+Este Sprint 2 tuvo como enfoque principal el desarrollo de la Web Application. Se desarrollo de la documentación de endpoints con OpenAPI por ejemplo, para carga de PDFs, consulta de resúmenes y gestión de casos.
 
 ### 7.2.2.7 Software Deployment Evidence for Sprint Review
 #### Software Deployment Evidence – Landing Page
-Durante este Sprint se realizó el despliegue de la Landing Page oficial de la plataforma DocMind, cuya finalidad es presentar la solución al público objetivo (médicos, abogados especialistas en responsabilidad médica, gestores de riesgo clínico y directores de clínicas) y proporcionar una primera interacción digital con la marca.
 
-El despliegue se efectuó utilizando GitHub Pages como servicio de hosting estático y GitHub Actions como herramienta de automatización continua (CI/CD). Este proceso permite garantizar que cada actualización en la rama principal se publique automáticamente en el entorno productivo, manteniendo una entrega continua y trazable del producto.
-Pasos del proceso de Deployment
-
-Creación y configuración del repositorio
-
-Se creó el repositorio público DocMind_Landing_Page en GitHub (utilizado como repositorio de la Landing Page de DocMind durante esta iteración).
-
-La rama principal (develop/main, según configuración de flujo de trabajo) se configuró como fuente oficial de despliegue.
-
-Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / configuración).
-
-Configuración de GitHub Pages
-
-En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
-
-Se habilitó el dominio del proyecto, generando la URL pública:
-https://emergentes-7318.github.io/DocMind-Landingpage
-
-La visibilidad se configuró como pública para permitir el acceso de stakeholders y usuarios de prueba (médicos y abogados contactados para entrevistas).
-
-Automatización mediante GitHub Actions (CI/CD)
-
-Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función principal:
-
-Compilar automáticamente la landing page al hacer push en la rama configurada de despliegue.
-
-Generar la carpeta dist/ optimizada para producción.
-
-Publicar el contenido en la rama gh-pages de manera automática.
-
-Este flujo garantiza que cada cambio aprobado vía Pull Request se refleje en la versión pública sin pasos manuales adicionales.
-
-Verificación del despliegue
-
-Se validó el acceso público a la landing desde el navegador.
-
-Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
-
-Se realizaron pruebas rápidas de responsividad (320px, 768px, 1024px) y de rendimiento básico en red simulada 4G.
-
-Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente, con texto legible, imágenes optimizadas y tiempos de carga adecuados para el alcance del Sprint 1.
-
-#### Pasos del proceso de Deployment
-1. **Creación y configuración del repositorio**
-    - Se creó el repositorio público DocMind_Landing_Page en GitHub para centralizar el código fuente de la landing.
-    - La rama principal (develop) fue configurada como la fuente oficial de despliegue.
-    - Se añadieron los archivos esenciales del proyecto (Angular / HTML-CSS / assets / config).
-    - Estructura del repositorio: ![Repo Structure](/assets/repo-structure.png)
-2. **Configuración de GitHub Pages**
-    - En la sección Settings → Pages, se seleccionó la rama gh-pages (generada automáticamente por la acción de despliegue) como fuente del sitio.
-    - Se habilitó el dominio del proyecto, generando la URL pública: https://emergentes-7318.github.io/DocMind-Landingpage
-    - La visibilidad se configuró como pública para permitir el acceso de los stakeholders y usuarios de prueba.
-3. **Automatización mediante GitHub Actions (CI/CD)**
-    - Se creó un archivo de flujo de trabajo (.github/workflows/deploy.yml) con la siguiente función:
-        - Compilar automáticamente la landing page al hacer push en la rama develop.
-        - Generar la carpeta dist/ optimizada para producción.
-        - Publicar el contenido en la rama gh-pages de manera automática.
-4. **Verificación del despliegue**
-    - Se validó el acceso público a la landing desde el navegador.
-    - Se comprobó la correcta carga de recursos (imágenes, estilos y scripts).
-    - Los resultados de validación fueron satisfactorios: el sitio se muestra correctamente y con tiempo de carga óptimo.
-    - Landing Page desplegada: ![Landing Page Deployed](/assets/Landing%20desplegada.png)
 
 ### 7.2.2.8 Team Collaboration Insights during Sprint
 Para el desarrollo de este sprint, el equipo designó a un integrante para el desarrollo de las actividades de implementación de la Landing Page.
