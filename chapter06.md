@@ -257,8 +257,8 @@ User goal 5: Como usuario quiero poder cargar mi PDF en la aplicacion, hacer un 
 <img src="/assets/UserFlow5.png">
 
 User goal 6: Como usuario quiero poder chatear con la IA para poder resolver duda que tenga respecto a mi documento.
-<img src="/assets/UserFlow6.png">
 
+![](/assets/UserFlow6.png) 
 ## 6.5. Applications Prototyping. 
 
 Direccion del prototyping: https://youtu.be/2Cg4zA6XSVU 
