@@ -1833,7 +1833,44 @@ Se muestra la ejecución correcta del backend REST API construido con NestJS den
 La consola reporta la inicialización de todos los módulos del proyecto, incluyendo ConfigModule, JwtModule, ChatModule, UsersModule y DocumentsModule. Se visualiza además el mapeo automático de rutas y controladores, evidenciando que la API está activa, con los endpoints correctamente registrados y expuestos.
 
 ![Evidencia despliegue ](/assets/Evidencia%202%20Sprint%202.jpg)
+Esta captura muestra el uso de Postman para probar el proceso de autenticación:
+- Se envía email + password en formato JSON.
+- La API responde con 201 Created.
 
+Retorna:
+- Un JWT (access_token) válido.
+- Datos del usuario autenticado (id, email, username, rol y timestamps).
+
+![Evidencia despliegue ](/assets/Evidencia%203%20Sprint%202.jpg)
+
+Esta imagen corresponde a la respuesta del endpoint GET /documents, que retorna los documentos del usuario autenticado.
+
+Cada documento incluye:
+- id
+- filename
+- s3_url (archivo alojado en Amazon S3)
+- user_id
+- created_at / updated_at
+
+![Evidencia despliegue ](/assets/Evidencia%204%20Sprint%202.jpg)
+
+La cuarta imagen muestra la estructura de red que soporta el backend:
+- Información general de la VPC.
+- Subnets distribuidas dentro de us-east-1.
+- Route Table configurada correctamente.
+- Internet Gateway enlazado para permitir acceso externo.
+
+![Evidencia despliegue ](/assets/Evidencia%205%20Sprint%202.jpg)
+
+La última imagen presenta los detalles completos de la instancia EC2 donde corre el backend:
+
+- ID de la instancia: i-050bdffe9311875af
+- Tipo: t2.large
+- AMI: Ubuntu 24.04 LTS
+- IP pública: 3.81.19.227
+- Estado: Running
+- VPC y Subnet asociadas
+- Clave SSH configurada (docmind-key)
 
 
 ### 7.2.2.8 Team Collaboration Insights during Sprint
