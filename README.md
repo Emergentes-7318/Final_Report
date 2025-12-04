@@ -1,21 +1,16 @@
-<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
-<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
-
 <img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
 style="display: block; 
 margin-left:auto; 
 margin-right: auto; 
 width=50%"/>
 
-<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
-
-<h5 style="text-align: center"> Curso: Arquitecturas De Software Emergentes </h5>
-<h5 style="text-align: center"> Sección: 7318 </h5>
-
+<h2 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h2>
+<h3 style="text-align: center;"> Ingeniería de Software </h3>
+<h4 style="text-align: center;"> 1ASI0728 Arquitecturas de Software Emergentes
+202520 </h4>
+<h5 style="text-align: center"> NRC: 7318 </h5>
 <h5 style="text-align: center"> Docente: Royer Edelwer</h5>
-
-<h5 style="text-align: center"> Startup: DocMind </h5>
-
+<h5 style="text-align: center"> Informe del Trabajo Final </h5>
 <h5 style="text-align: center"> Producto: Docmind AI </h5>
 
 ## Team members:
@@ -28,7 +23,8 @@ width=50%"/>
 | Olivera Guerra, Santiago Mickelle | u20201a821 |
 | Vasquez Requejo, Augusto Mathias  | U20221a955 |
 
-<h5 style="text-align: center"> Ciclo 2025-02 </h5>
+<h5 style="text-align: center"> Diciembre de 2025 </h5>
+
 
 # Registro de Versiones del Informe
 
@@ -223,11 +219,11 @@ Convertirnos en la plataforma líder a nivel global en análisis inteligente de 
 ### **1.1.2 Perfiles de integrantes del equipo**
 | Nombre Completo del integrante        | Descripcion de Carrera                                                                          | Fotografía                                                                                        | Conocimientos y Habilidades a apuntar                                                                                                                                                                                                                                               |     |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| Augusto Mathias Vasquez Requejo       | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel](/assets/Augusto%20Vasquez%20(1).jpg) | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |     |
-| Cabanillas Gora Andrea                | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Miguel]()                                                 | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |     |
-| Santiago Mickelle Olivera Guerra    | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | <img src="asetss/Santiago pfp.png" alt="pr" style="width: auto height: auto;"> | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. | .   |
-| Diego Jesus Alonso Garay | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Imagen de Andrea](asetss/diego%20fpf.png);">                                                | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |     |
-| Lorenzo Navarro                       | Ingenieria de software - 8vo ciclo                                                              | ![](asetss/lorenzo.jpg)                                                                    | - Actualmente trabajo con arquitecturas de redes neuronales y desarrollo de sistemas basados en microservicios. Utilizo typescript y Python para mi trabajo. Considero que sera mi mayor aporte para el proyecto.                                                                   |
+| Augusto Mathias Vasquez Requejo       | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Mathias](/assets/Augusto%20Vasquez%20(1).jpg) | - Conocimientos en lenguajes de programación como C++, JavaScript, HTML, CSS.<br> - Responsabilidad y dedicación con los trabajos grupales.                                                                                                                                         |     |
+| Cabanillas Gora Andrea                | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil Andrea](/assets/288x240%20rgb%20(1).jpg)                                                 | - Conocimientos en lenguajes de programacion como C++, C#, Python, JavaScript, etc.<br>- Trabajo bien bajo presion y aporto con ideas óptimas para la solucion de diferentes problemas.                                                                                             |     |
+| Santiago Mickelle Olivera Guerra    | Ingeniería de Software<br> 6to Ciclo <br> 2025-2 <br> Universidad Peruana de Ciencias aplicadas | ![Perfil Santiago](/assets/Santiago%20pfp.png) | - Conocimientos en lenguajes de programación como C++, Python, Html y CSS.Considero que puedo aportar en el equipo, ya que soy responsable y trato de cumplir con las partes que se delegan en el equipo. A la vez, colaboro con ideas para poder lograr un buen trabajo en equipo. | .   |
+| Diego Jesus Alonso Garay | Ingeniería de Software<br> 7mo Ciclo<br>2025-2<br>Universidad Peruana de Ciencias Aplicadas     | ![Perfil DIego](/assets/diego%20fpf.png) | - Me gusta mucho el mundo de la informática, tecnología y los videojuegos. Me gustan los shooters y mobas. De vez en cuando diseño pequeños proyectos de juegos como replicar mecánicas o interfaces que me parecen interesantes.                                                   |     |
+| Lorenzo Navarro                       | Ingenieria de software - 8vo ciclo  | ![Perfil Lorenzo](/assets/lorenzo.jpg) | - Actualmente trabajo con arquitecturas de redes neuronales y desarrollo de sistemas basados en microservicios. Utilizo typescript y Python para mi trabajo. Considero que sera mi mayor aporte para el proyecto.                                                                   |
 
 ## **1.2 Solution Profile**
 
@@ -352,7 +348,7 @@ DocMind busca acelerar y simplificar la comprensión de documentos complejos med
 
 #### **1.2.2.4 Lean UX Canvas.**
 
-# 📌 Lean UX Canvas — DocMind
+# Lean UX Canvas — DocMind
 
 | **Problema de Negocio** | **Ideas de la Solución** | **Resultados Comerciales** |
 |--------------------------|--------------------------|-----------------------------|
@@ -391,12 +387,11 @@ DocMind busca acelerar y simplificar la comprensión de documentos complejos med
 - **AskYourPDF** → Permite hacer preguntas a PDFs con búsqueda contextual y respuestas con referencias, útil para no perder datos clave.  
 - **Upword** → Plataforma de resúmenes y notas inteligentes, pensada para estudiantes y profesionales que quieren ahorrar tiempo de lectura.
 
-### 2.1.1. Análisis competitivo                                                              |
+### 2.1.1. Análisis competitivo                                                              
 
 | **Competitive Analysis Landscape** |                                                                                                                                          |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | **¿Por qué llevar a cabo este análisis?** | Identificar fortalezas, debilidades, oportunidades y amenazas frente a competidores para definir mejor la propuesta de valor.         |
-| **r1**                             | **r2**                                                                                                                                   |
 
 | **Nombre del Competidor** | **Docmind**                                                                                                           | **ChatDOC**                                                                                                                                                                                        | **AskYourPDF**                                                                                                               | **Upword**                                                                                                       |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
@@ -457,21 +452,19 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 - ¿Revisas documentos normativos, leyes o planes de desarrollo con frecuencia?
 - ¿Te interesaría una herramienta que te ayude a resumirlos y encontrar cifras clave más rápido?
 
-### 2.2.2. Registro de entrevistas.
-
-##   2.2.2 Registro de entrevistas
+## 2.2.2. Registro de entrevistas.
 ### Segmento: Sector Legal y Empresarial
 
     
-#### Entrevista 1
+##### Entrevista 1
 | **Datos del entrevistado** | 
 |--------------------------|
-| **Nombre:**  Gael Dario Lopez Diaz |
+| **Nombre:**  Andres Muñoz |
 | **Link del video:** 0:00 - 3:03 [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Ate |
-| ![Entrevista](asetss/Entrevista%201.png)|
-| **Resumen:** .  Andres Muñoz es un joven que desempeña el cargo de gestor de documentacion SUV trabaja en Essalud pero en el area de gerencia, es ingeniero de sistemas pero por el momento se dedica a la documentacion de las tareas que se tienen que realizar, tiene conocimientos respecto al uso de IA pero que no es necesario para el trabajo que realiza actualmente aunque le gustaria que se pudieran automatizar muchas acciones que le quitan mucho tiempo.   |
+| ![Entrevista1](/assets/Entrevista%201.png)|
+| **Resumen:** Andres Muñoz es un joven que desempeña el cargo de gestor de documentacion SUV trabaja en Essalud pero en el area de gerencia, es ingeniero de sistemas pero por el momento se dedica a la documentacion de las tareas que se tienen que realizar, tiene conocimientos respecto al uso de IA pero que no es necesario para el trabajo que realiza actualmente aunque le gustaria que se pudieran automatizar muchas acciones que le quitan mucho tiempo.   |
 
 
 #### Entrevista 2
@@ -481,7 +474,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Minuto del video:** 3:04 - 14:25 [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Edad:**  20 años |
 | **Procedencia:**  Lima, Lima |
-| ![Entrevista](asetss/Entrevista%202.png)|
+| ![Entrevista2](/assets/Entrevista%202.png)|
 | **Resumen:** Abraham Arana es un estudiante de derecho, actualmente realiza sus practicas en un estudio de abogados, y cubre tambien varios proyectos personales, en su caso esta muy enterado de todo lo que la IA puede hacer para su sector y confirma que quiere poco a poco seguir estudiando para avanzar y conocer mas ese aspecto tecnologico, si bien cree que la IA puede automatizar muchos procesos de su actual trabajo y estudio considera que para la mayoria de acciones todavia deberia respetarse el accionar humano tanto como las decisiones que estos puedan tomar.|
 
 #### Entrevista 3
@@ -491,7 +484,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 19 años |
 | **Minuto del video:**  14:27 - 20.36 [Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)| 
 | **Procedencia:** San Miguel, Lima |
-| ![Entrevista](asetss/Entrevista%203.png)|
+| ![Entrevista3](/assets/Entrevista%203.png)|
 | **Resumen:**  Estudiante de ingeniería de sistemas, actualmente participa en un laboratorio universitario de investigación y colabora en proyectos de software académico. Además de sus estudios, desarrolla iniciativas personales relacionadas con la automatización de flujos de trabajo y la implementación de herramientas colaborativas en la nube. Está convencido de que la inteligencia artificial representa una oportunidad única para optimizar procesos en la industria del software y la educación, por lo que dedica parte de su tiempo a capacitarse en modelos de lenguaje y aplicaciones de machine learning. No obstante, sostiene que el papel del profesional humano sigue siendo indispensable para garantizar la ética, la creatividad y la correcta interpretación de los resultados que ofrecen estas tecnologías. |
 
 ### Segmento: Sector Académico y Científico
@@ -503,7 +496,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 48 años |
 | **Link  del video:**  20:37 - 25:05 [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)  |
 | **Procedencia:**  Lima |
-| ![Entrevista](asetss/Entrevista%204.png) |
+| ![Entrevista4](/assets/Entrevista%204.png) |
 | **Resumen:** Liliana Requejo es una médica de 48 años con amplia experiencia en el ámbito hospitalario y docente en una universidad de medicina. Actualmente participa en la revisión de protocolos clínicos y en la elaboración de reportes médicos para sus estudiantes y colegas. Al conocer el proyecto DocMind, destaca que una herramienta de este tipo puede ser de gran ayuda para agilizar la lectura de artículos científicos y guías clínicas, optimizando el tiempo que los profesionales de la salud destinan al análisis de literatura especializada. Considera que la inteligencia artificial puede convertirse en un soporte valioso para reducir la carga de información que reciben diariamente los médicos, siempre que los resultados se acompañen de transparencia, citas verificables y supervisión humana. Subraya que, aunque la tecnología puede acelerar procesos, las decisiones médicas deben seguir dependiendo de la experiencia y el criterio ético del profesional.   |
 
 #### Entrevista 5
@@ -513,7 +506,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 35 años |
 | **Link del video:** 25:06 - 30:40  [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](asetss/Entrevista%205.png) |
+| ![Entrevista5](/assets/Entrevista%205.png) |
 | **Resumen:**  Arwen Vasquez es una médica de 35 años que trabaja en un hospital privado y, en paralelo, participa en proyectos de investigación clínica junto a su equipo académico. En su práctica diaria debe revisar múltiples artículos científicos y normativas de salud, lo que le demanda un tiempo considerable. Al conocer el proyecto DocMind, señala que la herramienta representa una oportunidad para simplificar la lectura y extracción de información clave de documentos extensos, permitiéndole concentrarse en la interpretación clínica y en la toma de decisiones. Reconoce que la inteligencia artificial puede ser un gran aliado para acelerar la investigación y la formación médica, aunque considera fundamental que los resultados se presenten con la mayor claridad posible y con enlaces directos a las fuentes, de modo que el médico pueda validar los hallazgos y mantener la rigurosidad científica. |
 
 #### Entrevista 6
@@ -523,7 +516,7 @@ En esta sección se han definido todas las preguntas que se plantearán en el mo
 | **Edad:** 35 años |
 | **Link del video:** 30:40 - 35:28  [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221a955_upc_edu_pe/EZVEhKKVWsdLnP9RZ2ZFk8cBhU_HbJFhK-hVkGF7zDJFqw?e=3ClqbT)   |
 | **Procedencia:**  Perú |
-| ![EntrevistaMaria](asetss/Entrevista%206.png) |
+| ![Entrevista6](/assets/Entrevista%206.png) |
 | **Resumen:**  Miguel Polo es un médico de 35 años que trabaja en una clínica especializada y participa activamente en congresos de actualización profesional. En su labor diaria debe analizar guías clínicas, papers internacionales y reportes técnicos para aplicar en la práctica médica y en la docencia con residentes más jóvenes. Al conocer el proyecto DocMind, destaca que la plataforma puede ser un recurso estratégico para reducir el tiempo invertido en la revisión de documentos extensos, permitiéndole acceder de forma rápida a resúmenes claros y citas verificables. Considera que la inteligencia artificial puede transformar positivamente la investigación médica y la educación, siempre que los resultados se presenten con transparencia y que el criterio humano siga siendo el eje central en la toma de decisiones clínicas. |
 
 
@@ -579,11 +572,13 @@ En conclusión, una aplicación con estas características se perfila como una s
 
 Este es el primer User persona que corresponde al primer segmento objetivo, el perfil de que una persona que trabaja en una clinica en la area administrativa o de reportes de historiales medicos, lo que es una extensa documentacion.
 <br>
-![User Persona2](asetss/user%20persona%202.jpg)
 
-Este es el primer User persona que corresponde al segundo segmento objetivo, el perfil de que una persona que trabaja en una corporacion y su trabajo se desarrolla principalmente en documentacion.
+![Entrevista6](/assets/User%20persona%201.jpg)
+
+Este es el segundo User persona que corresponde al segundo segmento objetivo, el perfil de que una persona que trabaja en una corporacion y su trabajo se desarrolla principalmente en documentacion.
 <br>
-![User Persona1](asetss/User%20persona%201.jpg)
+
+![Entrevista6](/assets/user%20persona%202.jpg)
 
 
 ### 2.3.2. User Task Matrix.
@@ -605,27 +600,40 @@ Este es el primer User persona que corresponde al segundo segmento objetivo, el 
 
 El Empathy Mapping permite comprender a profundidad a los usuarios de DocMind, identificando qué piensan, sienten, dicen y hacen en su interacción diaria con grandes volúmenes de documentos. Esta herramienta ayuda a visualizar sus frustraciones, necesidades y motivaciones, permitiendo diseñar una experiencia centrada en el usuario que realmente resuelva el problema de sobrecarga de información mediante inteligencia artificial.
 
-![Empathy Mapping](/asetss/Empathy%20map.jpg)
+![Empathy Mapping](/assets/Empathy%20map.jpg)
 
 ### 2.3.4. As-is Scenario Mapping.
 
 El As-Is Scenario Mapping describe el flujo actual de trabajo que siguen los usuarios antes de utilizar DocMind. En este escenario, se analizan los pasos que realizan para leer, buscar y sintetizar información en documentos extensos, evidenciando los puntos de fricción, demoras y sobrecarga cognitiva. Este mapeo permite identificar las oportunidades de mejora que DocMind aprovechará al automatizar y optimizar este proceso con IA.
 
-![As-is Scenario Mapping](asetss/gra.png)
+![As-is Scenario Mapping](/assets/as%20is%20scenario%20mapping.jpg)
 
 ## 2.4. Ubiquitous Language.
 
-| **Término**            | **Definición en el dominio**                                                                 |
-|------------------------|-----------------------------------------------------------------------------------------------|
-| **Documento**          | Archivo PDF cargado por el usuario que contiene la información a analizar.                    |
-| **Carga**              | Acción de subir un PDF a la plataforma.                                                       |
-| **Procesamiento**      | Análisis del contenido del PDF con IA para generar un modelo semántico.                       |
-| **Chat**               | Interfaz de conversación entre el usuario y el contenido procesado.                           |
-| **Consulta**           | Pregunta del usuario sobre el documento.                                                      |
-| **Respuesta contextual**| Contestación de la IA que incluye datos y, cuando es posible, referencia a la sección del PDF.|
-| **Resumen**            | Síntesis automática del contenido del documento según los parámetros del usuario.              |
-| **Equipo**             | Grupo de usuarios (empresa, universidad, etc.) que utilizan la plataforma colaborativamente.   |
-| **Sesión**             | Periodo en el que un usuario interactúa con uno o varios documentos.                          |
+| **Término**              | **Definición en el dominio**                                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Documento**            | Archivo PDF cargado por el usuario que contiene la información a analizar.                                                 |
+| **Carga**                | Acción de subir un PDF a la plataforma.                                                                                    |
+| **Procesamiento**        | Análisis del contenido del PDF con IA para generar un modelo semántico.                                                    |
+| **Chat**                 | Interfaz de conversación entre el usuario y el contenido procesado.                                                        |
+| **Consulta**             | Pregunta del usuario sobre el documento.                                                                                   |
+| **Respuesta contextual** | Contestación de la IA que incluye datos y, cuando es posible, referencia a la sección del PDF.                             |
+| **Resumen**              | Síntesis automática del contenido del documento según los parámetros del usuario.                                          |
+| **Equipo**               | Grupo de usuarios (empresa, universidad, etc.) que utilizan la plataforma colaborativamente.                               |
+| **Sesión**               | Periodo en el que un usuario interactúa con uno o varios documentos.                                                       |
+| **Motor de IA**          | Componente central que orquesta los modelos de lenguaje y las demás técnicas de NLP para generar resúmenes y respuestas.  |
+| **Modelo de lenguaje**   | Modelo de IA entrenado para comprender y generar texto en lenguaje natural a partir del contenido del documento.           |
+| **Indexación semántica** | Proceso mediante el cual el contenido del documento se transforma en representaciones vectoriales para búsquedas rápidas. |
+| **Embeddings**           | Representaciones numéricas de fragmentos de texto que permiten medir similitud semántica entre partes del documento.       |
+| **Almacén vectorial**    | Estructura de datos donde se guardan los embeddings de los documentos para soportar búsquedas y consultas eficientes.      |
+| **Ventana de contexto**  | Límite de cantidad de texto que el modelo de lenguaje puede procesar simultáneamente para generar una respuesta.          |
+| **Tokenización**         | Proceso de convertir el texto del documento en unidades mínimas (tokens) que la IA utiliza para el análisis.              |
+| **Pipeline de análisis** | Secuencia de pasos automáticos (carga, extracción, limpieza, embeddings, consulta) que sigue un documento dentro de DocMind.|
+| **Búsqueda semántica**   | Mecanismo de recuperación de información basado en significado y contexto, no solo en coincidencias exactas de palabras.  |
+| **Cita verificable**     | Fragmento específico del documento original que respalda una respuesta o resumen y permite al usuario validar la IA.       |
+| **Reporte de uso**       | Resumen de métricas sobre sesiones, documentos procesados, consultas y tiempo estimado de lectura ahorrado.               |
+| **Seguridad y privacidad** | Conjunto de políticas y controles (encriptación, permisos, auditoría) aplicados al almacenamiento y procesamiento de documentos. |
+| **Trazabilidad**         | Capacidad del sistema para registrar qué documento, fragmento y modelo generaron cada respuesta mostrada al usuario.       |
 
 # Capítulo III: Requirements Specification
 
@@ -720,18 +728,18 @@ Tabla de épicas establecidas para las historias de usuarios de DocMind AI.
 
 ## 3.4. Product Backlog
 
-| Orden | User Story | Título                           | Descripción                                                                                                                                                 | Story Points |
-|-------|------------|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US001      | Carga de Documentos PDF          | Como usuario, quiero subir archivos PDF para que la plataforma los procese y analice.                                                                       | 3            |
-| 2     | US006      | Resumen Automático del Documento | Como usuario, quiero generar un resumen automático para entender el contenido rápidamente.                                                                   | 5            |
-| 3     | US007      | Preguntas y Respuestas           | Como usuario, quiero hacer preguntas al documento y recibir respuestas precisas con contexto.                                                                | 8            |
-| 4     | US011      | Visor con Citas Ancladas         | Como usuario, quiero visualizar respuestas con citas enlazadas al texto fuente dentro del visor.                                                             | 5            |
-| 5     | US013      | Exportación de Reportes          | Como usuario, quiero exportar resultados en formatos estándar (PDF/Word/Markdown).                                                                          | 5            |
-| 6     | US021      | Autenticación con Google         | Como usuario, quiero iniciar sesión con Google para acceder a mis documentos y permisos.                                                                    | 3            |
-| 7     | US022      | Roles y Permisos                 | Como administrador, quiero asignar roles para controlar quién puede ver, editar o exportar.                                                                 | 5            |
-| 8     | US018      | Preferencias Personales          | Como usuario, quiero configurar idioma, zona horaria y tema claro/oscuro.                                                                                   | 2            |
-| 9     | US009      | Comparación de Documentos        | Como usuario, quiero comparar dos o más documentos para identificar coincidencias y discrepancias.                                                          | 8            |
-| 10    | US014      | Panel de Métricas de Uso         | Como usuario, quiero ver métricas (tiempo ahorrado, documentos procesados, cobertura de citas, confianza).                                                   | 5            |
+
+| Orden | User Story | Título                                  | Descripción                                                                                                                | Story Points |
+|-------|------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US021      | Autenticación con Google / IAM            | Como usuario, quiero iniciar sesión de forma segura usando IAM/Google para acceder a la plataforma.                       | 3            |
+| 2     | US001      | Subida de Documentos PDF                  | Como usuario, quiero subir archivos PDF para que la plataforma los procese y analice.                                      | 3            |
+| 3     | US003      | Importación desde Google Drive            | Como usuario, quiero conectar mi Google Drive y seleccionar documentos sin descargarlos.                                   | 5            |
+| 4     | US006      | Resumen Automático (3 párrafos)           | Como usuario, quiero generar un resumen corto (3 párrafos) para entender el contenido rápidamente.                         | 5            |
+| 5     | US007      | Preguntas y Respuestas Simples            | Como usuario, quiero hacer preguntas al documento y recibir respuestas basadas en el contenido.                            | 8            |
+| 6     | US011      | Visor con Citas Básicas                   | Como usuario, quiero que mis respuestas incluyan al menos la referencia a la página o fragmento original.                  | 5            |
+| 7     | US020      | Feedback In-App                           | Como usuario, quiero poder reportar errores o marcar respuestas inexactas para mejorar la calidad del sistema.             | 3            |
+| 8     | US016      | Onboarding Básico                         | Como usuario nuevo, quiero un pequeño recorrido o instrucciones iniciales para entender cómo subir y analizar documentos. | 2            |
+
 
 # CAPÍTULO IV: STRATEGIC-LEVEL SOFTWARE DESIGN
 
@@ -751,18 +759,17 @@ Esta sección inicia con un texto de introducción y contiene las secciones para
 
 ##### 4.1.2.1. PRIMARY FUNCTIONALITY (PRIMARY USER STORIES)
 
+### 4.1.2.1. PRIMARY FUNCTIONALITY (PRIMARY USER STORIES)
+
 | Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|
-| US001 | Carga de documentos PDF | Como usuario, quiero subir archivos PDF para que la plataforma los procese y analice. | Escenario 1: Dado que el usuario está en “Mis documentos”, cuando hace clic en “Subir” y selecciona un PDF válido, entonces el sistema guarda el archivo y muestra confirmación.<br>Escenario 2: Dado que intenta subir un formato no permitido, entonces el sistema rechaza la carga y muestra el motivo. | EPIC001 (Gestión de Documentos) |
-| US003 | Importación desde Google Drive | Como usuario, quiero vincular una carpeta de Drive para importar documentos sin descargarlos localmente. | Escenario 1: Dado que el usuario autorizó Drive, cuando selecciona una carpeta, entonces la plataforma lista los archivos disponibles.<br>Escenario 2: Dado que el usuario quita la autorización, cuando vuelve a la vista de Drive, entonces no se muestran archivos y se solicita reconectar. | EPIC001 (Gestión de Documentos) |
-| US006 | Resumen automático del documento | Como usuario, quiero generar un resumen automático para entender el contenido rápidamente. | Escenario 1: Dado un documento procesado, cuando solicito “Generar resumen”, entonces se crea un resumen y se guarda en el historial.<br>Escenario 2: Dado un resumen existente, cuando lo re-genero, entonces se versiona con marca de tiempo. | EPIC002 (Análisis Inteligente con IA) |
-| US007 | Preguntas y respuestas en lenguaje natural | Como usuario, quiero hacer preguntas al documento y recibir respuestas precisas con contexto. | Escenario 1: Dado el chat del documento, cuando pregunto “¿Cuáles son las conclusiones?”, entonces recibo una respuesta con citas.<br>Escenario 2: Dado una pregunta ambigua, cuando no se alcanza un umbral de confianza, entonces el sistema sugiere reformular o ver pasajes relacionados. | EPIC002 (Análisis Inteligente con IA) |
-| US009 | Comparación entre múltiples documentos | Como usuario, quiero comparar dos o más documentos para identificar coincidencias y discrepancias. | Escenario 1: Dado dos documentos seleccionados, cuando inicio “Comparar”, entonces veo un resumen de diferencias con citas por cada fuente.<br>Escenario 2: Dado hallazgos comparativos, cuando exporto, entonces obtengo un reporte consolidado con referencias por documento. | EPIC002 (Análisis Inteligente con IA) |
-| US011 | Visor con citas ancladas | Como usuario, quiero visualizar respuestas con citas enlazadas al texto fuente dentro del visor. | Escenario 1: Dado una respuesta, cuando hago clic en la cita, entonces el visor salta al fragmento resaltado.<br>Escenario 2: Dado múltiples citas, cuando las recorro, entonces el visor mantiene el contexto de cada pasaje. | EPIC003 (Visualización y Reporte de Resultados) |
-| US013 | Exportación de reportes | Como usuario, quiero exportar resultados en formatos estándar (PDF/Word/Markdown). | Escenario 1: Dado un reporte, cuando elijo “Exportar PDF”, entonces se descarga con estilo y numeración de citas.<br>Escenario 2: Dado la opción Markdown, cuando exporto, entonces obtengo un archivo con encabezados y referencias. | EPIC003 (Visualización y Reporte de Resultados) |
-| US021 | Autenticación con Google | Como usuario, quiero iniciar sesión con Google para acceder a mis documentos y permisos. | Escenario 1: Dado que no estoy autenticado, cuando inicio con Google, entonces accedo al panel si la validación es correcta.<br>Escenario 2: Dado que deniego permisos, cuando regreso, entonces la app explica qué permisos necesita y por qué. | EPIC005 (Seguridad y Control de Acceso) |
-| US022 | Roles y permisos | Como administrador, quiero asignar roles para controlar quién puede ver, editar o exportar. | Escenario 1: Dado un espacio de trabajo, cuando asigno “miembro”, entonces solo puede ver y preguntar.<br>Escenario 2: Dado un usuario “admin”, cuando cambia permisos, entonces los cambios se aplican y quedan auditados. | EPIC005 (Seguridad y Control de Acceso) |
-| US025 | Cifrado y privacidad | Como usuario, quiero que mis documentos y respuestas estén cifrados en tránsito y en reposo. | Escenario 1: Dado la transferencia de un archivo, cuando se sube, entonces viaja por TLS y se almacena cifrado.<br>Escenario 2: Dado una exportación, cuando la descargo, entonces el enlace expira y requiere sesión activa. | EPIC005 (Seguridad y Control de Acceso) |
+| US021 | Autenticación con Google | Como usuario, quiero iniciar sesión de forma segura mediante Google/IAM para acceder a mis documentos y funcionalidades de la plataforma. | Escenario 1: Dado que no estoy autenticado, cuando inicio sesión con Google, entonces accedo al panel principal si la validación es correcta.<br>Escenario 2: Dado que deniego permisos, cuando regreso a la app, entonces se muestra un mensaje informando qué permisos son necesarios y por qué. | EPIC005 (Seguridad y Control de Acceso) |
+| US001 | Carga de documentos PDF | Como usuario, quiero subir archivos PDF para que la plataforma los procese y analice. | Escenario 1: Dado que estoy en “Mis documentos”, cuando hago clic en “Subir” y selecciono un PDF válido, entonces el sistema guarda el archivo y muestra confirmación.<br>Escenario 2: Dado que intento subir un formato no permitido, entonces el sistema rechaza la carga y muestra el motivo. | EPIC001 (Gestión de Documentos) |
+| US003 | Importación desde Google Drive | Como usuario, quiero conectar mi Google Drive para importar documentos sin descargarlos manualmente. | Escenario 1: Dado que concedí permisos de Drive, cuando selecciono una carpeta, entonces la plataforma lista los archivos disponibles.<br>Escenario 2: Dado que revoco la autorización, cuando regreso a la vista de Drive, entonces se solicita reconectar. | EPIC001 (Gestión de Documentos) |
+| US006 | Resumen automático del documento (3 párrafos) | Como usuario, quiero generar un resumen corto (3 párrafos) para entender rápidamente el contenido del documento. | Escenario 1: Dado un documento procesado, cuando solicito “Generar resumen”, entonces la IA devuelve un resumen conciso de tres párrafos.<br>Escenario 2: Dado un error al resumir, cuando reintento, entonces el sistema muestra un mensaje de reintento o sugiere verificar el archivo. | EPIC002 (Análisis Inteligente con IA) |
+| US007 | Preguntas y respuestas en lenguaje natural (Q&A básico) | Como usuario, quiero hacer preguntas sobre el contenido del PDF y recibir respuestas relevantes con citas simples. | Escenario 1: Dado el chat del documento, cuando pregunto “¿Cuál es la idea principal?”, entonces recibo una respuesta basada en el contenido.<br>Escenario 2: Dado una pregunta ambigua, cuando la IA no tiene suficiente contexto, entonces sugiere reformular o ver un fragmento relacionado. | EPIC002 (Análisis Inteligente con IA) |
+| US011 | Visor con citas básicas ancladas | Como usuario, quiero visualizar las respuestas con referencias al fragmento o página del documento original. | Escenario 1: Dado una respuesta con cita, cuando hago clic en ella, entonces el visor me muestra el fragmento o página correspondiente.<br>Escenario 2: Dado múltiples respuestas, cuando navego entre ellas, entonces el visor mantiene el contexto del documento. | EPIC003 (Visualización y Reporte de Resultados) |
+
 
 ##### 4.1.2.2. QUALITY ATTRIBUTE SCENARIOS
 
@@ -942,61 +949,62 @@ En esta fase, usamos un método visual y colaborativo para entender a fondo el n
 **Unstructured Exploration**
 Es un taller gráfico donde todos los involucrados en el proyecto analizan cómo funciona el sistema. Usamos notas de diferentes colores para representar distintos componentes, lo que simplifica la conversación y ayuda a identificar lo que realmente se necesita.
 
-![](es1.png)
+![](/assets/es1.png)
 
 **Pain Points**
 Estos son los obstáculos y las dificultades que enfrentan los usuarios. Identificar estos problemas es vital para crear soluciones que resuelvan sus necesidades de forma efectiva.
 
-![](es2.png)
+![](/assets/es2.png)
 
 **Timelines**
 La línea de tiempo muestra la secuencia de eventos del sistema. Al definir este orden, entendemos mejor cómo se relacionan las acciones y su impacto en el flujo de trabajo.
 
-![](es3.png)
-
+![](/assets/es3.png)
 **Pivotal Points**
 Son los momentos cruciales que pueden cambiar el estado del sistema o afectar significativamente la experiencia del usuario. Reconocerlos nos permite concentrar nuestros esfuerzos en las partes más importantes del proceso.
 
-![](es4.png)
+![](/assets/es4.png)
 
 **Commands**
 Son las acciones o instrucciones que un usuario o el sistema ejecutan para cambiar su estado actual.
 
-![](es5.png)
+![](/assets/es5.png)
 
 **Policies**
 Son las reglas que guían la toma de decisiones dentro del sistema. Esto incluye normas de negocio que determinan cuándo se ejecutan ciertos comandos o cómo se manejan ciertos eventos.
 
-![](es6.png)
+![](/assets/es6.png)
 
 ### 4.2.2. Candidate Context Discovery
 
-![](ccd1.png)
+![](/assets/ccd1.png)
 
 ### 4.2.3. Domain Message Flows Modeling
 
-![](dmfm1.png)
+![](/assets/dmfm1.png)
 
 ### 4.2.4. Bounded Context Canvases
 
-![](bcc1.png)
+![](/assets/bcc1.png)
 
 ### 4.2.5. Context Mapping
 
 Nuestros bounded context que corresponden al core de negocio son los que permiten el flujo de sesion para que el usuario pueda realizar consultas luego de seleccionar un documento. Una vez se vincula la cuenta a un provider(OneDrive), nuestro service de document accede a el mediante un enlace y obtiene los metadatos correspondientes y manda un evento de documento listo para procesamiento, nuestro servicio de IA realiza un parsing de documento y analisis mediante un modelo LLM pre entrenado y modificado con un proceso de fine tuning para el reporte de proyecto. Este mismo emite un evento de documento listo y permite que el servicio de chat inicie una sesion para el documento, donde el usuario puede realizar las consultas y basado en su membresia, acceder a la cantidad de consultas permitidas.
 
-![[{1938DEDD-B1C9-45D8-B1AE-397B007EEC25}.png]]
+![](/assets/{1938DEDD-B1C9-45D8-B1AE-397B007EEC25}.png) 
 
 Para poder definir la cantidad de consultas y la memoria de contexto para el chat, el usuario debe establecer un rol basado en suscripcion, por lo que para poder modificar su acceso luego de haber iniciado sesion, nuestra pasarela de pagos facilita que el usuario pueda ingresar sus datos de tarjeta y efectuar una compra, lo que emite luego una boleta al correo del usuario correspondiente.
-![[{0183DC42-6F69-4324-A05D-7ACD0638B2E4}.png]]
-## 4.3. Software Architecture
-### 4.3.1. Software Architecture System Landscape Diagram![](structurizr-70986-SystemContext-001.png)
-### 4.3.1. Software Architecture Context Level Diagrams![](structurizr-70986-Container-001.png)
+![](/assets/{0183DC42-6F69-4324-A05D-7ACD0638B2E4}.png)
 
+## 4.3. Software Architecture
+### 4.3.1. Software Architecture System Landscape Diagram
+![](/assets/structurizr-70986-SystemContext-001.png)
+### 4.3.1. Software Architecture Context Level Diagrams
+![](/assets/structurizr-70986-Container-001.png)
 ### 4.3.2. Software Architecture Container Level Diagrams
-![](structurizr-70986-Component-001.png)
+![](/assets/structurizr-70986-Component-001.png)
 ### 4.3.3. Software Architecture Deployment Diagrams
-![](Untitled-2025-06-27-2033.png)
+![](/assets/Untitled-2025-06-27-2033.png)
 
 # CAPÍTULO V: TACTICAL-LEVEL SOFTWARE DESIGN
 
@@ -1050,7 +1058,7 @@ La capa de infraestructura implementa los detalles técnicos para soportar la l�
 
 Este diagrama de componentes ilustra la arquitectura de alto nivel del contexto delimitado, con énfasis en la secuencia de carga y la emisión del evento.
 
-<img src="assets/bd1.jpg" alt="bd1" />
+<img src="/assets/bd1.jpg" alt="bd1" />
 
 ### 5.1.7. BOUNDED CONTEXT SOFTWARE ARCHITECTURE CODE LEVEL DIAGRAMS
 
@@ -1058,14 +1066,14 @@ Este diagrama de componentes ilustra la arquitectura de alto nivel del contexto 
 
 Este diagrama de clases se centra en la estructura del Agregado Raíz `Documento` y sus componentes internos.
 
-<img src="assets/bd2.jpg" alt="bd2" />
+<img src="/assets/bd2.jpg" alt="bd2" />
 
 
 #### 5.1.7.2. BOUNDED CONTEXT DATABASE DESIGN DIAGRAM
 
 Este diagrama se centra en la tabla de persistencia clave para la gestión de documentos.
 
-<img src="assets/bd3.jpg" alt="bd3" />
+<img src="/assets/bd3.jpg" alt="bd3" />
 
 ## 5.2. BOUNDED CONTEXT: CHAT SERVICE
 
@@ -1118,7 +1126,7 @@ Implementa los mecanismos técnicos como la persistencia de sesiones y la comuni
 
 Este diagrama ilustra el flujo de creación de la sesión (asíncrono) y el flujo de consulta del usuario (síncrono).
 
-<img src="assets/bd4.jpg" alt="bd4" />
+<img src="/assets/bd4.jpg" alt="bd4" />
 
 ### 5.2.7. BOUNDED CONTEXT SOFTWARE ARCHITECTURE CODE LEVEL DIAGRAMS
 
@@ -1126,13 +1134,13 @@ Este diagrama ilustra el flujo de creación de la sesión (asíncrono) y el fluj
 
 Este diagrama de clases se centra en la estructura del Agregado Raíz y el historial de mensajes.
 
-<img src="assets/bd5.jpg" alt="bd5" />
+<img src="/assets/bd5.jpg" alt="bd5" />
 
 #### 5.2.7.2. BOUNDED CONTEXT DATABASE DESIGN DIAGRAM
 
 Este diagrama ilustra las tablas necesarias para persistir el historial de la conversación.
 
-<img src="assets/bd6.jpg" alt="bd6" />
+<img src="/assets/bd6.jpg" alt="bd6" />
 
 # **CAPÍTULO VI: PRODUCT DESIGN**
 
@@ -1147,13 +1155,13 @@ El objetivo es mantener una interfaz moderna, limpia y confiable que comunique p
 El branding de **DocMind** busca reflejar la unión entre la tecnología, el conocimiento y la confiabilidad. El logo representa una fusión entre el cerebro humano y un circuito digital, simbolizando el equilibrio entre inteligencia humana y artificial.  
 La palabra **DocMind** utiliza una tipografía moderna, profesional y de bordes suaves, transmitiendo accesibilidad y precisión. Los tonos predominantes refuerzan una imagen tecnológica, ética y orientada a la productividad intelectual.  
 
-<img src="assets/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
+<img src="/assets/Logo DocMind.png" style="width:300px; height:auto;" alt="logo docmind">
 
 **Typography:**  
 La tipografía seleccionada para DocMind es **Roboto**, una familia moderna, legible y versátil que comunica claridad y equilibrio. Su uso mantiene consistencia visual en todos los dispositivos, asegurando una lectura óptima en textos técnicos y narrativos.  
 Poppins combina excelente legibilidad en cuerpos de texto extensos con un estilo limpio en títulos y botones, transmitiendo innovación y confianza.  
 
-<img src="assets/Tipografia DocMind.png" style="width:700px; height:auto;" alt="tipography">
+<img src="/assets/Tipografia DocMind.png" style="width:700px; height:auto;" alt="tipography">
 
 **Colors:**  
 La paleta de colores de DocMind combina tonos fríos y neutros que transmiten confianza, claridad y precisión.  
@@ -1166,7 +1174,7 @@ El negro se usa en textos de alto contraste para garantizar legibilidad y jerarq
 - Texto principal: **#000000**  
 - Detalles y bordes: **#EAEAEA**
 
-<img src="assets/Colors DocMind.png" style="width:700px; height:auto;" alt="colors">
+<img src="/assets/Colors DocMind.png" style="width:700px; height:auto;" alt="colors">
 
 ---
 
@@ -1334,13 +1342,10 @@ El desarrollo del UI Design de la Landing Page está en el siguiente link: https
 ### 6.6.2. Applications Wireflow Diagrams.
 
 
-Wireflow 1: Acceder a metricas e historial 
-<img src="assets/AppWireflow1.png">
-
-Wireflow 2: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
+Wireflow 1: Creacion de carpetas, capacidad  de cambio de nombre y subir documentos en las mismas
 <img src="assets/AppWireflow5.png">
 
-Wireflow 3: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
+Wireflow 2: Chat con la IA para poder resolver dudas existentes respecto al documento y recibir conclusiones.
 
 <img src="assets/AppWireflow7.png">
 
@@ -1395,82 +1400,82 @@ Asimismo, se detallan las configuraciones iniciales requeridas para compilar, ej
 - **Visual Studio Code**: Editor de código utilizado para desarrollar la Landing Page. Su entorno ligero, personalizable y con soporte para múltiples lenguajes facilitó la colaboración entre desarrolladores y la implementación ágil de componentes web.
 
 <div style="text-align: center;">
-  <img src="./assets/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
+  <img src="/assets/visualstudio.png" alt="Visual Studio Code" style="width:10%;"/>
 </div>
 
 - **HTML5**: Lenguaje de marcado base para estructurar el contenido de la Landing Page. Permitió organizar la información de forma semántica y accesible, mejorando la navegación y la experiencia del usuario.
 
 <div style="text-align: center;">
-  <img src="./assets/html5.png" alt="HTML 5" style="width:10%;"/>
+  <img src="/assets/html5.png" alt="HTML 5" style="width:10%;"/>
 </div>
 
 - **CSS3**: Utilizado para aplicar estilos visuales a la Landing Page. Ayudó a mantener una identidad gráfica coherente, responsiva y atractiva, lo cual es clave para captar la atención del usuario final.
 
 <div style="text-align: center;">
-  <img src="./assets/css3.png" alt="CSS 3" style="width:10%;"/>
+  <img src="/assets/css3.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **JavaScript**: Lenguaje que permitió incorporar lógica e interactividad a la Landing Page, como animaciones, validaciones y mejoras en la experiencia dinámica del usuario.
 
 <div style="text-align: center;">
-  <img src="./assets/js.png" alt="JavaScript" style="width:10%;"/>
+  <img src="/assets/js.png" alt="JavaScript" style="width:10%;"/>
 </div>
 
 - **GitHub**: Plataforma de control de versiones que centralizó el código del proyecto. Facilitó el trabajo colaborativo del equipo, permitió el seguimiento de cambios y mejoró la trazabilidad del desarrollo.
 
 <div style="text-align: center;">
-  <img src="./assets/github.png" alt="Github" style="width:10%;"/>
+  <img src="/assets/github.png" alt="Github" style="width:10%;"/>
 </div>
 
 - **LucidChart**: Herramienta usada para crear diagramas de flujo, wireflows y modelos conceptuales. Contribuyó a la claridad en el diseño funcional y ayudó a definir la lógica de interacción entre pantallas y procesos.
 
 <div style="text-align: center;">
-  <img src="./assets/lucidchart.png" alt="LucidChart" style="width:10%;"/>
+  <img src="/assets/lucidchart.png" alt="LucidChart" style="width:10%;"/>
 </div>
 
 - **Figma**: Plataforma de diseño colaborativo utilizada para la creación de wireframes y prototipos visuales de alta fidelidad. Permitió validar la interfaz gráfica con antelación y alinear al equipo de desarrollo con la visión de diseño.
 
 <div style="text-align: center;">
-  <img src="./assets/figma.png" alt="Figma" style="width:10%;"/>
+  <img src="/assets/figma.png" alt="Figma" style="width:10%;"/>
 </div>
 
 - **Android Studio**: Entorno de desarrollo para la aplicación móvil. Proporcionó las herramientas necesarias para programar, depurar, probar y empaquetar la app en dispositivos Android.
 
 <div style="text-align: center;">
-  <img src="./assets/androidstudio.png" alt="CSS 3" style="width:10%;"/>
+  <img src="/assets/androidstudio.png" alt="CSS 3" style="width:10%;"/>
 </div>
 
 - **Kotlin**: Lenguaje de programación moderno utilizado para desarrollar la aplicación móvil. Su sintaxis clara y concisa mejoró la eficiencia del código y la productividad del equipo, alineándose con las mejores prácticas de desarrollo en Android.
 
 <div style="text-align: center;">
-  <img src="./assets/kotilin.png" alt="Kotlin" style="width:10%;"/>
+  <img src="/assets/kotilin.png" alt="Kotlin" style="width:10%;"/>
 </div>
 
 - **Trello**: Plataforma de gestión de tareas basada en tableros y tarjetas, utilizada para organizar y hacer seguimiento del progreso del equipo durante el desarrollo del proyecto. Facilitó la planificación de sprints, la asignación de responsabilidades y la visualización del avance en tiempo real, promoviendo una colaboración efectiva y una mejor administración del tiempo.
 
 <div style="text-align: center;">
-  <img src="./assets/Trello.png" alt="Trello" style="width:10%;"/>
+  <img src="/assets/Trello.png" alt="Trello" style="width:10%;"/>
 </div>
 
 - **Angular**: Framework de desarrollo web basado en TypeScript, empleado para construir la interfaz del panel administrativo. Su arquitectura modular, compatibilidad con APIs REST y componentes reutilizables facilitaron el desarrollo de un entorno web responsivo, escalable y mantenible.
 
-<div style="text-align: center;"> <img src="./assets/angular.png" alt="Angular" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="/assets/angular.png" alt="Angular" style="width:10%;"/> </div>
 
 - **NestJS**: Framework progresivo de Node.js utilizado para el desarrollo del backend de la plataforma. Permite estructurar los microservicios de manera modular y escalable, integrando MQTT para la comunicación IoT, REST APIs para el consumo desde Angular y Flutter, y PostgreSQL como base de datos principal.
 
-<div style="text-align: center;"> <img src="./assets/nestjs.png" alt="NestJS" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="/assets/nestjs.png" alt="NestJS" style="width:10%;"/> </div>
 
 - **Node.js y npm**: Entorno de ejecución de JavaScript y su gestor de paquetes, utilizados para instalar dependencias y ejecutar scripts de desarrollo y despliegue tanto del frontend (Angular) como del backend (NestJS).
 
-<div style="text-align: center;"> <img src="./assets/nodejs.png" alt="Node.js" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="/assets/nodejs.png" alt="Node.js" style="width:10%;"/> </div>
 
 - **Postman**: Herramienta de testing de APIs utilizada para validar la comunicación entre el backend y los clientes web/móvil. Permitió automatizar peticiones HTTP, gestionar entornos y realizar pruebas de integración antes del despliegue.
 
-<div style="text-align: center;"> <img src="./assets/postman.png" alt="Postman" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="/assets/postman.png" alt="Postman" style="width:10%;"/> </div>
 
 - **Git**: Sistema de control de versiones distribuido utilizado para el seguimiento de cambios y la colaboración en el código fuente del proyecto. Permitió mantener ramas independientes por módulo (web, móvil, backend) y facilitar la integración continua.
 
-<div style="text-align: center;"> <img src="./assets/git.png" alt="Git" style="width:10%;"/> </div>
+<div style="text-align: center;"> <img src="/assets/git.png" alt="Git" style="width:10%;"/> </div>
 
 
 Cada una de estas herramientas fue seleccionada estratégicamente para cumplir con los objetivos del proyecto, asegurando una solución tecnológica robusta, escalable y centrada en la experiencia del usuario.
@@ -1572,7 +1577,7 @@ Una vez finalizado el flujo, GitHub Pages publica automáticamente la última ve
 
 Este proceso elimina la necesidad de desplegar manualmente, garantizando que cada modificación aprobada en la rama `develop` se refleje directamente en la versión pública.
 
-![Landing page deployed](./assets/Landing%20desplegada.png)
+![Landing page deployed](/assets/Landing%20desplegada.png)
 
 
 ## 7.2 Solution Implementation
@@ -1585,7 +1590,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 ### 7.2.1.1 Sprint Planning 1
 En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Este encuentro es fundamental para definir los objetivos y tareas del Sprint 1, asegurando que todos los miembros del equipo estén alineados y preparados para comenzar el trabajo. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, que incluye los puntos clave discutidos y las decisiones tomadas.
 
-| **Sprint #**                       | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint #**                       | Sprint 1                      
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Date                               | 2025-11-15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
